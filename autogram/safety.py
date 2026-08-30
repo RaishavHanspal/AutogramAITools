@@ -97,7 +97,7 @@ def check_nsfw(image: Image) -> None:
     checker, extractor = _load_nsfw_model()
     rgb = image.convert("RGB")
     clip_input = extractor(images=rgb, return_tensors="pt").pixel_values
-    arr = np.expand_dims(np.asarray(rgb), axis=0)
+    arr = np.expand_dims(np.array(rgb, copy=True), axis=0)
     _, has_nsfw = checker(images=arr, clip_input=clip_input)
     if any(bool(x) for x in has_nsfw):
         raise SafetyError("nsfw", "NSFW content detected by safety checker")
