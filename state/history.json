@@ -2990,5 +2990,55 @@
     "post_id": "18053164832568130",
     "post_url": "https://www.instagram.com/reel/DcqjctxlAwb/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260830T165419Z",
+    "timestamp": "2026-08-30T16:54:19.184644+00:00",
+    "brief": {
+      "subject": "AI-driven personalized content creation workflow",
+      "setting": "Collaborative product studio",
+      "lighting": "Balanced editorial lighting",
+      "mood": "Innovative and focused",
+      "composition": "Clean, symmetrical grid composition with the AI software interface and tools in the center, with the creator and workstation elements on either side",
+      "color_palette": "Neutral tones with pops of electric blue and yellow",
+      "time_of_day": "Early afternoon",
+      "style_modifiers": [
+        "functional",
+        "innovative",
+        "professional"
+      ],
+      "location_name": "Collaborative product studio",
+      "interaction": "",
+      "framing": "over-the-shoulder view focused on the AI software interface, side perspective, main subject positioned on the right third, modern productivity environment"
+    },
+    "positive_prompt": "over-the-shoulder view focused on the AI software interface, side perspective, main subject positioned on the right third, modern productivity environment, candid photograph of clean modern editorial technology illustration, no logos, no readable interface text, AI-driven personalized content creation workflow, in Collaborative product studio, Balanced editorial lighting, Innovative and focused, Neutral tones with pops of electric blue and yellow, Early afternoon, functional, innovative, professional, shot on DSLR, natural skin texture, realistic, highly detailed, sharp focus, professional photography, 8k",
+    "negative_prompt": "illustration, painting, drawing, cartoon, anime, 3d render, cgi, plastic skin, deformed, disfigured, mutated hands, extra fingers, extra limbs, bad anatomy, lowres, blurry, text, watermark, signature, jpeg artifacts, oversaturated, ugly, deformed face, distorted face, asymmetric face, extra faces, extra heads, fused faces, malformed face, blurry face, disfigured eyes, nudity, nsfw, revealing clothing, cleavage, lingerie, bikini, swimwear",
+    "seed": 2554748103,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "160945e72c1941e5ea23a15793f91b5ad4d28120d068033f275a55c43f40d133",
+    "image_path": "out/20260830T165419Z.jpg",
+    "caption": "Capturing the magic of our early afternoon brainstorm in the Collaborative Product Studio. A moment of focused innovation, where the right tools help us craft the perfect blend of style and function. #functional #innovative #professional\n\n#collaborativeproductstudio #designlovers #designinnovation #productivity #professionaldesign #balancedlighting #creative #balanced #symmetrical #innovative #design #professional #autogram #slowdesign",
+    "alt_text": "A balanced grid composition with an AI software interface and tools in the center, with two people positioned on either side, working in a modern, professional environment.",
+    "hashtags": [
+      "#collaborativeproductstudio",
+      "#designlovers",
+      "#designinnovation",
+      "#productivity",
+      "#professionaldesign",
+      "#balancedlighting",
+      "#creative",
+      "#balanced",
+      "#symmetrical",
+      "#innovative",
+      "#design",
+      "#professional",
+      "#autogram",
+      "#slowdesign"
+    ],
+    "backend": "graph",
+    "post_id": "18137252869718341",
+    "post_url": "https://www.instagram.com/reel/DcrC4-CkWLO/",
+    "status": "posted"
   }
 ]
