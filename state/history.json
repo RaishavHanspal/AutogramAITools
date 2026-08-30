@@ -3040,5 +3040,54 @@
     "post_id": "18137252869718341",
     "post_url": "https://www.instagram.com/reel/DcrC4-CkWLO/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260830T225006Z",
+    "timestamp": "2026-08-30T22:50:06.979018+00:00",
+    "brief": {
+      "subject": "AI-Driven Personalized Image Editing Workflow",
+      "setting": "Collaborative product studio",
+      "lighting": "Balanced editorial lighting",
+      "mood": "Innovative and focused, with a touch of professional elegance.",
+      "composition": "Clean grid composition with the AI image editing software and tools in the center, surrounded by the creator’s workstation elements on either side.",
+      "color_palette": "Cool neutral tones with accents of electric blue and silver.",
+      "time_of_day": "Daylight",
+      "style_modifiers": [
+        "Minimalist",
+        "Professional",
+        "Tech-focused"
+      ],
+      "location_name": "Collaborative product studio",
+      "interaction": "",
+      "framing": "three-quarter environmental shot showing the technology and its context, over-the-shoulder perspective, off-center composition with leading lines, professional creator workflow"
+    },
+    "positive_prompt": "three-quarter environmental shot showing the technology and its context, over-the-shoulder perspective, off-center composition with leading lines, professional creator workflow, candid photograph of clean modern editorial technology illustration, no logos, no readable interface text, AI-Driven Personalized Image Editing Workflow, in Collaborative product studio, Balanced editorial lighting, Innovative and focused, with a touch of professional elegance., Cool neutral tones with accents of electric blue and silver., Daylight, Minimalist, Professional, Tech-focused, shot on DSLR, natural skin texture, realistic, highly detailed, sharp focus, professional photography, 8k",
+    "negative_prompt": "illustration, painting, drawing, cartoon, anime, 3d render, cgi, plastic skin, deformed, disfigured, mutated hands, extra fingers, extra limbs, bad anatomy, lowres, blurry, text, watermark, signature, jpeg artifacts, oversaturated, ugly, deformed face, distorted face, asymmetric face, extra faces, extra heads, fused faces, malformed face, blurry face, disfigured eyes, nudity, nsfw, revealing clothing, cleavage, lingerie, bikini, swimwear",
+    "seed": 3899573707,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "02fa5ff2ec42e5f7d590d6313547b59bee73adad6a9b61b229ac3190255457b0",
+    "image_path": "out/20260830T225006Z.jpg",
+    "caption": "Feeling inspired by this innovative workflow. Our collaborative team is perfectly focused, blending creativity with cutting-edge tech. #AI #Personalization #DesignLovers #TechElegance #CreativeInnovation #ElegantTech #DesignMinds #DesignRevolution #ModernDesign #TechTrend #DesignInspiration\n\n#AI #Personalization #DesignLovers #TechElegance #CreativeInnovation #ElegantTech #DesignMinds #DesignRevolution #ModernDesign #TechTrend #DesignInspiration #autogram #slowdesign",
+    "alt_text": "A collaborative product studio setting with a clean grid composition of AI image editing software and tools in the center, surrounded by elements of a creator’s workstation, featuring balanced editorial lighting and a cool neutral tone color palette with electric blue and silver accents.",
+    "hashtags": [
+      "#AI",
+      "#Personalization",
+      "#DesignLovers",
+      "#TechElegance",
+      "#CreativeInnovation",
+      "#ElegantTech",
+      "#DesignMinds",
+      "#DesignRevolution",
+      "#ModernDesign",
+      "#TechTrend",
+      "#DesignInspiration",
+      "#autogram",
+      "#slowdesign"
+    ],
+    "backend": "graph",
+    "post_id": "18147110950531292",
+    "post_url": "https://www.instagram.com/reel/Dcrs5OulEoM/",
+    "status": "posted"
   }
 ]
