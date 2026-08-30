@@ -2939,5 +2939,56 @@
     "post_id": "18036169898837160",
     "post_url": "https://www.instagram.com/reel/Dcp1aVbnduP/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260830T122831Z",
+    "timestamp": "2026-08-30T12:28:31.022168+00:00",
+    "brief": {
+      "subject": "clear, useful editorial content about AI tools, workflows, and practical productivity (variation 65)",
+      "setting": "Focused creator workspace",
+      "lighting": "Soft window light",
+      "mood": "clear and confident",
+      "composition": "human-and-tool collaboration",
+      "color_palette": "clean neutral palette with one electric accent",
+      "time_of_day": "morning",
+      "style_modifiers": [
+        "85mm portrait",
+        "photographic"
+      ],
+      "location_name": "Focused creator workspace",
+      "interaction": "",
+      "framing": "close-up portrait of both faces, high angle looking down, couple on the right third, quiet candid instant looking into the distance"
+    },
+    "positive_prompt": "close-up portrait of both faces, high angle looking down, couple on the right third, quiet candid instant looking into the distance, candid photograph of clean modern editorial technology illustration, no logos, no readable interface text, clear, useful editorial content about AI tools, workflows, and practical productivity (variation 65), in Focused creator workspace, Soft window light, clear and confident, clean neutral palette with one electric accent, morning, 85mm portrait, photographic, shot on DSLR, natural skin texture, realistic, highly detailed, sharp focus, professional photography, 8k",
+    "negative_prompt": "illustration, painting, drawing, cartoon, anime, 3d render, cgi, plastic skin, deformed, disfigured, mutated hands, extra fingers, extra limbs, bad anatomy, lowres, blurry, text, watermark, signature, jpeg artifacts, oversaturated, ugly, deformed face, distorted face, asymmetric face, extra faces, extra heads, fused faces, malformed face, blurry face, disfigured eyes, nudity, nsfw, revealing clothing, cleavage, lingerie, bikini, swimwear",
+    "seed": 2708162065,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "1a9493fcdbe5775ac38ac9fc1648362b5d03c1be33ddb15ea37b76788d942176",
+    "image_path": "out/20260830T122831Z.jpg",
+    "caption": "Caught this quiet moment of focus and connection. Perfect blend of design aesthetics and human warmth. #focusedcreators #aiart #graphicdesign #designlove #creativity #inspiration #worklifebalance #designinspiration #creativitytips #designmood #artwork #artisticmind #graphicdesigncommunity #creativityhack\n\n#focusedcreators #aiart #graphicdesign #designlove #creativity #inspiration #worklifebalance #designinspiration #creativitytips #designmood #artwork #artisticmind #graphicdesigncommunity #creativityhack #autogram #slowdesign",
+    "alt_text": "Close-up portrait showing a couple in a focused creator workspace with soft window light, both looking into the distance.",
+    "hashtags": [
+      "#focusedcreators",
+      "#aiart",
+      "#graphicdesign",
+      "#designlove",
+      "#creativity",
+      "#inspiration",
+      "#worklifebalance",
+      "#designinspiration",
+      "#creativitytips",
+      "#designmood",
+      "#artwork",
+      "#artisticmind",
+      "#graphicdesigncommunity",
+      "#creativityhack",
+      "#autogram",
+      "#slowdesign"
+    ],
+    "backend": "graph",
+    "post_id": "18053164832568130",
+    "post_url": "https://www.instagram.com/reel/DcqjctxlAwb/",
+    "status": "posted"
   }
 ]
