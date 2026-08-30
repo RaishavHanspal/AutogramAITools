@@ -7,7 +7,7 @@
 # The single source of truth for editorial direction. Change active_profile to
 # switch the entire content mode; all functional pipeline settings stay shared.
 content:
-  active_profile: "romance"
+  active_profile: "ai_tools"
   profiles:
     romance:
       theme: "high-quality, photorealistic romantic images of couples deeply in love, with expressive faces, natural emotion, cinematic lighting, beautiful backgrounds, and professional photography aesthetics"
