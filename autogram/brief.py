@@ -1,16 +1,28 @@
-"""Creative-brief variation: theme -> a fresh, non-repeating brief (LLM).
+"""AI-tools creative brief generation.
 
-Variety is guaranteed several ways:
-  1. A seeded RNG (per-run stamp + config salt) pre-selects axis hints (camera
-     angle, season, focal length, subject scale) plus a photographic style
-     (interaction, mood, composition, lighting, color grading) injected into
-     both the LLM prompt and, deterministically, the image prompt.
-  2. The prompt includes the last N briefs and demands explicit divergence.
-  3. Near-duplicate subjects (rapidfuzz token_set_ratio > threshold) are
-     rejected and retried, up to max_retries.
-  4. A profile-specific prompt anchor is injected directly into the Stable-Diffusion prompt.
-  5. Locations are rotated using recorded history so a place is not reused
-     until the pool is exhausted.
+This module is intentionally dedicated to the AI-tools content workflow.
+
+It generates fresh, non-repeating briefs covering:
+  * AI tools and platforms
+  * AI features and capabilities
+  * AI automation
+  * AI productivity workflows
+  * AI coding/development tools
+  * AI image/video/audio tools
+  * AI content-creation workflows
+  * Practical AI use cases and tutorials
+
+This module intentionally contains NO:
+  * romantic/couple logic
+  * male/female character descriptors
+  * interaction_styles
+  * relationship content
+  * couple photography
+  * romance-specific locations
+
+The active AI-tools profile remains responsible for the editorial theme
+and image prompt anchor. This module only generates the structured brief
+and deterministic visual variation.
 """
 
 from __future__ import annotations
@@ -30,7 +42,14 @@ from .logging_utils import get_logger
 log = get_logger("brief")
 
 
+# ---------------------------------------------------------------------------
+# Brief schema
+# ---------------------------------------------------------------------------
+
+
 class Brief(BaseModel):
+    """Structured AI-tools creative brief."""
+
     subject: str
     setting: str
     lighting: str
@@ -38,180 +57,402 @@ class Brief(BaseModel):
     composition: str
     color_palette: str
     time_of_day: str
-    style_modifiers: list[str] = Field(default_factory=list)
-    # Structured scene metadata (set in code, not by the LLM) so location
-    # rotation is recorded to history and the couple's interaction varies.
+
+    style_modifiers: list[str] = Field(
+        default_factory=list
+    )
+
+    # Deterministic scene metadata.
     location_name: str = ""
     interaction: str = ""
-    # Deterministic per-scene framing (shot distance / angle / alignment /
-    # candid cue) injected at the FRONT of the image prompt so distance and
-    # composition actually vary instead of every image being the same portrait.
     framing: str = ""
 
 
-def compute_seed(run_date: str, salt: str) -> int:
-    """Deterministic 31-bit seed from an input string (date or stamp) and salt."""
-    digest = hashlib.sha256(f"{run_date}|{salt}".encode()).hexdigest()
-    return int(digest[:8], 16)
+# ---------------------------------------------------------------------------
+# Deterministic seed / variation
+# ---------------------------------------------------------------------------
 
 
-def select_axis_hints(rng: random.Random, axes: dict[str, list[str]]) -> dict[str, str]:
-    """Pre-select one value per configured axis using the seeded RNG."""
-    return {axis: rng.choice(values) for axis, values in axes.items() if values}
+def compute_seed(
+    run_date: str,
+    salt: str,
+) -> int:
+    """Create a deterministic 31-bit seed."""
+
+    digest = hashlib.sha256(
+        f"{run_date}|{salt}".encode()
+    ).hexdigest()
+
+    return int(
+        digest[:8],
+        16,
+    )
 
 
-def _normalize_subject(subject: str) -> str:
-    return re.sub(r"\s+", " ", subject.lower().strip())
+def select_axis_hints(
+    rng: random.Random,
+    axes: dict[str, list[str]],
+) -> dict[str, str]:
+    """Select one value from every configured creative axis."""
+
+    return {
+        axis: rng.choice(values)
+        for axis, values in axes.items()
+        if values
+    }
 
 
-def is_near_duplicate(subject: str, history_subjects: list[str], threshold: float) -> bool:
-    """True if subject is a near-duplicate of any historical subject."""
-    norm = _normalize_subject(subject)
-    for prev in history_subjects:
-        if fuzz.token_set_ratio(norm, _normalize_subject(prev)) > threshold:
+# ---------------------------------------------------------------------------
+# Subject deduplication
+# ---------------------------------------------------------------------------
+
+
+def _normalize_subject(
+    subject: str,
+) -> str:
+    """Normalize subject text for duplicate comparison."""
+
+    return re.sub(
+        r"\s+",
+        " ",
+        subject.lower().strip(),
+    )
+
+
+def is_near_duplicate(
+    subject: str,
+    history_subjects: list[str],
+    threshold: float,
+) -> bool:
+    """Return True when a subject is too similar to recent subjects."""
+
+    normalized = _normalize_subject(subject)
+
+    for previous in history_subjects:
+        previous_normalized = _normalize_subject(
+            previous
+        )
+
+        if (
+            fuzz.token_set_ratio(
+                normalized,
+                previous_normalized,
+            )
+            > threshold
+        ):
             return True
+
     return False
 
 
-def flatten_locations(locations_dict: dict[str, list[dict[str, str]]]) -> list[dict[str, str]]:
-    """Flatten nested location categories into a single list."""
-    all_locations: list[dict[str, str]] = []
+# ---------------------------------------------------------------------------
+# Locations
+# ---------------------------------------------------------------------------
+
+
+def flatten_locations(
+    locations_dict: dict[str, list[dict[str, str]]],
+) -> list[dict[str, str]]:
+    """Flatten configured AI-tools location categories."""
+
+    locations: list[dict[str, str]] = []
+
     for scenarios in locations_dict.values():
         if isinstance(scenarios, list):
-            all_locations.extend(scenarios)
-    return all_locations
+            locations.extend(scenarios)
+
+    return locations
 
 
 def select_unique_location(
     rng: random.Random,
-    all_locations: list[dict[str, str]],
+    locations: list[dict[str, str]],
     history_locations: list[str],
 ) -> dict[str, str] | None:
-    """Select a location not previously used. Cycle when the pool is exhausted."""
-    available = [loc for loc in all_locations if loc.get("name", "") not in history_locations]
+    """Select an unused AI-tools environment.
+
+    Locations rotate until the configured pool is exhausted.
+    """
+
+    available = [
+        location
+        for location in locations
+        if location.get("name", "")
+        not in history_locations
+    ]
+
     if not available:
-        log.warning("all locations used within history window; cycling through all locations")
-        available = all_locations
-    return rng.choice(available) if available else None
+        log.warning(
+            "all AI-tools locations used; cycling location pool"
+        )
+        available = locations
+
+    if not available:
+        return None
+
+    return rng.choice(available)
 
 
-def _pick(rng: random.Random, data: dict[str, Any], key: str) -> str:
-    """Pick one value from the active content profile, or ''."""
-    values = data.get(key)
-    if isinstance(values, list) and values:
-        return str(rng.choice(values))
-    return ""
+def extract_location_from_history(
+    history_briefs: list[dict[str, Any]],
+) -> list[str]:
+    """Extract previously used locations."""
+
+    locations: list[str] = []
+
+    for brief in history_briefs:
+        name = brief.get(
+            "location_name"
+        )
+
+        if name:
+            locations.append(
+                str(name)
+            )
+
+    return locations
 
 
-def _pick_trend(rng: random.Random, trends: dict[str, Any], key: str) -> str:
-    values = trends.get(key)
-    if isinstance(values, list) and values:
-        return str(rng.choice(values))
-    return ""
+# ---------------------------------------------------------------------------
+# AI-tools visual variation
+# ---------------------------------------------------------------------------
 
 
-# Framing variation — curated, compact, SD-friendly. Placed FIRST in the image
-# prompt so shot distance/angle/alignment actually change per image instead of
-# every frame being the same centered two-person portrait.
-# Shot distances are face-SAFE: front-facing shots stay close enough that faces
-# get enough pixels for SD to render them cleanly, and the far/wide shots are
-# framed from behind or facing the view so no front faces exist to be mangled.
-# (SD1.5 deforms faces that occupy only a small part of a 512px frame.)
-_SHOT_DISTANCES = [
-    "extreme close-up of their faces, sharp facial detail",
-    "close-up portrait of both faces",
-    "medium shot from the waist up, faces clearly visible",
-    "three-quarter shot from head to knees, faces clearly visible",
-    "over-the-shoulder shot focusing on one clear face",
-    "wide shot seen from behind, the couple facing away toward the view",
-    "environmental wide shot from behind, couple silhouetted against the scenery",
-    "full-body shot from behind as they walk into the landscape",
+_AI_SHOT_DISTANCES = [
+    "extreme close-up showing the AI interface or key technology detail clearly",
+    "close-up of the AI tool being actively used",
+    "medium shot showing the workstation and AI workflow",
+    "three-quarter environmental shot showing the technology and its context",
+    "over-the-shoulder view focused on the AI software interface",
+    "wide professional technology workspace",
+    "full environmental technology scene with strong visual storytelling",
+    "top-down view of a complete AI productivity workspace",
 ]
-_CAMERA_ANGLES = [
+
+
+_AI_CAMERA_ANGLES = [
     "eye-level angle",
-    "low angle looking up",
-    "high angle looking down",
-    "slight dutch tilt",
+    "slight low angle",
+    "slight high angle",
+    "three-quarter perspective",
     "overhead top-down view",
-    "shot from behind the couple",
-    "side profile view",
-    "three-quarter back view",
-]
-_ALIGNMENTS = [
-    "rule-of-thirds composition, couple off to one side",
-    "couple on the left third",
-    "couple on the right third",
-    "couple low in the lower third with negative space above",
-    "framed by natural foreground elements",
-    "off-center with strong leading lines",
-    "asymmetric composition with depth layers",
-]
-_CANDID_CUES = [
-    "candid unposed moment, not looking at the camera",
-    "caught mid-laugh, natural genuine expression",
-    "walking together with natural motion",
-    "spontaneous documentary-style street photograph",
-    "natural candid gesture, gazing at each other",
-    "quiet candid instant looking into the distance",
-    "in-between moment, relaxed and unaware of the camera",
+    "over-the-shoulder perspective",
+    "side perspective",
 ]
 
 
-def select_framing(rng: random.Random) -> str:
-    """Pick a compact shot/framing string (distance, angle, alignment, candid)."""
+_AI_ALIGNMENTS = [
+    "clean rule-of-thirds composition",
+    "main subject positioned on the left third",
+    "main subject positioned on the right third",
+    "strong central product composition",
+    "generous negative space for educational text",
+    "off-center composition with leading lines",
+    "asymmetric composition with layered depth",
+    "clean editorial technology composition",
+]
+
+
+_AI_VISUAL_CUES = [
+    "premium technology editorial photography",
+    "realistic professional workstation",
+    "clean educational technology visual",
+    "modern SaaS product aesthetic",
+    "credible AI workflow visualization",
+    "cinematic but realistic technology photography",
+    "professional creator workflow",
+    "modern productivity environment",
+]
+
+
+def select_framing(
+    rng: random.Random,
+) -> str:
+    """Generate deterministic AI-tools framing."""
+
     return (
-        f"{rng.choice(_SHOT_DISTANCES)}, "
-        f"{rng.choice(_CAMERA_ANGLES)}, "
-        f"{rng.choice(_ALIGNMENTS)}, "
-        f"{rng.choice(_CANDID_CUES)}"
+        f"{rng.choice(_AI_SHOT_DISTANCES)}, "
+        f"{rng.choice(_AI_CAMERA_ANGLES)}, "
+        f"{rng.choice(_AI_ALIGNMENTS)}, "
+        f"{rng.choice(_AI_VISUAL_CUES)}"
     )
 
 
-def select_style(rng: random.Random, characters_data: dict[str, Any]) -> dict[str, str]:
-    """Select a photographic style + interaction combination for this run.
+def _pick(
+    rng: random.Random,
+    data: dict[str, Any],
+    key: str,
+) -> str:
+    """Randomly select a configured value."""
 
-    Combined with location rotation, framing variation, and a unique per-run
-    seed this yields an effectively non-repeating combinatorial space
-    (locations x interactions x framing x moods x compositions x lighting x
-    grading), so the platform can produce large volumes of varied content.
+    values = data.get(key)
+
+    if isinstance(values, list) and values:
+        return str(
+            rng.choice(values)
+        )
+
+    return ""
+
+
+def _pick_trend(
+    rng: random.Random,
+    trends: dict[str, Any],
+    key: str,
+) -> str:
+    """Randomly select a configured photography trend."""
+
+    values = trends.get(key)
+
+    if isinstance(values, list) and values:
+        return str(
+            rng.choice(values)
+        )
+
+    return ""
+
+
+def select_style(
+    rng: random.Random,
+    visual_data: dict[str, Any],
+) -> dict[str, str]:
+    """Select AI-tools visual direction.
+
+    No character or romantic interaction data is read here.
     """
-    trends = characters_data.get("photography_trends", {})
+
+    trends = visual_data.get(
+        "photography_trends",
+        {},
+    )
+
     if not isinstance(trends, dict):
         trends = {}
+
+    ai_direction = visual_data.get(
+        "ai_tools_visual_direction",
+        {},
+    )
+
+    if not isinstance(ai_direction, dict):
+        ai_direction = {}
+
     return {
         "framing": select_framing(rng),
-        "interaction": _pick(rng, characters_data, "interaction_styles"),
-        "emotion": _pick(rng, characters_data, "moods_and_emotions"),
-        "composition": _pick_trend(rng, trends, "compositions"),
-        "lighting_style": _pick_trend(rng, trends, "lighting_styles"),
-        "color_grading": _pick_trend(rng, trends, "color_grading"),
-        "depth_of_field": _pick_trend(rng, trends, "depth_of_field"),
+
+        "visual_format": _pick(
+            rng,
+            ai_direction,
+            "formats",
+        ),
+
+        "context": _pick(
+            rng,
+            ai_direction,
+            "contexts",
+        ),
+
+        "action": _pick(
+            rng,
+            ai_direction,
+            "actions",
+        ),
+
+        "ui_style": _pick(
+            rng,
+            ai_direction,
+            "ui_styles",
+        ),
+
+        "composition": _pick_trend(
+            rng,
+            trends,
+            "compositions",
+        ),
+
+        "lighting_style": _pick_trend(
+            rng,
+            trends,
+            "lighting_styles",
+        ),
+
+        "color_grading": _pick_trend(
+            rng,
+            trends,
+            "color_grading",
+        ),
+
+        "depth_of_field": _pick_trend(
+            rng,
+            trends,
+            "depth_of_field",
+        ),
     }
 
 
-def build_character_block(cfg: Config) -> str:
-    """Return the selected profile's deterministic image prompt anchor.
+# ---------------------------------------------------------------------------
+# Image prompt anchor
+# ---------------------------------------------------------------------------
 
-    Despite its historical name, an anchor may describe recurring people, a
-    product, an illustration style, or be empty for topic-led content.
+
+def build_character_block(
+    cfg: Config,
+) -> str:
+    """Return the configured AI-tools image prompt anchor.
+
+    The function name is retained for compatibility with existing callers.
+
+    It does NOT return character information.
     """
+
     return cfg.active_content.prompt_anchor.strip()
 
-def render_prompts(brief: Brief, cfg: Config, characters_block: str = "") -> tuple[str, str]:
-    """Render (positive, negative) Stable Diffusion prompts from the brief.
 
-    ``characters_block`` is injected first so the couple's identity dominates
-    the prompt (kept consistent across runs); the brief supplies the varying
-    scene, and the config template appends photoreal quality cues.
-    """
-    fields: dict[str, Any] = brief.model_dump()
-    fields["style_modifiers"] = ", ".join(brief.style_modifiers)
-    fields["characters"] = characters_block
-    positive = cfg.image.positive_template.format(**fields)
-    negative = cfg.image.negative_template
-    # Collapse any accidental double commas/space from empty fields.
-    positive = re.sub(r"(,\s*){2,}", ", ", positive).strip(" ,")
+def render_prompts(
+    brief: Brief,
+    cfg: Config,
+    characters_block: str = "",
+) -> tuple[str, str]:
+    """Render positive and negative Stable Diffusion prompts."""
+
+    fields: dict[str, Any] = (
+        brief.model_dump()
+    )
+
+    fields["style_modifiers"] = (
+        ", ".join(
+            brief.style_modifiers
+        )
+    )
+
+    # Kept under the existing field name so the rest of the pipeline does
+    # not need to change.
+    fields["characters"] = (
+        characters_block
+    )
+
+    positive = (
+        cfg.image.positive_template.format(
+            **fields
+        )
+    )
+
+    negative = (
+        cfg.image.negative_template
+    )
+
+    positive = re.sub(
+        r"(,\s*){2,}",
+        ", ",
+        positive,
+    ).strip(" ,")
+
     return positive, negative
+
+
+# ---------------------------------------------------------------------------
+# LLM prompt
+# ---------------------------------------------------------------------------
 
 
 def _build_messages(
@@ -219,88 +460,192 @@ def _build_messages(
     axis_hints: dict[str, str],
     recent_briefs: list[dict[str, Any]],
     error_feedback: str | None,
-    characters_data: dict[str, Any],
+    visual_data: dict[str, Any],
     selected_location: dict[str, str] | None,
     style: dict[str, str],
 ) -> list[dict[str, str]]:
+    """Build the AI-tools-only LLM request."""
+
     schema = (
-        '{"subject": "string", "setting": "string", "lighting": "string", '
-        '"mood": "string", "composition": "string", "color_palette": "string", '
-        '"time_of_day": "string", "style_modifiers": ["string", ...]}'
+        '{"subject": "string", '
+        '"setting": "string", '
+        '"lighting": "string", '
+        '"mood": "string", '
+        '"composition": "string", '
+        '"color_palette": "string", '
+        '"time_of_day": "string", '
+        '"style_modifiers": ["string", ...]}'
     )
+
     system = (
-        f"{cfg.active_content.system_prompt.strip()} Respond ONLY with a "
-        f"JSON object matching this schema exactly: {schema}. No prose, no code fences."
+        "You are generating content for an AI-tools Instagram channel. "
+        f"{cfg.active_content.system_prompt.strip()} "
+        "Respond ONLY with a JSON object matching this schema exactly: "
+        f"{schema}. "
+        "No prose. No markdown. No code fences."
     )
 
-    # Build character descriptor section.
-    char_section = ""
-    if characters_data.get("characters"):
-        female = characters_data["characters"].get("female", {})
-        male = characters_data["characters"].get("male", {})
-        char_section = (
-            "\nCOUPLE DESCRIPTORS (keep these two people identical every time):\n"
-            f"Female: {female.get('identity', '')}. "
-            f"Features: {female.get('facial_features', '')}. "
-            f"Hair: {female.get('hair', '')}. "
-            f"Accessories: {female.get('accessories', '')}.\n"
-            f"Male: {male.get('identity', '')}. "
-            f"Features: {male.get('facial_features', '')}. "
-            f"Hair: {male.get('hair', '')}. "
-            f"Beard: {male.get('facial_hair', '')}.\n"
-        )
+    # -----------------------------------------------------------------------
+    # HARD AI-TOOLS CONTENT CONSTRAINT
+    # -----------------------------------------------------------------------
 
-    # Build location section.
+    ai_rules = """
+AI-TOOLS CONTENT ONLY.
+
+The subject MUST be directly related to artificial intelligence.
+
+Valid subject categories include:
+- AI tools
+- AI applications
+- AI platforms
+- AI features
+- AI assistants
+- AI automation
+- AI productivity
+- AI coding tools
+- AI image tools
+- AI video tools
+- AI audio tools
+- AI writing tools
+- AI research tools
+- AI design tools
+- AI business workflows
+- AI content creation
+- AI agents
+- AI workflows
+- practical AI use cases
+- AI tips and techniques
+- AI tutorials
+- AI tool comparisons
+
+The brief should communicate a useful, interesting or visually
+demonstrable AI concept.
+
+ABSOLUTELY DO NOT GENERATE:
+- romantic content
+- couples
+- lovers
+- dates
+- honeymoon scenes
+- kissing
+- hugging
+- wedding scenes
+- relationship content
+- couple portraits
+- male/female romantic interactions
+- generic attractive-person lifestyle photography
+
+Do not use a couple as a visual metaphor for AI.
+
+If a person is necessary, use at most a single realistic:
+developer, creator, professional, analyst, student, entrepreneur,
+designer, researcher or other appropriate technology user.
+
+The technology / AI workflow must remain the visual focus.
+
+Do not generate a generic human portrait when the AI concept can
+be represented through a tool interface, workstation, workflow,
+dashboard, automation or technology environment.
+"""
+
+    # -----------------------------------------------------------------------
+    # Location
+    # -----------------------------------------------------------------------
+
     location_section = ""
+
     if selected_location:
         location_section = (
-            "\nLOCATION/SETTING (place the couple here):\n"
+            "\nAI-TOOLS VISUAL ENVIRONMENT:\n"
             f"Name: {selected_location.get('name', '')}\n"
             f"Description: {selected_location.get('description', '')}\n"
             f"Lighting: {selected_location.get('lighting', '')}\n"
             f"Mood: {selected_location.get('mood', '')}\n"
         )
 
-    style_section = ""
-    if any(style.values()):
-        style_section = (
-            "\nPHOTOGRAPHIC DIRECTION (weave these in):\n"
-            f"Framing/shot: {style.get('framing', '')}\n"
-            f"Interaction: {style.get('interaction', '')}\n"
-            f"Emotion: {style.get('emotion', '')}\n"
-            f"Composition: {style.get('composition', '')}\n"
-            f"Lighting style: {style.get('lighting_style', '')}\n"
-            f"Color grading: {style.get('color_grading', '')}\n"
-            f"Depth of field: {style.get('depth_of_field', '')}\n"
-            "Make the shot distance and framing match the Framing/shot above; "
-            "do NOT default to a centered two-person portrait every time.\n"
-        )
+    # -----------------------------------------------------------------------
+    # Visual direction
+    # -----------------------------------------------------------------------
 
-    hints = "\n".join(f"- {k.replace('_', ' ')}: {v}" for k, v in axis_hints.items())
-    prev_lines = (
-        "\n".join(f"- {b.get('subject', '?')} / {b.get('mood', '?')}" for b in recent_briefs)
+    style_section = (
+        "\nAI-TOOLS VISUAL DIRECTION:\n"
+        f"Framing: {style.get('framing', '')}\n"
+        f"Visual format: {style.get('visual_format', '')}\n"
+        f"Context: {style.get('context', '')}\n"
+        f"Action: {style.get('action', '')}\n"
+        f"UI style: {style.get('ui_style', '')}\n"
+        f"Composition: {style.get('composition', '')}\n"
+        f"Lighting: {style.get('lighting_style', '')}\n"
+        f"Color grading: {style.get('color_grading', '')}\n"
+        f"Depth of field: {style.get('depth_of_field', '')}\n"
+        "\nThe generated scene must visibly follow this direction.\n"
+    )
+
+    # -----------------------------------------------------------------------
+    # Axis hints
+    # -----------------------------------------------------------------------
+
+    hints = "\n".join(
+        f"- {key.replace('_', ' ')}: {value}"
+        for key, value in axis_hints.items()
+    )
+
+    # -----------------------------------------------------------------------
+    # History
+    # -----------------------------------------------------------------------
+
+    previous = (
+        "\n".join(
+            f"- {brief.get('subject', '?')} | "
+            f"{brief.get('composition', '?')} | "
+            f"{brief.get('setting', '?')}"
+            for brief in recent_briefs
+        )
         or "(none yet)"
     )
+
     user = (
-        f"Active content profile: {cfg.content.active_profile}\n"
-        f"Standing theme (stay on-brand): {cfg.active_content.theme}\n"
-        f"{char_section}"
+        f"ACTIVE WORKFLOW: AI TOOLS\n"
+        f"STANDING THEME: "
+        f"{cfg.active_content.theme}\n"
+        f"{ai_rules}"
         f"{location_section}"
         f"{style_section}"
-        f"\nIncorporate these pre-selected creative constraints:\n{hints}\n\n"
-        f"These are the most recent briefs already used ? your brief MUST be "
-        f"clearly different in subject and composition from ALL of them:\n{prev_lines}\n\n"
-        f"{cfg.active_content.subject_instruction}\n"
-        f"The 'subject' must be a distinct scene, not a rephrasing of a previous one."
+        f"\nPRE-SELECTED CREATIVE CONSTRAINTS:\n"
+        f"{hints}\n\n"
+        f"RECENTLY USED BRIEFS:\n"
+        f"{previous}\n\n"
+        f"EDITORIAL INSTRUCTION:\n"
+        f"{cfg.active_content.subject_instruction}\n\n"
+        "Generate ONE completely fresh AI-tools brief.\n"
+        "The subject must be substantially different from every "
+        "recent subject.\n"
+        "Do not rephrase an existing subject.\n"
+        "The visual composition must also differ from recent briefs.\n"
     )
+
     if error_feedback:
         user += (
-            f"\n\nYour previous reply was invalid: {error_feedback}\nReply with valid JSON only."
+            "\n\nPREVIOUS RESPONSE ERROR:\n"
+            f"{error_feedback}\n\n"
+            "Return valid JSON only."
         )
+
     return [
-        {"role": "system", "content": system},
-        {"role": "user", "content": user},
+        {
+            "role": "system",
+            "content": system,
+        },
+        {
+            "role": "user",
+            "content": user,
+        },
     ]
+
+
+# ---------------------------------------------------------------------------
+# Deterministic scene application
+# ---------------------------------------------------------------------------
 
 
 def _apply_scene(
@@ -308,25 +653,50 @@ def _apply_scene(
     selected_location: dict[str, str] | None,
     style: dict[str, str],
 ) -> Brief:
-    """Stamp guaranteed scene variety onto a brief (place + interaction).
+    """Apply deterministic AI-tools scene variation."""
 
-    Done in code (not left to the LLM) so location rotation is recorded and the
-    couple's pose/interaction genuinely changes every run regardless of what the
-    model returned.
-    """
     if selected_location:
-        brief.location_name = selected_location.get("name", "")
-        # A concise place cue keeps the SD prompt within the CLIP token budget.
+        brief.location_name = (
+            selected_location.get(
+                "name",
+                "",
+            )
+        )
+
         if brief.location_name:
-            brief.setting = brief.location_name
-        loc_lighting = selected_location.get("lighting", "")
-        if loc_lighting:
-            brief.lighting = loc_lighting
-    interaction = style.get("interaction", "")
-    if interaction:
-        brief.interaction = interaction
-    brief.framing = style.get("framing", "")
+            brief.setting = (
+                brief.location_name
+            )
+
+        location_lighting = (
+            selected_location.get(
+                "lighting",
+                "",
+            )
+        )
+
+        if location_lighting:
+            brief.lighting = (
+                location_lighting
+            )
+
+    brief.framing = style.get(
+        "framing",
+        "",
+    )
+
+    # Only AI-tools actions are allowed here.
+    if style.get("action"):
+        brief.interaction = style[
+            "action"
+        ]
+
     return brief
+
+
+# ---------------------------------------------------------------------------
+# Fallback
+# ---------------------------------------------------------------------------
 
 
 def _fallback_brief(
@@ -336,34 +706,85 @@ def _fallback_brief(
     selected_location: dict[str, str] | None,
     style: dict[str, str],
 ) -> Brief:
-    """Deterministic brief if the LLM never returns valid JSON."""
-    log.warning("using deterministic fallback brief")
-    brief = Brief(
-        subject=f"{cfg.active_content.theme} (variation {seed % 1000})",
-        setting=cfg.active_content.theme,
-        lighting=axis_hints.get("season", "soft") + " light",
-        mood=style.get("emotion") or "serene",
-        composition=style.get("composition")
-        or (
-            axis_hints.get("camera_angle", "eye-level")
-            + ", "
-            + axis_hints.get("subject_scale", "medium shot")
-        ),
-        color_palette=style.get("color_grading") or "muted neutral tones",
-        time_of_day=axis_hints.get("time_of_day", "morning"),
-        style_modifiers=[axis_hints.get("focal_length", "35mm"), "photographic"],
+    """Create a deterministic AI-tools-only fallback."""
+
+    log.warning(
+        "using deterministic AI-tools fallback brief"
     )
-    return _apply_scene(brief, selected_location, style)
+
+    location_name = ""
+
+    if selected_location:
+        location_name = (
+            selected_location.get(
+                "name",
+                "",
+            )
+        )
+
+    brief = Brief(
+        subject=(
+            f"AI productivity workflow "
+            f"variation {seed % 1000}"
+        ),
+        setting=(
+            location_name
+            or "modern AI workstation"
+        ),
+        lighting=(
+            axis_hints.get(
+                "season",
+                "soft",
+            )
+            + " professional technology light"
+        ),
+        mood=(
+            style.get(
+                "context",
+                ""
+            )
+            or "focused and innovative"
+        ),
+        composition=(
+            style.get(
+                "composition",
+                "",
+            )
+            or "clean editorial technology composition"
+        ),
+        color_palette=(
+            style.get(
+                "color_grading",
+                "",
+            )
+            or "clean modern technology tones"
+        ),
+        time_of_day=(
+            axis_hints.get(
+                "time_of_day",
+                "morning",
+            )
+        ),
+        style_modifiers=[
+            axis_hints.get(
+                "focal_length",
+                "35mm",
+            ),
+            "professional technology photography",
+            "AI tools editorial visual",
+        ],
+    )
+
+    return _apply_scene(
+        brief,
+        selected_location,
+        style,
+    )
 
 
-def extract_location_from_history(history_briefs: list[dict[str, Any]]) -> list[str]:
-    """Extract location names from recent briefs so they can be rotated out."""
-    locations: list[str] = []
-    for brief in history_briefs:
-        name = brief.get("location_name")
-        if name:
-            locations.append(str(name))
-    return locations
+# ---------------------------------------------------------------------------
+# Main generation function
+# ---------------------------------------------------------------------------
 
 
 def generate_brief(
@@ -375,26 +796,118 @@ def generate_brief(
     recent_briefs: list[dict[str, Any]],
     model: str,
 ) -> Brief:
-    """Generate a fresh, non-duplicate brief varied from the standing theme."""
-    rng = random.Random(compute_seed(run_date, cfg.seed_salt) ^ seed)
-    axis_hints = select_axis_hints(rng, cfg.brief.axes)
-    log.info("axis hints: %s", axis_hints)
+    """Generate a fresh AI-tools-only creative brief."""
 
-    # Load character/location/style data and rotate a fresh location + style.
-    characters_data = cfg.active_content.visual
-    all_locations = flatten_locations(characters_data.get("locations", {}))
-    history_locations = extract_location_from_history(recent_briefs)
-    selected_location = select_unique_location(rng, all_locations, history_locations)
-    style = select_style(rng, characters_data)
+    rng = random.Random(
+        compute_seed(
+            run_date,
+            cfg.seed_salt,
+        )
+        ^ seed
+    )
+
+    # -----------------------------------------------------------------------
+    # Creative axes
+    # -----------------------------------------------------------------------
+
+    axis_hints = select_axis_hints(
+        rng,
+        cfg.brief.axes,
+    )
+
+    log.info(
+        "AI-tools axis hints: %s",
+        axis_hints,
+    )
+
+    # -----------------------------------------------------------------------
+    # Visual data
+    # -----------------------------------------------------------------------
+
+    visual_data = (
+        cfg.active_content.visual
+    )
+
+    if not isinstance(
+        visual_data,
+        dict,
+    ):
+        visual_data = {}
+
+    # -----------------------------------------------------------------------
+    # Location rotation
+    # -----------------------------------------------------------------------
+
+    raw_locations = visual_data.get(
+        "locations",
+        {},
+    )
+
+    if isinstance(
+        raw_locations,
+        dict,
+    ):
+        all_locations = flatten_locations(
+            raw_locations
+        )
+    else:
+        all_locations = []
+
+    history_locations = (
+        extract_location_from_history(
+            recent_briefs
+        )
+    )
+
+    selected_location = (
+        select_unique_location(
+            rng,
+            all_locations,
+            history_locations,
+        )
+    )
+
+    # -----------------------------------------------------------------------
+    # AI visual style
+    # -----------------------------------------------------------------------
+
+    style = select_style(
+        rng,
+        visual_data,
+    )
 
     if selected_location:
-        log.info("selected location: %s", selected_location.get("name", "unknown"))
+        log.info(
+            "selected AI-tools environment: %s",
+            selected_location.get(
+                "name",
+                "unknown",
+            ),
+        )
     else:
-        log.warning("no locations available or all exhausted")
-    log.info("style: %s", {k: v for k, v in style.items() if v})
+        log.warning(
+            "no AI-tools locations available"
+        )
+
+    log.info(
+        "AI-tools visual style: %s",
+        {
+            key: value
+            for key, value in style.items()
+            if value
+        },
+    )
+
+    # -----------------------------------------------------------------------
+    # Generate with LLM
+    # -----------------------------------------------------------------------
 
     error_feedback: str | None = None
-    for attempt in range(1, cfg.brief.max_retries + 1):
+
+    for attempt in range(
+        1,
+        cfg.brief.max_retries + 1,
+    ):
         try:
             raw = client.chat_json(
                 model=model,
@@ -403,31 +916,84 @@ def generate_brief(
                     axis_hints,
                     recent_briefs,
                     error_feedback,
-                    characters_data,
+                    visual_data,
                     selected_location,
                     style,
                 ),
-                seed=seed + attempt,  # perturb so a retry actually diverges
+                seed=seed + attempt,
                 temperature=cfg.llm.temperature,
             )
-            brief = Brief.model_validate(raw)
-        except (OllamaError, ValidationError) as exc:
-            error_feedback = str(exc)[:300]
+
+            brief = Brief.model_validate(
+                raw
+            )
+
+        except (
+            OllamaError,
+            ValidationError,
+        ) as exc:
+            error_feedback = str(
+                exc
+            )[:300]
+
             log.warning(
-                "brief attempt %d/%d invalid: %s", attempt, cfg.brief.max_retries, error_feedback
+                "AI-tools brief attempt %d/%d invalid: %s",
+                attempt,
+                cfg.brief.max_retries,
+                error_feedback,
             )
+
             continue
 
-        if is_near_duplicate(brief.subject, history_subjects, cfg.brief.dedupe_threshold):
+        # ---------------------------------------------------------------
+        # Reject repeated subjects
+        # ---------------------------------------------------------------
+
+        if is_near_duplicate(
+            brief.subject,
+            history_subjects,
+            cfg.brief.dedupe_threshold,
+        ):
             error_feedback = (
-                f"subject '{brief.subject}' is too similar to a recent post; "
-                f"choose a substantially different subject"
+                f"subject '{brief.subject}' "
+                "is too similar to a recent post; "
+                "choose a substantially different AI-tools subject"
             )
-            log.warning("brief attempt %d rejected as near-duplicate", attempt)
+
+            log.warning(
+                "AI-tools brief attempt %d rejected as duplicate",
+                attempt,
+            )
+
             continue
 
-        brief = _apply_scene(brief, selected_location, style)
-        log.info("brief accepted: %s @ %s", brief.subject, brief.location_name or "(no location)")
+        # ---------------------------------------------------------------
+        # Apply deterministic AI scene
+        # ---------------------------------------------------------------
+
+        brief = _apply_scene(
+            brief,
+            selected_location,
+            style,
+        )
+
+        log.info(
+            "AI-tools brief accepted: %s @ %s",
+            brief.subject,
+            brief.location_name
+            or "(no location)",
+        )
+
         return brief
 
-    return _fallback_brief(cfg, axis_hints, seed, selected_location, style)
+    # -----------------------------------------------------------------------
+    # Deterministic fallback
+    # -----------------------------------------------------------------------
+
+    return _fallback_brief(
+        cfg,
+        axis_hints,
+        seed,
+        selected_location,
+        style,
+    )
