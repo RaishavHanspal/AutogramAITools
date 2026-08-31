@@ -3141,5 +3141,98 @@
     "post_id": "18560875129076190",
     "post_url": "https://www.instagram.com/reel/DcsaLU6Cnmd/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260831T161615Z",
+    "timestamp": "2026-08-31T16:16:15.172563+00:00",
+    "brief": {
+      "subject": "AI Evaluation Datasets",
+      "content_type": "concept_explainer",
+      "hook": "What are AI Evaluation Datasets and why do we need them?",
+      "definition": "AI Evaluation Datasets are pre-collected sets of data used to test and compare the performance of AI models.",
+      "explanation": "These datasets provide a standardized way to evaluate AI models by ensuring they are tested under the same conditions.",
+      "steps": [
+        "Define a problem and collect relevant data.",
+        "Label the data for training and testing.",
+        "Split the data into a training set and a testing set.",
+        "Use the datasets to evaluate different AI models and compare their performance."
+      ],
+      "example": "A dataset used to evaluate image recognition models could contain thousands of images labeled with objects like 'cat', 'dog', 'car' etc.",
+      "key_takeaway": "Evaluation datasets are crucial for ensuring AI models are robust and perform well in real-world scenarios.",
+      "common_mistake": "Using only one dataset for evaluation can lead to overfitting and poor generalization.",
+      "practical_use": "Any AI system that needs to be validated and compared with other systems.",
+      "visual_type": "concept_map",
+      "visual_title": "AI Evaluation Datasets",
+      "visual_elements": [
+        "Evaluation Datasets",
+        "AI Models",
+        "Training Set",
+        "Testing Set"
+      ],
+      "diagram_flow": [
+        "Data Collection",
+        "Data Labeling",
+        "Data Splitting",
+        "Model Evaluation"
+      ],
+      "image_text": [
+        "AI Models",
+        "Evaluation Datasets",
+        "Training Set",
+        "Testing Set"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "flat editorial lighting",
+      "mood": "clear and educational",
+      "composition": "step-by-step educational layout",
+      "color_palette": "minimal high-contrast editorial palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "Educational infographic",
+        "Technical diagram",
+        "Clear typography",
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the steps required to perform the workflow",
+      "framing": "vertical 4:5 educational infographic"
+    },
+    "positive_prompt": "vertical 4:5 educational infographic, concept_map, AI Evaluation Datasets, AI Evaluation Datasets, AI Evaluation Datasets are pre-collected sets of data used to test and compare the performance of AI models., These datasets provide a standardized way to evaluate AI models by ensuring they are tested under the same conditions., Evaluation Datasets, AI Models, Training Set, Testing Set, Data Collection -> Data Labeling -> Data Splitting -> Model Evaluation, AI Models | Evaluation Datasets | Training Set | Testing Set, clean educational AI infographic, step-by-step educational layout, minimal high-contrast editorial palette, clear and educational, Educational infographic, Technical diagram, Clear typography, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 3837862909,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "aef60a5c2379e26ba220106d01cb59443d99d4b2fb52c61aa4d3a64cb4cb883d",
+    "image_path": "out/20260831T161615Z.jpg",
+    "caption": "Curious? What are AI Evaluation Datasets and why do we need them? These datasets are like gold for AI – they provide a standardized way to test and compare models. Let's dive in. #AI #MachineLearning #DataScience #TechTrends #TechInnovation #DataManagement #DataScience #DataDriven #ArtificialIntelligence #DataAnalysis #DataScience #TechCommunity\n\n#AI #MachineLearning #DataScience #TechTrends #TechInnovation #DataManagement #DataDriven #ArtificialIntelligence #DataAnalysis #TechCommunity #broad #mid #niche #autogram #aitools",
+    "alt_text": "A clean educational AI infographic explaining what AI Evaluation Datasets are and their importance.",
+    "hashtags": [
+      "#AI",
+      "#MachineLearning",
+      "#DataScience",
+      "#TechTrends",
+      "#TechInnovation",
+      "#DataManagement",
+      "#DataDriven",
+      "#ArtificialIntelligence",
+      "#DataAnalysis",
+      "#TechCommunity",
+      "#broad",
+      "#mid",
+      "#niche",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18082109810329283",
+    "post_url": "https://www.instagram.com/reel/DctlECLkaaJ/",
+    "status": "posted"
   }
 ]
