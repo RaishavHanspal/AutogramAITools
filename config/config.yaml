@@ -4,190 +4,586 @@
 # Credentials live in the environment / .env, never here.
 # ---------------------------------------------------------------------------
 
-# The single source of truth for editorial direction. Change active_profile to
-# switch the entire content mode; all functional pipeline settings stay shared.
+# The single source of truth for editorial direction.
+# Change active_profile to switch the entire content mode.
 content:
   active_profile: "ai_tools"
+
   profiles:
+
+    # -------------------------------------------------------------------------
+    # ROMANCE PROFILE
+    # -------------------------------------------------------------------------
     romance:
       theme: "high-quality, photorealistic romantic images of couples deeply in love, with expressive faces, natural emotion, cinematic lighting, beautiful backgrounds, and professional photography aesthetics"
-      system_prompt: "You are an art director generating a single creative brief for one photorealistic image of a romantic South Asian couple."
-      subject_instruction: "Produce one fresh, specific, visually concrete brief featuring the couple in the described location."
-      prompt_anchor: "the same recognizable romantic couple: a mid-20s South Asian woman with warm olive skin, soft almond dark-brown eyes, high cheekbones, full lips, long wavy jet-black side-swept hair and a small red bindi; and a late-20s South Asian man with wheatish-tan skin, deep-set dark-brown eyes, a defined square jawline, short groomed dark beard and thick black hair; both fully clothed in elegant modest attire"
+
+      system_prompt: >
+        You are an art director generating a single creative brief for one
+        photorealistic image of a romantic South Asian couple.
+
+      subject_instruction: >
+        Produce one fresh, specific, visually concrete brief featuring the
+        couple in the described location.
+
+      prompt_anchor: >
+        the same recognizable romantic couple: a mid-20s South Asian woman
+        with warm olive skin, soft almond dark-brown eyes, high cheekbones,
+        full lips, long wavy jet-black side-swept hair and a small red bindi;
+        and a late-20s South Asian man with wheatish-tan skin, deep-set
+        dark-brown eyes, a defined square jawline, short groomed dark beard
+        and thick black hair; both fully clothed in elegant modest attire
+
       visual:
-        interaction_styles: ["walking hand-in-hand", "gazing into each other's eyes", "intimate embrace", "laughing while walking", "quiet contemplation side-by-side"]
-        moods_and_emotions: ["tender and romantic", "playful and joyful", "peaceful and serene", "nostalgic and reflective"]
+        interaction_styles:
+          - "walking hand-in-hand"
+          - "gazing into each other's eyes"
+          - "intimate embrace"
+          - "laughing while walking"
+          - "quiet contemplation side-by-side"
+
+        moods_and_emotions:
+          - "tender and romantic"
+          - "playful and joyful"
+          - "peaceful and serene"
+          - "nostalgic and reflective"
+
         photography_trends:
-          compositions: ["rule of thirds", "leading lines", "environmental storytelling", "layered foreground, middle ground and background"]
-          lighting_styles: ["golden hour warm backlighting", "soft overcast daylight", "dramatic side lighting", "cool blue hour"]
-          color_grading: ["warm earthy tones with muted saturation", "vintage film aesthetic", "moody dark romantic grading"]
-          depth_of_field: ["deep focus with the environment readable", "moderate depth of field", "selective focus"]
+          compositions:
+            - "rule of thirds"
+            - "leading lines"
+            - "environmental storytelling"
+            - "layered foreground, middle ground and background"
+
+          lighting_styles:
+            - "golden hour warm backlighting"
+            - "soft overcast daylight"
+            - "dramatic side lighting"
+            - "cool blue hour"
+
+          color_grading:
+            - "warm earthy tones with muted saturation"
+            - "vintage film aesthetic"
+            - "moody dark romantic grading"
+
+          depth_of_field:
+            - "deep focus with the environment readable"
+            - "moderate depth of field"
+            - "selective focus"
+
         locations:
           nature:
-            - {name: "Alpine meadow with wildflowers", description: "Expansive alpine meadow with wildflowers, distant snow-capped peaks and mist", lighting: "Golden hour sunlight", mood: "serene, adventurous, intimate"}
-            - {name: "Tropical beach at golden hour", description: "White sand beach, turquoise ocean, palm trees and an expansive golden sky", lighting: "Warm golden hour sunlight", mood: "romantic, carefree, tropical"}
-            - {name: "Misty forest morning", description: "Long forest path fading into atmospheric mist beneath tall trees", lighting: "Soft diffused dawn light", mood: "dreamlike and intimate"}
+            - name: "Alpine meadow with wildflowers"
+              description: "Expansive alpine meadow with wildflowers, distant snow-capped peaks and mist"
+              lighting: "Golden hour sunlight"
+              mood: "serene, adventurous, intimate"
+
+            - name: "Tropical beach at golden hour"
+              description: "White sand beach, turquoise ocean, palm trees and an expansive golden sky"
+              lighting: "Warm golden hour sunlight"
+              mood: "romantic, carefree, tropical"
+
+            - name: "Misty forest morning"
+              description: "Long forest path fading into atmospheric mist beneath tall trees"
+              lighting: "Soft diffused dawn light"
+              mood: "dreamlike and intimate"
+
           city:
-            - {name: "Rain-soaked city street", description: "Wet urban street with neon reflections, storefronts and blurred city lights", lighting: "Cool neon mixed with warm city light", mood: "romantic, moody, cinematic"}
-            - {name: "Indian palace courtyard", description: "Ornate palace courtyard with tile work, marble arches and fountains", lighting: "Golden hour light", mood: "regal, elegant, heritage"}
+            - name: "Rain-soaked city street"
+              description: "Wet urban street with neon reflections, storefronts and blurred city lights"
+              lighting: "Cool neon mixed with warm city light"
+              mood: "romantic, moody, cinematic"
+
+            - name: "Indian palace courtyard"
+              description: "Ornate palace courtyard with tile work, marble arches and fountains"
+              lighting: "Golden hour light"
+              mood: "regal, elegant, heritage"
+
+
+    # -------------------------------------------------------------------------
+    # AI EDUCATION / AI TOOLS PROFILE
+    # -------------------------------------------------------------------------
     ai_tools:
-      theme: "clear, useful editorial content about AI tools, workflows, and practical productivity"
-      system_prompt: "You are an editorial art director for an approachable AI-tools publication."
-      subject_instruction: "Create a concrete, useful visual story about a specific AI workflow, feature, comparison, or productivity moment; avoid hype and unreadable text in the image."
-      prompt_anchor: "clean modern editorial technology illustration, no logos, no readable interface text"
+      theme: >
+        clear, practical and genuinely useful educational content about
+        artificial intelligence, AI tools, LLMs, agents, RAG, prompting,
+        automation, AI engineering, AI security, AI workflows and how
+        modern AI systems actually work
+
+      system_prompt: >
+        You are the educational content director of a high-quality AI
+        learning publication. Every post must teach the audience something
+        concrete about artificial intelligence. Prioritize clarity,
+        technical accuracy, practical usefulness and simple explanations
+        over visual spectacle or generic AI imagery. The viewer should learn
+        something they can remember and apply after seeing the post.
+
+      subject_instruction: >
+        Create one fresh and useful educational AI topic. The topic can be
+        a definition, concept explanation, how-it-works breakdown, practical
+        tutorial, comparison, workflow, tool explanation, architecture
+        explanation, security concept or AI engineering concept. Strong
+        examples include RAG, tokens, embeddings, vector databases,
+        hallucinations, context windows, in-context learning, prompting,
+        structured outputs, agents, tool calling, MCP, Claude plugins,
+        coding agents, inference, transformers, attention, fine-tuning,
+        LoRA, quantization, multimodal AI, model routing, evaluation,
+        prompt injection, AI automation and practical AI workflows.
+
+        The post must answer useful questions such as:
+        What is it?
+        How does it work?
+        Why does it matter?
+        When should I use it?
+        What is a simple example?
+        What is a common mistake?
+
+        Do not create generic "AI is changing the world" content.
+        Do not create generic people sitting at laptops.
+        Do not create romantic, lifestyle, fashion or cinematic human scenes.
+
+      prompt_anchor: >
+        clean modern educational AI infographic, technical diagram,
+        professional technology publication aesthetic, information-first
+        layout, clear visual hierarchy, concise readable labels, useful
+        explanatory text, no logos, no generic people, no lifestyle
+        photography
+
       visual:
-        moods_and_emotions: ["clear and confident", "curious and optimistic", "focused and practical"]
-        photography_trends: {compositions: ["clean grid composition", "desktop workflow scene", "human-and-tool collaboration"], lighting_styles: ["soft studio light", "calm daylight"], color_grading: ["clean neutral palette with one electric accent", "modern blue and violet palette"], depth_of_field: ["crisp editorial detail", "moderate depth of field"]}
-        locations: {workflows: [{name: "Focused creator workspace", description: "A tidy desk with a laptop, notebook and abstract AI workflow visuals", lighting: "Soft window light", mood: "focused and practical"}, {name: "Collaborative product studio", description: "A modern creative studio discussing an abstract AI workflow board", lighting: "Balanced editorial lighting", mood: "curious and productive"}]}
+        moods_and_emotions:
+          - "clear and educational"
+          - "curious and practical"
+          - "technical and approachable"
+          - "focused and informative"
+          - "simple and easy to understand"
+
+        # Kept under the existing name for config compatibility.
+        # These are now graphic-design compositions, not photography scenes.
+        photography_trends:
+          compositions:
+            - "information-first infographic"
+            - "process flow diagram"
+            - "technical architecture diagram"
+            - "step-by-step educational layout"
+            - "comparison card"
+            - "concept map"
+            - "annotated technical interface"
+            - "input-to-output system diagram"
+
+          lighting_styles:
+            - "clean presentation lighting"
+            - "flat editorial lighting"
+            - "bright technical presentation"
+
+          color_grading:
+            - "professional neutral technology palette"
+            - "clean blue and violet educational palette"
+            - "modern technology palette with one accent"
+            - "minimal high-contrast editorial palette"
+
+          depth_of_field:
+            - "sharp readable graphic elements throughout"
+            - "uniform graphic clarity"
+            - "crisp technical detail"
+
+        # Kept for compatibility with the existing location-rotation code.
+        # These are educational canvases, NOT physical workplaces.
+        locations:
+          education:
+            - name: "AI concept diagram"
+              description: >
+                Clean educational canvas showing one AI concept with
+                connected components, arrows, labels and concise explanations
+              lighting: "Clean presentation lighting"
+              mood: "clear and educational"
+
+            - name: "AI architecture board"
+              description: >
+                Technical architecture visualization showing how AI
+                components exchange information using clear boxes, arrows
+                and labels
+              lighting: "Flat editorial lighting"
+              mood: "technical and informative"
+
+            - name: "AI process explainer"
+              description: >
+                Vertical educational graphic showing an input moving through
+                stages of an AI system toward an output
+              lighting: "Bright technical presentation"
+              mood: "simple and easy to understand"
+
+            - name: "AI comparison board"
+              description: >
+                Clean two-sided educational comparison showing the difference
+                between two AI concepts, tools or approaches
+              lighting: "Clean presentation lighting"
+              mood: "clear and practical"
+
+        # New explicit AI visual direction consumed by brief.py.
+        ai_tools_visual_direction:
+          formats:
+            - "educational infographic"
+            - "process flow diagram"
+            - "technical architecture diagram"
+            - "step-by-step explainer"
+            - "comparison card"
+            - "concept map"
+            - "annotated technical interface"
+            - "input-to-output workflow diagram"
+
+          contexts:
+            - "AI concept explanation"
+            - "LLM architecture explanation"
+            - "AI workflow explanation"
+            - "technical process visualization"
+            - "AI tool explanation"
+            - "developer-focused AI tutorial"
+            - "AI system architecture"
+            - "AI security explanation"
+
+          actions:
+            - "show the flow of information through the AI system"
+            - "show the components and how they connect"
+            - "show the transformation from input to output"
+            - "show the steps required to perform the workflow"
+            - "show the difference between two approaches"
+            - "show the key concept using labels and arrows"
+
+          ui_styles:
+            - "clean technical infographic"
+            - "minimal SaaS-style interface"
+            - "developer documentation aesthetic"
+            - "modern technical dashboard"
+            - "clean architecture diagram"
+            - "editorial AI learning card"
+
+
+    # -------------------------------------------------------------------------
+    # PSYCHOLOGY PROFILE
+    # -------------------------------------------------------------------------
     psychology:
-      theme: "thoughtful, evidence-aware visual content about psychology, habits, emotions, and self-understanding"
-      system_prompt: "You are an editorial art director for a compassionate psychology publication."
-      subject_instruction: "Create a grounded, respectful visual story about an everyday psychological concept, habit, emotion, or reflection; never imply diagnosis or medical advice."
-      prompt_anchor: "warm human-centered editorial photograph, diverse adult subjects, respectful natural expressions"
+      theme: >
+        thoughtful, evidence-aware visual content about psychology, habits,
+        emotions, behavior and self-understanding
+
+      system_prompt: >
+        You are an editorial art director for a compassionate psychology
+        publication.
+
+      subject_instruction: >
+        Create a grounded, respectful visual story about an everyday
+        psychological concept, habit, emotion or reflection; never imply
+        diagnosis or medical advice.
+
+      prompt_anchor: >
+        warm human-centered editorial photograph, diverse adult subjects,
+        respectful natural expressions
+
       visual:
-        moods_and_emotions: ["reflective and calm", "hopeful", "grounded and compassionate"]
-        photography_trends: {compositions: ["quiet observational scene", "symbolic everyday still life", "environmental portrait with negative space"], lighting_styles: ["soft morning light", "gentle overcast daylight", "warm reading-lamp light"], color_grading: ["muted calming earth tones", "soft natural documentary color"], depth_of_field: ["moderate depth of field", "deep focus with environmental context"]}
-        locations: {everyday: [{name: "Quiet reading nook", description: "A comfortable reading nook with journal, tea and soft natural light", lighting: "Soft morning light", mood: "reflective and calm"}, {name: "Peaceful park walk", description: "A leafy city park path with a person taking a thoughtful walk", lighting: "Gentle overcast daylight", mood: "grounded and hopeful"}]}
-# Deterministic-variation salt. Change it to reshuffle the axis-hint stream
-# without changing the theme.
-seed_salt: "autogram-v1"
+        moods_and_emotions:
+          - "reflective and calm"
+          - "hopeful"
+          - "grounded and compassionate"
+
+        photography_trends:
+          compositions:
+            - "quiet observational scene"
+            - "symbolic everyday still life"
+            - "environmental portrait with negative space"
+
+          lighting_styles:
+            - "soft morning light"
+            - "gentle overcast daylight"
+            - "warm reading-lamp light"
+
+          color_grading:
+            - "muted calming earth tones"
+            - "soft natural documentary color"
+
+          depth_of_field:
+            - "moderate depth of field"
+            - "deep focus with environmental context"
+
+        locations:
+          everyday:
+            - name: "Quiet reading nook"
+              description: "A comfortable reading nook with journal, tea and soft natural light"
+              lighting: "Soft morning light"
+              mood: "reflective and calm"
+
+            - name: "Peaceful park walk"
+              description: "A leafy city park path with a person taking a thoughtful walk"
+              lighting: "Gentle overcast daylight"
+              mood: "grounded and hopeful"
+
+
+# ---------------------------------------------------------------------------
+# DETERMINISTIC VARIATION
+# ---------------------------------------------------------------------------
+
+seed_salt: "autogram-ai-education-v2"
+
+
+# ---------------------------------------------------------------------------
+# BRIEF GENERATION
+# ---------------------------------------------------------------------------
 
 brief:
-  history_depth: 30          # how many past briefs to feed the LLM for divergence
-  dedupe_threshold: 85       # rapidfuzz token_set_ratio above which a brief is a dup
-  max_retries: 3             # reject-and-retry attempts for near-duplicate subjects
-  # Axis hints pre-selected by a seeded RNG and injected into the LLM prompt.
+  history_depth: 30
+
+  # rapidfuzz token_set_ratio above this value is considered a duplicate.
+  dedupe_threshold: 85
+
+  max_retries: 3
+
+  # These are compatibility axes. In AI-tools mode they are interpreted as
+  # graphic/layout hints, never as photography instructions.
   axes:
-    camera_angle: ["eye-level", "low angle", "high angle", "dutch angle", "overhead flat-lay", "worm's-eye"]
-    season: ["spring", "summer", "autumn", "winter"]
-    focal_length: ["16mm wide", "35mm", "50mm", "85mm portrait", "135mm telephoto", "macro"]
-    subject_scale: ["extreme close-up", "close-up", "medium shot", "wide establishing shot"]
+    camera_angle:
+      - "flat front-facing"
+      - "slight perspective"
+      - "overhead diagram view"
+      - "isometric view"
+
+    season:
+      - "spring"
+      - "summer"
+      - "autumn"
+      - "winter"
+
+    focal_length:
+      - "not applicable"
+      - "editorial wide"
+      - "standard editorial"
+      - "macro detail"
+
+    subject_scale:
+      - "concept-focused"
+      - "component-focused"
+      - "full process"
+      - "overview"
+
+
+# ---------------------------------------------------------------------------
+# LOCAL LLM
+# ---------------------------------------------------------------------------
 
 llm:
-  # Ollama runtime. The daemon lifecycle is managed by autogram itself.
-  host_env: "OLLAMA_HOST"                  # env var to read; default in code
-  model: "qwen2.5:3b-instruct"             # ~2 GB, comfortable on a 4-core CPU runner
-  hq_model: "qwen2.5:7b-instruct"          # used only when a GPU is detected
-  ready_timeout_s: 120                      # health-poll budget after spawning serve
+  host_env: "OLLAMA_HOST"
+
+  model: "qwen2.5:3b-instruct"
+
+  hq_model: "qwen2.5:7b-instruct"
+
+  ready_timeout_s: 120
+
   request_timeout_s: 180
-  temperature: 0.8
-  max_retries: 3                            # JSON-validation retries before template fallback
+
+  temperature: 0.72
+
+  max_retries: 3
+
+
+# ---------------------------------------------------------------------------
+# IMAGE GENERATION
+# ---------------------------------------------------------------------------
 
 image:
-  # CPU default. See README runtime/disk table for alternatives.
-  # Photoreal SD1.5 checkpoint (diffusers format) — the realism ceiling on a
-  # free CPU runner. ~20-30 steps at 512 takes a few minutes on 4 vCPU but fits
-  # the 60-min job budget. For a fast (but plasticky) fallback set model to
-  # "stabilityai/sd-turbo" — the code auto-detects "turbo"/"lcm" and switches to
-  # the hq_steps/hq_guidance below. Other good CPU options: "Lykon/absolute-reality-1.81".
+  # Existing SD1.5 model retained for CPU compatibility.
   model: "Lykon/dreamshaper-8"
-  hq_model: "black-forest-labs/FLUX.1-schnell"  # used automatically when CUDA is present
-  steps: 26                                 # photoreal SD1.5 wants ~20-30 steps
-  guidance_scale: 6.5                       # real CFG (turbo/FLUX use the hq_* values)
-  hq_steps: 4                               # FLUX schnell / turbo: distilled, 4 steps
-  hq_guidance_scale: 0.0                    # FLUX schnell / turbo want CFG 0.0
-  width: 512                                # native 4:5 (IG portrait) — no crop waste
-  height: 640                               # 640x800 is sharper but slower on CPU
-  # Quality levers for the SD1.5 CPU path (ignored on FLUX/GPU):
-  scheduler: "dpmpp_karras"                 # DPM++ 2M Karras: sharper, same steps ("" = default)
-  vae: "stabilityai/sd-vae-ft-mse"          # crisper detail + color ("" to disable)
-  # Hi-res fix = a 2nd img2img pass that adds real detail (biggest SD1.5 lever)
-  # but ~2x time per image. OFF by default so a 4-scene reel fits the 60-min job;
-  # turn it on and drop reel.num_scenes to ~2 for maximum quality.
+
+  # Existing higher-quality model retained for CUDA environments.
+  hq_model: "black-forest-labs/FLUX.1-schnell"
+
+  steps: 26
+
+  guidance_scale: 6.5
+
+  hq_steps: 4
+
+  hq_guidance_scale: 0.0
+
+  width: 512
+
+  height: 640
+
+  scheduler: "dpmpp_karras"
+
+  vae: "stabilityai/sd-vae-ft-mse"
+
   hires_fix: false
+
   hires_scale: 1.5
+
   hires_denoise: 0.4
+
   hires_steps: 16
-  # SD prompt templates. {framing} (shot distance/angle/alignment/candid) leads
-  # so distance & composition actually vary; {characters} is the fixed couple
-  # (kept identical every run); the brief supplies the rotating scene/place.
-  # No fixed focal length here — it biased every frame toward a portrait.
-  positive_template: "{framing}, candid photograph of {characters}, {interaction}, {subject}, in {setting}, {lighting}, {mood}, {color_palette}, {time_of_day}, {style_modifiers}, shot on DSLR, natural skin texture, realistic, highly detailed, sharp focus, professional photography, 8k"
-  negative_template: "illustration, painting, drawing, cartoon, anime, 3d render, cgi, plastic skin, deformed, disfigured, mutated hands, extra fingers, extra limbs, bad anatomy, lowres, blurry, text, watermark, signature, jpeg artifacts, oversaturated, ugly, deformed face, distorted face, asymmetric face, extra faces, extra heads, fused faces, malformed face, blurry face, disfigured eyes, nudity, nsfw, revealing clothing, cleavage, lingerie, bikini, swimwear"
+
+  # IMPORTANT:
+  #
+  # This is intentionally NOT a photography prompt.
+  #
+  # The image should visualize the educational content generated by
+  # brief.py.
+  positive_template: >
+    {framing}, {visual_type}, {visual_title}, {subject}, {definition},
+    {explanation}, {visual_elements}, {diagram_flow}, {image_text},
+    {setting}, {composition}, {color_palette}, {mood}, {style_modifiers},
+    clean educational AI infographic, technical illustration,
+    information-first composition, clear visual hierarchy, concise readable
+    typography, readable labels, clear arrows showing relationships and
+    information flow, professional technology publication aesthetic,
+    crisp technical detail, sharp graphic elements, useful educational
+    content
+
+  negative_template: >
+    photorealistic person, portrait, attractive person, generic developer,
+    generic programmer, office worker, businessman, businesswoman,
+    person using laptop, person using computer, person at desk, lifestyle
+    photography, generic workstation, candid photograph, couple, romance,
+    romantic, kissing, hugging, wedding, dating, honeymoon, fashion
+    photography, DSLR photograph, realistic skin, cinematic portrait,
+    generic AI robot, meaningless decoration, gibberish text, misspelled
+    text, unreadable text, excessive text, tiny text, watermark, signature,
+    logo, lowres, blurry, distorted, cluttered layout, bad typography,
+    deformed, disfigured, mutated, extra limbs, extra fingers, nsfw
+
+
+# ---------------------------------------------------------------------------
+# IMAGE POST-PROCESSING
+# ---------------------------------------------------------------------------
 
 postproc:
-  aspect: "4:5"                # one of: "1:1", "4:5", "1.91:1"
+  aspect: "4:5"
+
   jpeg_quality: 92
+
   unsharp_radius: 1.2
+
   unsharp_percent: 80
+
   unsharp_threshold: 3
-  max_bytes: 8388608           # 8 MB Instagram hard limit
+
+  max_bytes: 8388608
+
+
+# ---------------------------------------------------------------------------
+# CAPTION
+# ---------------------------------------------------------------------------
 
 caption:
-  tone: "calm, warm, understated; speaks to design lovers"
-  emoji_budget: 2              # max emoji in the caption (0 to disable)
-  max_length: 2200            # caption + hashtag block hard cap (Instagram)
-  hashtag_placement: "caption"  # "caption" or "comment"
+  tone: >
+    clear, useful, approachable and educational; explain AI concepts simply,
+    accurately and practically without hype
+
+  emoji_budget: 2
+
+  max_length: 2200
+
+  hashtag_placement: "caption"
+
+
+# ---------------------------------------------------------------------------
+# HASHTAGS
+# ---------------------------------------------------------------------------
 
 hashtags:
   min_count: 12
-  max_count: 18               # hard-capped at 30 in code regardless
-  # Target tier mix (fractions, validated in code with tolerance).
-  tier_broad: 0.30            # >1M posts
+
+  max_count: 18
+
+  tier_broad: 0.30
+
   tier_mid: 0.50
+
   tier_niche: 0.20
-  brand_tags: ["autogram", "slowdesign"]   # always appended, normalized
+
+  brand_tags:
+    - "autogram"
+    - "aitools"
+
+
+# ---------------------------------------------------------------------------
+# SAFETY / QUALITY GATES
+# ---------------------------------------------------------------------------
 
 gates:
   nsfw: true
+
   degenerate: true
+
   profanity: true
-  # Degenerate-image thresholds (on 0-255 grayscale).
-  degenerate_min_variance: 60.0   # reject near-uniform output
-  degenerate_dark_mean: 12.0      # reject near-black
-  degenerate_bright_mean: 243.0   # reject near-white
+
+  degenerate_min_variance: 60.0
+
+  degenerate_dark_mean: 12.0
+
+  degenerate_bright_mean: 243.0
+
+
+# ---------------------------------------------------------------------------
+# REELS
+# ---------------------------------------------------------------------------
 
 reel:
   enabled: true
-  # Generate 4 scenes. The first scene is already generated by the
-  # normal pipeline, so this means 4 total images per Reel.
-  num_scenes: 4
-  # Average duration of each scene.
-  seconds_per_image: 3.2
-  # Shorter transitions feel more modern for Instagram.
-  crossfade_s: 0.35
-  fps: 30
-  width: 1080
-  height: 1920
-  # Used by the FFmpeg fallback renderer.
-  zoom: 1.12
-  # Put CC0 / royalty-free music here.
-  audio_dir: "assets/audio"
 
-  # ------------------------------------------------------------------
-  # AI image-to-video
-  # ------------------------------------------------------------------
+  # Four educational scenes.
+  num_scenes: 4
+
+  seconds_per_image: 3.2
+
+  crossfade_s: 0.35
+
+  fps: 30
+
+  width: 1080
+
+  height: 1920
+
+  zoom: 1.12
+
+  audio_dir: "assets/audio"
 
   ai_video:
     enabled: true
-    # "auto" = try AI video, then automatically fall back to FFmpeg.
-    # "off"  = never call an external AI video provider.
+
     mode: "auto"
-    # Provider: "pixverse" (paid API; needs PIXVERSE_API_KEY + a public image
-    # host) or "huggingface" (free serverless tier; needs HF_TOKEN, POSTs the
-    # image directly — no hosting; set HF_VIDEO_MODEL to a currently-served
-    # image-to-video model). Either way, failure falls back to the FFmpeg reel.
+
     provider: "huggingface"
-    # Only animate selected scenes.
-    # Example: [0, 2] means scene 1 and scene 3 become AI video.
-    # Other scenes use the free FFmpeg animation.
-    ai_scene_indexes: [0, 2]
-    # 3 seconds is enough for an AI motion shot and saves credits.
+
+    # Animate scene 1 and scene 3.
+    ai_scene_indexes:
+      - 0
+      - 2
+
     duration_s: 3
-    # Don't wait forever if an external service gets stuck.
+
     timeout_s: 180
-    # Number of polling attempts.
+
     poll_interval_s: 5
-    # If true, failure of AI video NEVER fails the Reel.
+
     fallback_to_ffmpeg: true
-    # Keep generated AI clips temporary.
+
     keep_intermediate: false
 
+
+# ---------------------------------------------------------------------------
+# YOUTUBE
+# ---------------------------------------------------------------------------
+
 youtube:
-  # Keep initial uploads private until you confirm your channel workflow.
-  privacy_status: "private"  # private, unlisted, or public
-  category_id: "22"          # People & Blogs
+  privacy_status: "private"
+
+  category_id: "22"
+
+
+# ---------------------------------------------------------------------------
+# STATE
+# ---------------------------------------------------------------------------
+
 state:
   history_path: "state/history.json"
-  session_path: "state/ig_session.json"   # instagrapi session settings (gitignored)
+
+  session_path: "state/ig_session.json"
+
   out_dir: "out"
