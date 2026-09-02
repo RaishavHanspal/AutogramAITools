@@ -3767,5 +3767,95 @@
     "post_id": "18112138525818130",
     "post_url": "https://www.instagram.com/reel/DcxffuYABZb/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260902T125101Z",
+    "timestamp": "2026-09-02T12:51:01.378796+00:00",
+    "brief": {
+      "subject": "Model Context in AI Models",
+      "content_type": "concept_explainer",
+      "hook": "What is Model Context and Why Does It Matter?",
+      "definition": "Model Context refers to the information an AI model uses to understand its task and input.",
+      "explanation": "Model Context includes the input data, task instructions, and any supplementary data a model uses to perform a specific task. It helps the model understand the context of the input, such as what it should infer or focus on.",
+      "steps": [
+        "Understand the task and input data",
+        "Identify any additional context like instructions or previous interactions",
+        "Use the context to refine the model’s predictions or outputs"
+      ],
+      "example": "A text summarization model uses the context of the input text to understand the main points and summarize them concisely.",
+      "key_takeaway": "Model Context is crucial for an AI model to perform tasks accurately and contextually.",
+      "common_mistake": "Overlooking the importance of context can lead to inaccurate or irrelevant outputs.",
+      "practical_use": "Model Context is used in various AI applications to improve performance and relevance.",
+      "visual_type": "concept_map",
+      "visual_title": "Model Context Overview",
+      "visual_elements": [
+        "Model",
+        "Input Data",
+        "Instructions",
+        "Previous Interactions",
+        "Output"
+      ],
+      "diagram_flow": [
+        "Input Data",
+        "Model",
+        "Instructions/Previous Interactions",
+        "Output"
+      ],
+      "image_text": [
+        "Model Context",
+        "Comprises input data, instructions, and previous interactions.",
+        "Helps model understand the context of the input.",
+        "Improves model accuracy and relevance."
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "clean presentation lighting",
+      "mood": "clear and educational",
+      "composition": "input-to-output system diagram",
+      "color_palette": "professional neutral technology palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "educational infographic",
+        "technical diagram",
+        "clear typography",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the steps required to perform the workflow",
+      "framing": "vertical 4:5 input-to-output workflow diagram"
+    },
+    "positive_prompt": "vertical 4:5 input-to-output workflow diagram, concept_map, Model Context Overview, Model Context in AI Models, Model Context refers to the information an AI model uses to understand its task and input., Model Context includes the input data, task instructions, and any supplementary data a model uses to perform a specific task. It helps the model understand the context of the input, such as what it should infer or focus on., Model, Input Data, Instructions, Previous Interactions, Output, Input Data -> Model -> Instructions/Previous Interactions -> Output, Model Context | Comprises input data, instructions, and previous interactions. | Helps model understand the context of the input. | Improves model accuracy and relevance., clean educational AI infographic, input-to-output system diagram, professional neutral technology palette, clear and educational, educational infographic, technical diagram, clear typography, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 3054013913,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "ab6a5c517ae3f27f3404bd451c25ddf45cd4873083f8608eb60e54978f7d2706",
+    "image_path": "out/20260902T125101Z.jpg",
+    "caption": "Model Context is like giving your AI a memory. It helps the model remember what it’s been taught and what it’s been told to do. 🤖💡 What’s next?\n\n#ModelContext #AIModels #MachineLearning #TechExplainer #DataScience #ArtificialIntelligence #DataUnderstanding #TechTrends #TechKnowledge #TechExplainerTips #TechInnovation #TechCommunity #autogram #aitools",
+    "alt_text": "A clean educational AI infographic with a concept map showing Model Context, including input data, instructions, and previous interactions.",
+    "hashtags": [
+      "#ModelContext",
+      "#AIModels",
+      "#MachineLearning",
+      "#TechExplainer",
+      "#DataScience",
+      "#ArtificialIntelligence",
+      "#DataUnderstanding",
+      "#TechTrends",
+      "#TechKnowledge",
+      "#TechExplainerTips",
+      "#TechInnovation",
+      "#TechCommunity",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18070236374718746",
+    "post_url": "https://www.instagram.com/reel/DcyW29xFKL5/",
+    "status": "posted"
   }
 ]
