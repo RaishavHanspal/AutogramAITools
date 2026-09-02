@@ -3675,5 +3675,97 @@
     "post_id": "18134458903643156",
     "post_url": "https://www.instagram.com/reel/Dcw1ymYAfrh/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260902T044211Z",
+    "timestamp": "2026-09-02T04:42:11.226193+00:00",
+    "brief": {
+      "subject": "AI research workflow",
+      "content_type": "how_to",
+      "hook": "Master your AI research workflow with these key steps.",
+      "definition": "An AI research workflow is a systematic approach to developing and improving AI models through a series of steps.",
+      "explanation": "A research workflow typically includes planning, experimentation, analysis, and iteration to refine AI models.",
+      "steps": [
+        "Define clear research objectives and goals",
+        "Design and implement an experiment or study",
+        "Analyze results and draw conclusions",
+        "Iterate and refine the model based on findings"
+      ],
+      "example": "Designing a new AI model to predict stock market trends involves setting objectives, conducting experiments with historical data, analyzing the model's accuracy, and adjusting the model based on feedback and new data.",
+      "key_takeaway": "Consistent iteration is crucial for improving AI models.",
+      "common_mistake": "Failing to document and iterate on model improvements.",
+      "practical_use": "Applicable to any field requiring iterative AI model development, such as finance, healthcare, and cybersecurity.",
+      "visual_type": "step_by_step_card",
+      "visual_title": "AI Research Workflow",
+      "visual_elements": [
+        "Research Plan Box",
+        "Experiment Setup Box",
+        "Data Analysis Box",
+        "Model Refinement Box"
+      ],
+      "diagram_flow": [
+        "Research Plan",
+        "Experiment Setup",
+        "Data Analysis",
+        "Model Refinement"
+      ],
+      "image_text": [
+        "Define Objectives",
+        "Design Experiment",
+        "Analyze Results",
+        "Refine Model"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "flat editorial lighting",
+      "mood": "clear and educational",
+      "composition": "technical architecture diagram",
+      "color_palette": "professional neutral technology palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "educational infographic",
+        "technical diagram",
+        "clear typography",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the transformation from input to output",
+      "framing": "vertical 4:5 process diagram"
+    },
+    "positive_prompt": "vertical 4:5 process diagram, step_by_step_card, AI Research Workflow, AI research workflow, An AI research workflow is a systematic approach to developing and improving AI models through a series of steps., A research workflow typically includes planning, experimentation, analysis, and iteration to refine AI models., Research Plan Box, Experiment Setup Box, Data Analysis Box, Model Refinement Box, Research Plan -> Experiment Setup -> Data Analysis -> Model Refinement, Define Objectives | Design Experiment | Analyze Results | Refine Model, clean educational AI infographic, technical architecture diagram, professional neutral technology palette, clear and educational, educational infographic, technical diagram, clear typography, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 568379552,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "db2d7d5226702d9bda07cd9f21c5d781bf55400095ac9dfe0792b33cefc5b197",
+    "image_path": "out/20260902T044211Z.jpg",
+    "caption": "Discovering the power of an AI research workflow can transform your work. Let's explore the key steps together, and see how we can refine our models for better outcomes.\n\n#AIresearch #DataAnalysis #ModelImprovement #ExperimentSetup #DataScience #TechWorkflow #IterativeImprovement #MachineLearning #Education #Research #Tech #TechTips #TechCommunity #TechGrowth #autogram #aitools",
+    "alt_text": "A clean educational infographic showcasing a step-by-step process for an AI research workflow, including a research plan, experiment setup, data analysis, and model refinement boxes.",
+    "hashtags": [
+      "#AIresearch",
+      "#DataAnalysis",
+      "#ModelImprovement",
+      "#ExperimentSetup",
+      "#DataScience",
+      "#TechWorkflow",
+      "#IterativeImprovement",
+      "#MachineLearning",
+      "#Education",
+      "#Research",
+      "#Tech",
+      "#TechTips",
+      "#TechCommunity",
+      "#TechGrowth",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18112138525818130",
+    "post_url": "https://www.instagram.com/reel/DcxffuYABZb/",
+    "status": "posted"
   }
 ]
