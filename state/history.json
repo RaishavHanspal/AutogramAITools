@@ -4129,5 +4129,95 @@
     "post_id": "18139159150593843",
     "post_url": "https://www.instagram.com/reel/Dc0ELdnDWR0/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260903T125320Z",
+    "timestamp": "2026-09-03T12:53:20.432353+00:00",
+    "brief": {
+      "subject": "Parameter-Efficient Fine-Tuning (PET)",
+      "content_type": "concept_explainer",
+      "hook": "What's Parameter-Efficient Fine-Tuning and Why Should You Care?",
+      "definition": "Parameter-Efficient Fine-Tuning is a technique that allows you to improve the performance of a large language model with less additional training data.",
+      "explanation": "PET involves adding a small number of new parameters to an existing language model to fine-tune it on a specific task, without requiring the full model to be retrained from scratch.",
+      "steps": [
+        "Start with a pre-trained large language model (LLM) on a general task.",
+        "Add a few new layers or parameters specific to the new task.",
+        "Fine-tune the model on the new task using less data compared to a full retraining.",
+        "The model now performs better on the new task with less additional training data."
+      ],
+      "example": "A large language model trained on general text can be fine-tuned with PET to understand and respond to questions in a specific domain, such as financial reports, using only a few hundred labeled examples.",
+      "key_takeaway": "PET can significantly reduce the amount of data needed for a language model to improve on a specific task.",
+      "common_mistake": "Overlooking the potential for PET to improve efficiency and cost-effectiveness in model training.",
+      "practical_use": "When you need a model to quickly adapt to a specific domain or task with limited data.",
+      "visual_type": "educational_infographic",
+      "visual_title": "Parameter-Efficient Fine-Tuning Process",
+      "visual_elements": [
+        "New layers in the model",
+        "Fine-tuning arrows",
+        "Less data input",
+        "Improved model performance"
+      ],
+      "diagram_flow": [
+        "Model",
+        "Add new layers",
+        "Fine-tune model",
+        "Improved model performance"
+      ],
+      "image_text": [
+        "Model",
+        "Add new layers",
+        "Fine-tune model",
+        "Improved model performance"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "clean presentation lighting",
+      "mood": "clear and educational",
+      "composition": "information-first infographic",
+      "color_palette": "clean blue and violet educational palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "educational infographic",
+        "technical diagram",
+        "clear typography",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the components and how they connect",
+      "framing": "vertical 4:5 concept map"
+    },
+    "positive_prompt": "vertical 4:5 concept map, educational_infographic, Parameter-Efficient Fine-Tuning Process, Parameter-Efficient Fine-Tuning (PET), Parameter-Efficient Fine-Tuning is a technique that allows you to improve the performance of a large language model with less additional training data., PET involves adding a small number of new parameters to an existing language model to fine-tune it on a specific task, without requiring the full model to be retrained from scratch., New layers in the model, Fine-tuning arrows, Less data input, Improved model performance, Model -> Add new layers -> Fine-tune model -> Improved model performance, Model | Add new layers | Fine-tune model | Improved model performance, clean educational AI infographic, information-first infographic, clean blue and violet educational palette, clear and educational, educational infographic, technical diagram, clear typography, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 4178382646,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "d8ca997cbc9a02b0b46c631b27f2b3a10cb95a5b01756fbece2ab32e888f8811",
+    "image_path": "out/20260903T125320Z.jpg",
+    "caption": "Ever wondered how a language model can adapt so quickly to new tasks? Enter Parameter-Efficient Fine-Tuning (PET). This technique lets you improve a model with less new data, making it more cost-effective and efficient. Let's dive into how it works and why it's so useful.\n\n#AI #MachineLearning #NaturalLanguageProcessing #DataEfficiency #ModelTraining #DeepLearning #Efficiency #Tech #TechSavvy #Education #FutureOfAI #TechInnovation #autogram #aitools",
+    "alt_text": "An educational infographic showing the process of Parameter-Efficient Fine-Tuning for language models, with clean presentation lighting and no lifestyle photography.",
+    "hashtags": [
+      "#AI",
+      "#MachineLearning",
+      "#NaturalLanguageProcessing",
+      "#DataEfficiency",
+      "#ModelTraining",
+      "#DeepLearning",
+      "#Efficiency",
+      "#Tech",
+      "#TechSavvy",
+      "#Education",
+      "#FutureOfAI",
+      "#TechInnovation",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18096665924122766",
+    "post_url": "https://www.instagram.com/reel/Dc08bH2iKT5/",
+    "status": "posted"
   }
 ]
