@@ -4495,5 +4495,102 @@
     "post_id": "17966292911961926",
     "post_url": "https://www.instagram.com/reel/Dc3fnBFE7oi/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260904T190234Z",
+    "timestamp": "2026-09-04T19:02:34.042642+00:00",
+    "brief": {
+      "subject": "Claude Code",
+      "content_type": "tool_explainer",
+      "hook": "Discover how Claude Code makes AI more accessible and powerful.",
+      "definition": "Claude Code is an AI programming interface that allows developers to embed AI capabilities directly into their applications.",
+      "explanation": "Claude Code simplifies AI integration by providing a set of functions that developers can use to call AI models, such as Claude, inside their applications without needing to manage the AI model itself.",
+      "steps": [
+        "Install Claude Code in your application's development environment.",
+        "Choose a Claude model based on your application's needs.",
+        "Use the Claude Code functions to call the chosen model and integrate it into your app.",
+        "Test the AI integration and fine-tune the model as needed."
+      ],
+      "example": "Developers can integrate Claude Code into a chatbot application to enable text-based conversations with Claude. The chatbot can respond to user queries, understand context, and even engage in complex dialogues.",
+      "key_takeaway": "Claude Code reduces the barrier to integrating AI in applications, making it easier for developers to create more sophisticated and responsive software.",
+      "common_mistake": "Neglecting to set up the Claude Code environment correctly can lead to integration failures.",
+      "practical_use": "Creating AI-powered applications, chatbots, and conversational interfaces.",
+      "visual_type": "educational_infographic",
+      "visual_title": "Claude Code Integration",
+      "visual_elements": [
+        "Claude Code logo",
+        "Claude Code functions interface",
+        "Claude model integration example",
+        "Code editor with Claude Code functions"
+      ],
+      "diagram_flow": [
+        "Application development environment",
+        "Claude Code installation",
+        "Claude Code functions",
+        "Claude model integration",
+        "Application with AI capabilities"
+      ],
+      "image_text": [
+        "Claude Code",
+        "Install and use Claude Code functions",
+        "Integrate Claude model",
+        "Easily add AI to your application"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "clean presentation lighting",
+      "mood": "clear and educational",
+      "composition": "comparison card",
+      "color_palette": "minimal high-contrast editorial palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "annotated technical interface",
+        "clean presentation",
+        "educational AI learning card",
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the flow of information through the AI system",
+      "framing": "vertical 4:5 concept map"
+    },
+    "positive_prompt": "vertical 4:5 concept map, educational_infographic, Claude Code Integration, Claude Code, Claude Code is an AI programming interface that allows developers to embed AI capabilities directly into their applications., Claude Code simplifies AI integration by providing a set of functions that developers can use to call AI models, such as Claude, inside their applications without needing to manage the AI model itself., Claude Code logo, Claude Code functions interface, Claude model integration example, Code editor with Claude Code functions, Application development environment -> Claude Code installation -> Claude Code functions -> Claude model integration -> Application with AI capabilities, Claude Code | Install and use Claude Code functions | Integrate Claude model | Easily add AI to your application, clean educational AI infographic, comparison card, minimal high-contrast editorial palette, clear and educational, annotated technical interface, clean presentation, educational AI learning card, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 3373754210,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "db7c84e13f0513711fa51d7589efd7e271f230d6923c33b17a82ce736f6b149c",
+    "image_path": "out/20260904T190234Z.jpg",
+    "caption": "This moment right here. Clear and educational and real.\n\nIn clean educational AI infographic, under clean presentation lighting. Just us, just this. comparison card.\n\n#Claude #Code #clear #and #educational #annotated #technical #interface #clean #presentation #AI #learning #card #infographic #diagram #readable #typography #information",
+    "alt_text": "Claude Code, clean educational AI infographic, clean presentation lighting.",
+    "hashtags": [
+      "#Claude",
+      "#Code",
+      "#clear",
+      "#and",
+      "#educational",
+      "#annotated",
+      "#technical",
+      "#interface",
+      "#clean",
+      "#presentation",
+      "#AI",
+      "#learning",
+      "#card",
+      "#infographic",
+      "#diagram",
+      "#readable",
+      "#typography",
+      "#information"
+    ],
+    "backend": "graph",
+    "post_id": "17972109980939410",
+    "post_url": "https://www.instagram.com/reel/Dc4LSz2kbM9/",
+    "status": "posted"
   }
 ]
