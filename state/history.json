@@ -4307,5 +4307,94 @@
     "post_id": "18336281986284104",
     "post_url": "https://www.instagram.com/reel/Dc1oi3rD6YF/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260904T044137Z",
+    "timestamp": "2026-09-04T04:41:37.470212+00:00",
+    "brief": {
+      "subject": "Prompt Templates",
+      "content_type": "how_to",
+      "hook": "Master the Art of Crafting Effective Prompt Templates",
+      "definition": "Prompt Templates are pre-defined sets of instructions used to guide AI models to produce specific outputs.",
+      "explanation": "Prompt Templates allow you to specify the type of content you want AI to generate. They are especially useful for fine-tuning models and ensuring consistency in output.",
+      "steps": [
+        "Create a clear and concise set of instructions",
+        "Specify the type of content you want (e.g., text, images, code)",
+        "Define the structure and flow of your instructions",
+        "Test your prompt templates with the AI model",
+        "Iterate based on the model's output and refine your instructions"
+      ],
+      "example": "Using a prompt template to generate a short story, you might write: 'Write a short story about a person who discovers a magical artifact in their garden.'",
+      "key_takeaway": "Prompt Templates are a powerful tool for controlling the output of AI models.",
+      "common_mistake": "Creating vague or overly complex prompt templates can lead to inconsistent or irrelevant outputs.",
+      "practical_use": "Fine-tuning models, generating structured outputs, and ensuring consistency in AI-generated content.",
+      "visual_type": "educational_infographic",
+      "visual_title": "Crafting Prompt Templates",
+      "visual_elements": [
+        "Prompt Template Creation Process",
+        "AI Model Generating Content",
+        "Model Output Comparison"
+      ],
+      "diagram_flow": [
+        "Instruction Setup",
+        "Model Processing",
+        "Output Review and Iteration"
+      ],
+      "image_text": [
+        "Create Clear Instructions",
+        "Specify Content Type",
+        "Test and Refine",
+        "Achieve Consistent Outputs"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "bright technical presentation",
+      "mood": "clear and educational",
+      "composition": "process flow diagram",
+      "color_palette": "clean blue and violet educational palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "educational infographic",
+        "clear typography",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the key concept using labels and arrows",
+      "framing": "vertical 4:5 input-to-output workflow diagram"
+    },
+    "positive_prompt": "vertical 4:5 input-to-output workflow diagram, educational_infographic, Crafting Prompt Templates, Prompt Templates, Prompt Templates are pre-defined sets of instructions used to guide AI models to produce specific outputs., Prompt Templates allow you to specify the type of content you want AI to generate. They are especially useful for fine-tuning models and ensuring consistency in output., Prompt Template Creation Process, AI Model Generating Content, Model Output Comparison, Instruction Setup -> Model Processing -> Output Review and Iteration, Create Clear Instructions | Specify Content Type | Test and Refine | Achieve Consistent Outputs, clean educational AI infographic, process flow diagram, clean blue and violet educational palette, clear and educational, educational infographic, clear typography, technical diagram, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 1618047738,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "b78ab5615a84a3b346339d6a06bc6e7d3bf493f0c74aec1656307617731b5264",
+    "image_path": "out/20260904T044137Z.jpg",
+    "caption": "Curious? Ready to harness the power of AI? Let’s dive into crafting prompt templates. They’re like instructions for AI wizards. By setting clear, focused goals, you can command the magic of AI to do exactly what you want. Ready to take control?\n\n#AI #PromptTemplates #AIExplain #AIModel #AIOutputs #AIConsistency #AIInstructions #AIOutputsConsistent #AIConsistencyOutput #AIModelFineTune #AIFineTune #AIConsistent #autogram #aitools",
+    "alt_text": "Illustration shows a step-by-step guide on creating prompt templates to guide AI models in generating specific outputs.",
+    "hashtags": [
+      "#AI",
+      "#PromptTemplates",
+      "#AIExplain",
+      "#AIModel",
+      "#AIOutputs",
+      "#AIConsistency",
+      "#AIInstructions",
+      "#AIOutputsConsistent",
+      "#AIConsistencyOutput",
+      "#AIModelFineTune",
+      "#AIFineTune",
+      "#AIConsistent",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "17882149647503412",
+    "post_url": "https://www.instagram.com/reel/Dc2l_TkkXrA/",
+    "status": "posted"
   }
 ]
