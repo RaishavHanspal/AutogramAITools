@@ -4878,5 +4878,100 @@
     "post_id": "17937073665359882",
     "post_url": "https://www.instagram.com/reel/Dc5_FwekXfA/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260905T151914Z",
+    "timestamp": "2026-09-05T15:19:14.727223+00:00",
+    "brief": {
+      "subject": "Agent-Based Systems in AI",
+      "content_type": "how_it_works",
+      "hook": "Understanding how AI agents collaborate for complex tasks",
+      "definition": "Agent-Based Systems in AI refers to a collection of autonomous agents working together to achieve a common goal, often in dynamic, unpredictable environments.",
+      "explanation": "Agent-Based Systems in AI use autonomous agents, each with its own set of goals and behaviors, to simulate real-world scenarios. These agents interact and adapt to each other, making decisions based on their local information.",
+      "steps": [
+        "Define the problem domain and objectives",
+        "Design autonomous agents with specific functionalities",
+        "Implement communication protocols between agents",
+        "Train agents through interaction and feedback loops",
+        "Monitor and adjust the system as needed"
+      ],
+      "example": "Simulating a hospital emergency room where different agents handle patient arrivals, triage, and treatment processes.",
+      "key_takeaway": "Agent-Based Systems can model complex, adaptive environments efficiently.",
+      "common_mistake": "Overlooking the importance of training and monitoring in maintaining agent performance.",
+      "practical_use": "Applicable in logistics, healthcare, cybersecurity, and environmental modeling.",
+      "visual_type": "educational_infographic",
+      "visual_title": "Agent-Based Systems Workflow",
+      "visual_elements": [
+        "Agent 1",
+        "Agent 2",
+        "Agent 3"
+      ],
+      "diagram_flow": [
+        "Problem Domain",
+        "Agent Design",
+        "Communication Protocols",
+        "Training",
+        "Monitoring"
+      ],
+      "image_text": [
+        "Problem Domain",
+        "Designing Agents",
+        "Communication Protocols",
+        "Training and Feedback"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "flat editorial lighting",
+      "mood": "clear and educational",
+      "composition": "information-first infographic",
+      "color_palette": "clean blue and violet educational palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "Educational infographic",
+        "Technical diagram",
+        "Clear typography",
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the transformation from input to output",
+      "framing": "vertical 4:5 educational infographic"
+    },
+    "positive_prompt": "vertical 4:5 educational infographic, educational_infographic, Agent-Based Systems Workflow, Agent-Based Systems in AI, Agent-Based Systems in AI refers to a collection of autonomous agents working together to achieve a common goal, often in dynamic, unpredictable environments., Agent-Based Systems in AI use autonomous agents, each with its own set of goals and behaviors, to simulate real-world scenarios. These agents interact and adapt to each other, making decisions based on their local information., Agent 1, Agent 2, Agent 3, Problem Domain -> Agent Design -> Communication Protocols -> Training -> Monitoring, Problem Domain | Designing Agents | Communication Protocols | Training and Feedback, clean educational AI infographic, information-first infographic, clean blue and violet educational palette, clear and educational, Educational infographic, Technical diagram, Clear typography, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 2984495182,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "4a56c0f4247b4f25dbff47bad775040f65b72ab1faca4bcc77730ba29f8b72aa",
+    "image_path": "out/20260905T151914Z.jpg",
+    "caption": "Curious how AI agents collaborate to solve complex problems? Agent-Based Systems in AI uses autonomous agents working together to simulate real-world scenarios. Let's dive into how this tech makes efficient models for tricky environments. #AI #MachineLearning #ArtificialIntelligence #AgentBasedSystems #ComplexSystems #TechExplainer #Educational #DataScience #Infographic #Collaboration #ProblemSolving\n\n#AI #MachineLearning #ArtificialIntelligence #AgentBasedSystems #ComplexSystems #TechExplainer #Educational #DataScience #Infographic #Collaboration #ProblemSolving #broad #mid #niche #autogram #aitools",
+    "alt_text": "A clean, clear educational infographic showing a workflow for Agent-Based Systems in AI, with agents labeled and steps outlined.",
+    "hashtags": [
+      "#AI",
+      "#MachineLearning",
+      "#ArtificialIntelligence",
+      "#AgentBasedSystems",
+      "#ComplexSystems",
+      "#TechExplainer",
+      "#Educational",
+      "#DataScience",
+      "#Infographic",
+      "#Collaboration",
+      "#ProblemSolving",
+      "#broad",
+      "#mid",
+      "#niche",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18105711232927554",
+    "post_url": "https://www.instagram.com/reel/Dc6WEdWDVRu/",
+    "status": "posted"
   }
 ]
