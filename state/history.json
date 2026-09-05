@@ -4783,5 +4783,100 @@
     "post_id": "17926433586407364",
     "post_url": "https://www.instagram.com/reel/Dc5L6cBkrtF/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260905T115352Z",
+    "timestamp": "2026-09-05T11:53:52.467526+00:00",
+    "brief": {
+      "subject": "top-p sampling",
+      "content_type": "concept_explainer",
+      "hook": "What is top-p sampling and how does it affect the randomness in AI models?",
+      "definition": "Top-p sampling is a technique used in AI models to control the randomness of the generated outputs by sampling the top p percentage of probabilities.",
+      "explanation": "Top-p sampling restricts the model to consider only the top p% of the probability distribution of the tokens generated so far in the sequence, which helps in controlling randomness and making the output more controlled and less chaotic.",
+      "steps": [
+        "1. Set the threshold (p) for the top percentage of probabilities to be considered.",
+        "2. Generate the next token by sampling the probability distribution of the tokens conditioned on the sequence generated so far, but only from the top p% of the probability distribution.",
+        "3. Repeat steps 1 and 2 until the sequence is completed."
+      ],
+      "example": "For example, if the p value is set to 0.9, the model will only consider the top 90% of probabilities in the sequence for the next token.",
+      "key_takeaway": "Top-p sampling is a useful technique for controlling randomness and making AI models generate more controlled and predictable outputs.",
+      "common_mistake": "Overusing top-p sampling can lead to overly predictable and less creative outputs, so it's important to find the right balance with other techniques.",
+      "practical_use": "Top-p sampling is useful for applications where predictability and control of the generated output are important, such as summarization, question answering, and some text generation tasks.",
+      "visual_type": "educational_infographic",
+      "visual_title": "Top-p Sampling Technique",
+      "visual_elements": [
+        "Top-p sampling box",
+        "Probability distribution with percentage of top tokens highlighted",
+        "Sequence generation process",
+        "Output examples with and without top-p sampling"
+      ],
+      "diagram_flow": [
+        "Sequence generation",
+        "Probability distribution",
+        "Top p% selection",
+        "Next token generation"
+      ],
+      "image_text": [
+        "Sequence Generation",
+        "Probability Distribution",
+        "Top p% Selection",
+        "Next Token Generation"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "clean presentation lighting",
+      "mood": "clear and educational",
+      "composition": "annotated technical interface",
+      "color_palette": "minimal high-contrast editorial palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "Educational infographic",
+        "Technical illustration",
+        "Clear typography",
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the difference between two approaches",
+      "framing": "vertical 4:5 step-by-step explainer"
+    },
+    "positive_prompt": "vertical 4:5 step-by-step explainer, educational_infographic, Top-p Sampling Technique, top-p sampling, Top-p sampling is a technique used in AI models to control the randomness of the generated outputs by sampling the top p percentage of probabilities., Top-p sampling restricts the model to consider only the top p% of the probability distribution of the tokens generated so far in the sequence, which helps in controlling randomness and making the output more controlled and less chaotic., Top-p sampling box, Probability distribution with percentage of top tokens highlighted, Sequence generation process, Output examples with and without top-p sampling, Sequence generation -> Probability distribution -> Top p% selection -> Next token generation, Sequence Generation | Probability Distribution | Top p% Selection | Next Token Generation, clean educational AI infographic, annotated technical interface, minimal high-contrast editorial palette, clear and educational, Educational infographic, Technical illustration, Clear typography, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 3601359746,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "b17edf5187050ee7801c0ba9569fba6e097521c913f265dd97bebcab263c29a0",
+    "image_path": "out/20260905T115352Z.jpg",
+    "caption": "What's top-p sampling? Let's dive into how it controls randomness in AI models. It's a super useful technique for making output more predictable and less chaotic. 🤖💡 #AI #ArtificialIntelligence #MachineLearning #TechExplainer #DataScience #Programming #ArtificialIntelligenceExplained #TopPSampling #AIModeling #PredictableOutput #RandomnessControl #TechTips #TechLover #DataDriven #TechConversation #TechGlossary #TechInUse #TechForAll #TechForYou #TechInnovation #TechExplained #TechCommunity #TechWorld #TechNerd #TechTipsAndTricks #TechTalk #TechTalk2023 #TechTalk2022 #TechTalk2021 #TechTalk2020\n\n#AI #ArtificialIntelligence #MachineLearning #TechExplainer #DataScience #Programming #TopPSampling #AIModeling #PredictableOutput #RandomnessControl #TechTips #TechForAll #TechForYou #TechInnovation #TechNerd #TechTipsAndTricks #TechTalk #TechTalk2023",
+    "alt_text": "A clean educational AI infographic explaining top-p sampling technique for controlling randomness in AI model outputs.",
+    "hashtags": [
+      "#AI",
+      "#ArtificialIntelligence",
+      "#MachineLearning",
+      "#TechExplainer",
+      "#DataScience",
+      "#Programming",
+      "#TopPSampling",
+      "#AIModeling",
+      "#PredictableOutput",
+      "#RandomnessControl",
+      "#TechTips",
+      "#TechForAll",
+      "#TechForYou",
+      "#TechInnovation",
+      "#TechNerd",
+      "#TechTipsAndTricks",
+      "#TechTalk",
+      "#TechTalk2023"
+    ],
+    "backend": "graph",
+    "post_id": "17937073665359882",
+    "post_url": "https://www.instagram.com/reel/Dc5_FwekXfA/",
+    "status": "posted"
   }
 ]
