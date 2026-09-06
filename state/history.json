@@ -5429,5 +5429,97 @@
     "post_id": "18111920224836314",
     "post_url": "https://www.instagram.com/reel/Dc866seiTIZ/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260906T182238Z",
+    "timestamp": "2026-09-06T18:22:38.057763+00:00",
+    "brief": {
+      "subject": "Active Workflow: RLHF (Reinforcement Learning with Human Feedback)",
+      "content_type": "concept_explainer",
+      "hook": "RLHF: Making AI Better Through Human Feedback",
+      "definition": "RLHF is a training method where AI systems learn by interacting with humans, providing feedback that helps improve the model's performance.",
+      "explanation": "RLHF works by pairing AI agents with human users who give the AI feedback on its performance. This process helps the AI learn and improve its decisions over time.",
+      "steps": [
+        "The AI system is trained on a dataset of inputs and outputs.",
+        "It interacts with a human user who provides feedback on the AI's output.",
+        "The feedback is used to adjust the training data or the AI's parameters to improve future decisions.",
+        "The process repeats, with the AI and human user interacting again, allowing the AI to learn and improve incrementally."
+      ],
+      "example": "A virtual assistant that can't understand customer queries correctly, giving confusing responses. The customer provides feedback, and the AI learns to better understand and respond to customer queries.",
+      "key_takeaway": "RLHF improves AI by incorporating human expertise and feedback, making it more accurate and effective.",
+      "common_mistake": "Assuming RLHF makes the AI fully human-like, when in fact it's a more accurate and effective AI model.",
+      "practical_use": "Applicable in any AI system that needs to interact with users, such as virtual assistants, chatbots, or recommendation systems.",
+      "visual_type": "educational_infographic",
+      "visual_title": "RLHF Workflow",
+      "visual_elements": [
+        "AI system",
+        "Human user",
+        "Feedback loop"
+      ],
+      "diagram_flow": [
+        "AI system receives input",
+        "AI system generates output",
+        "Human user provides feedback",
+        "Feedback is used to adjust training",
+        "AI system receives new feedback loop"
+      ],
+      "image_text": [
+        "Feedback Loop",
+        "The process of adjusting the AI model based on human input",
+        "Human user providing feedback",
+        "Improved AI model"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "flat editorial lighting",
+      "mood": "clear and educational",
+      "composition": "annotated technical interface",
+      "color_palette": "clean blue and violet educational palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "Educational infographic",
+        "Technical diagram",
+        "Clear typography",
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the key concept using labels and arrows",
+      "framing": "vertical 4:5 input-to-output workflow diagram"
+    },
+    "positive_prompt": "vertical 4:5 input-to-output workflow diagram, educational_infographic, RLHF Workflow, Active Workflow: RLHF (Reinforcement Learning with Human Feedback), RLHF is a training method where AI systems learn by interacting with humans, providing feedback that helps improve the model's performance., RLHF works by pairing AI agents with human users who give the AI feedback on its performance. This process helps the AI learn and improve its decisions over time., AI system, Human user, Feedback loop, AI system receives input -> AI system generates output -> Human user provides feedback -> Feedback is used to adjust training -> AI system receives new feedback loop, Feedback Loop | The process of adjusting the AI model based on human input | Human user providing feedback | Improved AI model, clean educational AI infographic, annotated technical interface, clean blue and violet educational palette, clear and educational, Educational infographic, Technical diagram, Clear typography, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 3027579821,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "f2cb755d4a23e82c0e7f76fb6388b63625d24d7b080f98a490374018db87c69a",
+    "image_path": "out/20260906T182238Z.jpg",
+    "caption": "RLHF is like a dance between AI and humans, where the AI gets better with every step. How cool is that?\n\n#ReinforcementLearning #AIImprovement #HumanFeedback #MachineLearning #ArtificialIntelligence #FeedbackLoops #AIExplainable #TechTalk #MachineLearningExplained #TechSimplified #AIInnovation #TechFuture #autogram #aitools",
+    "alt_text": "An educational infographic showing a feedback loop process where an AI learns from human interactions, improving its output.",
+    "hashtags": [
+      "#ReinforcementLearning",
+      "#AIImprovement",
+      "#HumanFeedback",
+      "#MachineLearning",
+      "#ArtificialIntelligence",
+      "#FeedbackLoops",
+      "#AIExplainable",
+      "#TechTalk",
+      "#MachineLearningExplained",
+      "#TechSimplified",
+      "#AIInnovation",
+      "#TechFuture",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18257076082307675",
+    "post_url": "https://www.instagram.com/reel/Dc9P4EaDeTQ/",
+    "status": "posted"
   }
 ]
