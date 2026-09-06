@@ -5245,5 +5245,97 @@
     "post_id": "18107114921179654",
     "post_url": "https://www.instagram.com/reel/Dc7x7ltE55X/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260906T121233Z",
+    "timestamp": "2026-09-06T12:12:33.006290+00:00",
+    "brief": {
+      "subject": "Prompt Injection",
+      "content_type": "security_explainer",
+      "hook": "What if you could secretly manipulate AI responses?",
+      "definition": "Prompt injection is a technique where an attacker subtly modifies the input to an AI model, leading it to generate unintended output.",
+      "explanation": "Prompt injection occurs when an adversary manipulates the input to an AI model, such as a language model, to cause it to generate responses that are not intended by the user.",
+      "steps": [
+        "Identify the AI model used for your application.",
+        "Understand the prompt format required by the model.",
+        "Craft a modified prompt that subtly directs the model to generate the desired output.",
+        "Test the model with the modified prompt to observe the altered response.",
+        "Implement a detection mechanism to identify and mitigate prompt injection attacks."
+      ],
+      "example": "Craft a prompt that causes an AI model to generate a more aggressive response to sensitive queries.",
+      "key_takeaway": "Prompt injection is a real threat to AI systems, especially in sensitive applications.",
+      "common_mistake": "Overlooking the possibility of prompt injection can lead to security vulnerabilities.",
+      "practical_use": "Developers should always consider the potential for prompt injection attacks when designing and deploying AI models.",
+      "visual_type": "educational_infographic",
+      "visual_title": "Prompt Injection Threat",
+      "visual_elements": [
+        "AI model",
+        "Modified prompt",
+        "Intended response",
+        "Altered response"
+      ],
+      "diagram_flow": [
+        "Input",
+        "Modified Prompt",
+        "Altered Output"
+      ],
+      "image_text": [
+        "AI Model",
+        "Modified Prompt",
+        "Altered Output",
+        "Prompt Injection"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "bright technical presentation",
+      "mood": "clear and educational",
+      "composition": "technical architecture diagram",
+      "color_palette": "clean blue and violet educational palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "Educational infographic",
+        "Technical illustration",
+        "Clear typography",
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the transformation from input to output",
+      "framing": "vertical 4:5 annotated technical graphic"
+    },
+    "positive_prompt": "vertical 4:5 annotated technical graphic, educational_infographic, Prompt Injection Threat, Prompt Injection, Prompt injection is a technique where an attacker subtly modifies the input to an AI model, leading it to generate unintended output., Prompt injection occurs when an adversary manipulates the input to an AI model, such as a language model, to cause it to generate responses that are not intended by the user., AI model, Modified prompt, Intended response, Altered response, Input -> Modified Prompt -> Altered Output, AI Model | Modified Prompt | Altered Output | Prompt Injection, clean educational AI infographic, technical architecture diagram, clean blue and violet educational palette, clear and educational, Educational infographic, Technical illustration, Clear typography, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 431845778,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "830f9ddd5316bfed6ec4c4d48694de134b181146b5003bed06af89d098b6feec",
+    "image_path": "out/20260906T121233Z.jpg",
+    "caption": "What if you could subtly steer an AI to say something it wasn't supposed to? That's the power of prompt injection. It's a real threat in AI systems, especially in sensitive applications. Let's dive in and learn how to spot and prevent it.\n\n#AIsecurity #PromptInjection #MachineLearning #SecurityBasics #ArtificialIntelligence #SecurityThreats #AIApplications #SecureDevelopment #TechSafety #AIModels #SecurityVulnerabilities #SecureDesign #autogram #aitools",
+    "alt_text": "A clean educational infographic showing an AI model, a modified prompt, and an altered response. The image explains what prompt injection is and how it can be used to manipulate AI models.",
+    "hashtags": [
+      "#AIsecurity",
+      "#PromptInjection",
+      "#MachineLearning",
+      "#SecurityBasics",
+      "#ArtificialIntelligence",
+      "#SecurityThreats",
+      "#AIApplications",
+      "#SecureDevelopment",
+      "#TechSafety",
+      "#AIModels",
+      "#SecurityVulnerabilities",
+      "#SecureDesign",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18119799761482822",
+    "post_url": "https://www.instagram.com/reel/Dc8k8WRk0rq/",
+    "status": "posted"
   }
 ]
