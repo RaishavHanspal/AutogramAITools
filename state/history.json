@@ -6543,5 +6543,98 @@
     "post_id": "17889947025613622",
     "post_url": "https://www.instagram.com/reel/DdHnI6pDqH2/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260910T223943Z",
+    "timestamp": "2026-09-10T22:39:43.755610+00:00",
+    "brief": {
+      "subject": "embeddings",
+      "content_type": "concept_explainer",
+      "hook": "How does embeddings actually work?",
+      "definition": "An embedding is a numerical representation of information designed to capture useful semantic relationships.",
+      "explanation": "An embedding model converts text or other data into a vector. Items with related meaning can have vectors that are closer together, allowing systems to perform semantic similarity search.",
+      "steps": [
+        "Convert text into an embedding",
+        "Store the resulting vector",
+        "Convert a user query into another vector",
+        "Compare vector similarity",
+        "Retrieve the closest matches"
+      ],
+      "example": "A support system can find documents about resetting a password even when the user's wording does not exactly match the document.",
+      "key_takeaway": "Embeddings turn semantic meaning into numbers that AI systems can compare.",
+      "common_mistake": "Thinking embeddings are the same thing as tokens. Tokens are model input units; embeddings represent information numerically.",
+      "practical_use": "Embeddings are commonly used for semantic search, RAG, recommendations and similarity matching.",
+      "visual_type": "concept_map",
+      "visual_title": "What Are Embeddings?",
+      "visual_elements": [
+        "Text",
+        "Embedding model",
+        "Vector",
+        "Similarity",
+        "Related content"
+      ],
+      "diagram_flow": [
+        "Text",
+        "Embedding model",
+        "Vector representation",
+        "Similarity search",
+        "Relevant results"
+      ],
+      "image_text": [
+        "Embeddings",
+        "Turn meaning into numbers",
+        "Text → Vector",
+        "Similar meaning → closer vectors",
+        "Used in semantic search & RAG"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "clean presentation lighting",
+      "mood": "clear and educational",
+      "composition": "information-first educational composition",
+      "color_palette": "professional technology palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the AI concept and information flow",
+      "framing": "vertical 4:5 educational graphic"
+    },
+    "positive_prompt": "vertical 4:5 educational graphic, concept_map, What Are Embeddings?, embeddings, An embedding is a numerical representation of information designed to capture useful semantic relationships., An embedding model converts text or other data into a vector. Items with related meaning can have vectors that are closer together, allowing systems to perform semantic similarity search., Text, Embedding model, Vector, Similarity, Related content, Text -> Embedding model -> Vector representation -> Similarity search -> Relevant results, Embeddings | Turn meaning into numbers | Text → Vector | Similar meaning → closer vectors | Used in semantic search & RAG, clean educational AI infographic, information-first educational composition, professional technology palette, clear and educational, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 3694993583,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "58f4c187413aaa6ddb9ed6512e44db9256a8bdd58ddf2c4f36c5fb74255ccf9f",
+    "image_path": "out/20260910T223943Z.jpg",
+    "caption": "How exciting! Learning about embeddings is like unlocking a new way to understand text. 📊👀 Dive into how these numerical representations can help AI find related info.\n\n#embeddings #AI #data #machinelearning #semanticsearch #vectorization #information #AIexplore #knowledge #tech #dataanalysis #understanding #AIforEveryone #autogram #aitools",
+    "alt_text": "A clean educational AI infographic explaining what embeddings are and how they work, with text and vector elements showing the process.",
+    "hashtags": [
+      "#embeddings",
+      "#AI",
+      "#data",
+      "#machinelearning",
+      "#semanticsearch",
+      "#vectorization",
+      "#information",
+      "#AIexplore",
+      "#knowledge",
+      "#tech",
+      "#dataanalysis",
+      "#understanding",
+      "#AIforEveryone",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18109079903117648",
+    "post_url": "https://www.instagram.com/reel/DdIAz1kgQVy/",
+    "status": "posted"
   }
 ]
