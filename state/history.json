@@ -7469,5 +7469,95 @@
     "post_id": "18098887679376537",
     "post_url": "https://www.instagram.com/reel/DdNGaz3jF48/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260913T045520Z",
+    "timestamp": "2026-09-13T04:55:20.453445+00:00",
+    "brief": {
+      "subject": "Claude Code",
+      "content_type": "tool_explainer",
+      "hook": "Claude Code is a powerful coding assistant.",
+      "definition": "Claude Code is a tool that allows you to write code and get feedback or even execute code directly from your assistant.",
+      "explanation": "Claude Code works by interpreting the code you write and either providing feedback on its correctness or executing it if it's valid.",
+      "steps": [
+        "Write the code you want to test or execute.",
+        "Use the Claude Code interface to send your code to the assistant.",
+        "The assistant analyzes the code and either provides feedback or runs it and returns the results."
+      ],
+      "example": "You can write a simple 'Hello, World!' program and get feedback about syntax or even run it to see the output.",
+      "key_takeaway": "Claude Code is a useful tool for automating and testing code.",
+      "common_mistake": "Forgetting to test the environment setup before using Claude Code.",
+      "practical_use": "Automating code tasks, testing code, or providing quick feedback during development.",
+      "visual_type": "educational_infographic",
+      "visual_title": "Claude Code Workflow",
+      "visual_elements": [
+        "Claude Code interface",
+        "Code input area",
+        "Code feedback area",
+        "Execution results area"
+      ],
+      "diagram_flow": [
+        "User inputs code to Claude Code",
+        "Claude Code analyzes and executes code",
+        "Claude Code provides feedback or execution results"
+      ],
+      "image_text": [
+        "Claude Code Interface",
+        "Code Input Area",
+        "Code Feedback Area",
+        "Execution Results Area"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "flat editorial lighting",
+      "mood": "clear and educational",
+      "composition": "annotated technical interface",
+      "color_palette": "professional neutral technology palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "Educational infographic",
+        "Technical diagram",
+        "Clear typography",
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the transformation from input to output",
+      "framing": "vertical 4:5 concept map"
+    },
+    "positive_prompt": "vertical 4:5 concept map, educational_infographic, Claude Code Workflow, Claude Code, Claude Code is a tool that allows you to write code and get feedback or even execute code directly from your assistant., Claude Code works by interpreting the code you write and either providing feedback on its correctness or executing it if it's valid., Claude Code interface, Code input area, Code feedback area, Execution results area, User inputs code to Claude Code -> Claude Code analyzes and executes code -> Claude Code provides feedback or execution results, Claude Code Interface | Code Input Area | Code Feedback Area | Execution Results Area, clean educational AI infographic, annotated technical interface, professional neutral technology palette, clear and educational, Educational infographic, Technical diagram, Clear typography, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 3245599046,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "d43a81144b8f46ec84f3bf99e87e8ba44604729a5e094546043d2c829008d030",
+    "image_path": "out/20260913T045520Z.jpg",
+    "caption": "Just discovered Claude Code and it's game-changing for coding efficiency! 💻✨ Claude Code lets you get instant feedback or even run code directly. How cool is that?\n\n#ClaudeCode #coding #AIAssistant #AIProgramming #TechHacks #TechTools #CodeFeedback #DevTools #Automation #DeveloperTools #CodingTips #TechGadgets #autogram #aitools",
+    "alt_text": "Educational infographic showing the workflow of Claude Code, a coding assistant that analyzes and executes code input, providing feedback or results.",
+    "hashtags": [
+      "#ClaudeCode",
+      "#coding",
+      "#AIAssistant",
+      "#AIProgramming",
+      "#TechHacks",
+      "#TechTools",
+      "#CodeFeedback",
+      "#DevTools",
+      "#Automation",
+      "#DeveloperTools",
+      "#CodingTips",
+      "#TechGadgets",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "17872534110586837",
+    "post_url": "https://www.instagram.com/reel/DdNz24bAnzH/",
+    "status": "posted"
   }
 ]
