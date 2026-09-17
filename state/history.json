@@ -8847,5 +8847,99 @@
     "post_id": "18116394532958304",
     "post_url": "https://www.instagram.com/reel/DdZD-zPD-Jg/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260917T194658Z",
+    "timestamp": "2026-09-17T19:46:58.498741+00:00",
+    "brief": {
+      "subject": "retrieval augmented generation (RAG)",
+      "content_type": "how_it_works",
+      "hook": "What if your LLM could find the best external data to help answer a question?",
+      "definition": "RAG is an AI system that combines an external knowledge base with a pre-trained language model to improve answers to questions.",
+      "explanation": "RAG works by allowing the language model to look up external data that might help answer a question, improving the model's responses.",
+      "steps": [
+        "The language model receives a question and initial answer.",
+        "It searches an external database for relevant external data.",
+        "It combines the external data with its initial response to provide a more accurate answer.",
+        "It returns the improved answer to the user."
+      ],
+      "example": "A question: 'What is the capital of France?'",
+      "key_takeaway": "RAG enhances language models by allowing them to access external data.",
+      "common_mistake": "Thinking RAG is only useful for simple yes/no questions.",
+      "practical_use": "Improving the accuracy of language model responses in complex or specialized domains.",
+      "visual_type": "process_diagram",
+      "visual_title": "RAG Process",
+      "visual_elements": [
+        "Knowledge Base",
+        "Language Model",
+        "External Data",
+        "Improved Response"
+      ],
+      "diagram_flow": [
+        "Knowledge Base",
+        "Language Model",
+        "External Data",
+        "Improved Response"
+      ],
+      "image_text": [
+        "RAG Process Overview",
+        "External Data Search",
+        "Combining Data",
+        "Improved Response Ready"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "bright technical presentation",
+      "mood": "clear and educational",
+      "composition": "input-to-output system diagram",
+      "color_palette": "minimal high-contrast editorial palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "educational infographic",
+        "technical diagram",
+        "clear typography",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the transformation from input to output",
+      "framing": "vertical 4:5 annotated technical graphic"
+    },
+    "positive_prompt": "vertical 4:5 annotated technical graphic, process_diagram, RAG Process, retrieval augmented generation (RAG), RAG is an AI system that combines an external knowledge base with a pre-trained language model to improve answers to questions., RAG works by allowing the language model to look up external data that might help answer a question, improving the model's responses., Knowledge Base, Language Model, External Data, Improved Response, Knowledge Base -> Language Model -> External Data -> Improved Response, RAG Process Overview | External Data Search | Combining Data | Improved Response Ready, clean educational AI infographic, input-to-output system diagram, minimal high-contrast editorial palette, clear and educational, educational infographic, technical diagram, clear typography, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 3269832613,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "4896bc356cac8fc50d3dfd8f7726146909ee50900f19891eab675bda7ca0662d",
+    "image_path": "out/20260917T194658Z.jpg",
+    "caption": "This moment right here. Clear and educational and real.\n\nIn clean educational AI infographic, under bright technical presentation. Just us, just this. input-to-output system diagram.\n\n#retrieval #augmented #generation #RAG #clear #and #educational #infographic #technical #diagram #typography #readable #information #first #composition #useful #labels #sharp",
+    "alt_text": "retrieval augmented generation (RAG), clean educational AI infographic, bright technical presentation.",
+    "hashtags": [
+      "#retrieval",
+      "#augmented",
+      "#generation",
+      "#RAG",
+      "#clear",
+      "#and",
+      "#educational",
+      "#infographic",
+      "#technical",
+      "#diagram",
+      "#typography",
+      "#readable",
+      "#information",
+      "#first",
+      "#composition",
+      "#useful",
+      "#labels",
+      "#sharp"
+    ],
+    "backend": "graph",
+    "post_id": "17935331517373296",
+    "post_url": "https://www.instagram.com/reel/DdZu-EqnZ-J/",
+    "status": "posted"
   }
 ]
