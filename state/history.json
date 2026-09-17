@@ -8659,5 +8659,101 @@
     "post_id": "18084601949295582",
     "post_url": "https://www.instagram.com/reel/DdWd6TPk9dV/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260917T050033Z",
+    "timestamp": "2026-09-17T05:00:33.505132+00:00",
+    "brief": {
+      "subject": "tool calling",
+      "content_type": "concept_explainer",
+      "hook": "How to use AI tools seamlessly in your workflow.",
+      "definition": "Tool calling is the process of interacting with AI tools to perform specific tasks.",
+      "explanation": "Tool calling involves using APIs, SDKs, or interfaces to interact with AI tools, similar to how you use a web form to interact with a website.",
+      "steps": [
+        "Identify the task you need to perform.",
+        "Research and choose an appropriate AI tool that can perform the task.",
+        "Understand the API or interface provided by the AI tool to interact with it.",
+        "Input the necessary data or parameters into the tool.",
+        "Observe the output or results from the AI tool.",
+        "Integrate the output into your workflow as needed."
+      ],
+      "example": "You want to perform sentiment analysis on a customer review dataset. You choose a sentiment analysis tool and use its API to pass in the dataset. The tool processes the data and returns a sentiment score for each review. You then integrate these scores into your customer feedback analysis process.",
+      "key_takeaway": "Tool calling simplifies integrating AI into your workflows by providing clear, documented interfaces.",
+      "common_mistake": "Ignoring the importance of understanding the tool’s API and choosing the right tool for your task.",
+      "practical_use": "Integrating AI into various workflows, from customer support to marketing automation.",
+      "visual_type": "educational_infographic",
+      "visual_title": "Tool Calling Workflow",
+      "visual_elements": [
+        "AI Tool",
+        "API Interface",
+        "Data Flow",
+        "Integration Point"
+      ],
+      "diagram_flow": [
+        "Data Input",
+        "Tool Interaction",
+        "Result Output",
+        "Workflow Integration"
+      ],
+      "image_text": [
+        "Data Input",
+        "Understand Tool’s API",
+        "Tool Interaction",
+        "Integrate Output"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "clean presentation lighting",
+      "mood": "clear and educational",
+      "composition": "input-to-output system diagram",
+      "color_palette": "clean blue and violet educational palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "educational infographic",
+        "technical diagram",
+        "clear typography",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the difference between two approaches",
+      "framing": "vertical 4:5 comparison card"
+    },
+    "positive_prompt": "vertical 4:5 comparison card, educational_infographic, Tool Calling Workflow, tool calling, Tool calling is the process of interacting with AI tools to perform specific tasks., Tool calling involves using APIs, SDKs, or interfaces to interact with AI tools, similar to how you use a web form to interact with a website., AI Tool, API Interface, Data Flow, Integration Point, Data Input -> Tool Interaction -> Result Output -> Workflow Integration, Data Input | Understand Tool’s API | Tool Interaction | Integrate Output, clean educational AI infographic, input-to-output system diagram, clean blue and violet educational palette, clear and educational, educational infographic, technical diagram, clear typography, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 236687481,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "26ab00ee4a53acf507644b8d21afafff0a8beeaa998148aaae25ff170717f301",
+    "image_path": "out/20260917T050033Z.jpg",
+    "caption": "This moment right here. Clear and educational and real.\n\nIn clean educational AI infographic, under clean presentation lighting. Just us, just this. input-to-output system diagram.\n\n#tool #calling #clear #and #educational #infographic #technical #diagram #typography #readable #information #first #composition #useful #labels #sharp #graphic #elements",
+    "alt_text": "tool calling, clean educational AI infographic, clean presentation lighting.",
+    "hashtags": [
+      "#tool",
+      "#calling",
+      "#clear",
+      "#and",
+      "#educational",
+      "#infographic",
+      "#technical",
+      "#diagram",
+      "#typography",
+      "#readable",
+      "#information",
+      "#first",
+      "#composition",
+      "#useful",
+      "#labels",
+      "#sharp",
+      "#graphic",
+      "#elements"
+    ],
+    "backend": "graph",
+    "post_id": "17901580533657957",
+    "post_url": "https://www.instagram.com/reel/DdYHgWsgnLC/",
+    "status": "posted"
   }
 ]
