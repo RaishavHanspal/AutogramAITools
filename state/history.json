@@ -9307,5 +9307,96 @@
     "post_id": "18085982771273700",
     "post_url": "https://www.instagram.com/reel/DdcOdbvDvan/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260918T223914Z",
+    "timestamp": "2026-09-18T22:39:14.910074+00:00",
+    "brief": {
+      "subject": "Context Windows in AI Models",
+      "content_type": "concept_explainer",
+      "hook": "What is a Context Window in AI Models?",
+      "definition": "A Context Window in AI models refers to the maximum number of previous inputs that a model can consider when making a prediction about the next input.",
+      "explanation": "Imagine you're reading a story. A context window is like the last few sentences you've read that help you understand the current sentence. The AI model uses these previous inputs to make predictions about the next one.",
+      "steps": [
+        "Understand that context windows are crucial for models like transformers that can process long sequences of data.",
+        "See how context windows are set by the model designer based on the type of task the model will perform.",
+        "Notice that larger context windows can capture more context, leading to better performance, but they also increase memory and computation requirements."
+      ],
+      "example": "A text summarization model might use a context window of 100 words to understand the context of a paragraph when summarizing it.",
+      "key_takeaway": "Context windows are essential for AI models to understand the context of their input.",
+      "common_mistake": "Setting context windows too small can limit the model's understanding of the input.",
+      "practical_use": "Understanding context windows helps in choosing the right model for a task and in optimizing model performance.",
+      "visual_type": "educational_infographic",
+      "visual_title": "Context Window Explainer",
+      "visual_elements": [
+        "AI model",
+        "Context window",
+        "Previous inputs",
+        "Current input"
+      ],
+      "diagram_flow": [
+        "Input data",
+        "Context window",
+        "Model processing",
+        "Predicted output"
+      ],
+      "image_text": [
+        "Context Window",
+        "The model considers previous inputs for prediction.",
+        "Understanding context window size is key for model performance.",
+        "Context windows help models understand input better."
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "clean presentation lighting",
+      "mood": "clear and educational",
+      "composition": "input-to-output system diagram",
+      "color_palette": "professional neutral technology palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "Educational infographic",
+        "Technical diagram",
+        "Clear typography",
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the transformation from input to output",
+      "framing": "vertical 4:5 step-by-step explainer"
+    },
+    "positive_prompt": "vertical 4:5 step-by-step explainer, educational_infographic, Context Window Explainer, Context Windows in AI Models, A Context Window in AI models refers to the maximum number of previous inputs that a model can consider when making a prediction about the next input., Imagine you're reading a story. A context window is like the last few sentences you've read that help you understand the current sentence. The AI model uses these previous inputs to make predictions about the next one., AI model, Context window, Previous inputs, Current input, Input data -> Context window -> Model processing -> Predicted output, Context Window | The model considers previous inputs for prediction. | Understanding context window size is key for model performance. | Context windows help models understand input better., clean educational AI infographic, input-to-output system diagram, professional neutral technology palette, clear and educational, Educational infographic, Technical diagram, Clear typography, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 3254774891,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "f317f9dc45244c8925f9fa07bbd7340762b51e3dcb5606ee060ad2b71a188fdd",
+    "image_path": "out/20260918T223914Z.jpg",
+    "caption": "Ever wonder how AI models read between the lines? A context window is like the last few sentences you've read to understand the current one. It’s crucial for models like transformers that can process long sequences.\n\n#contextwindow #aiexplore #datascience #transformers #aiexplainer #educational #contextwindowai #machinelearning #modelperformance #datacontext #modelunderstanding #aiexplainerguide #autogram #aitools",
+    "alt_text": "An educational infographic showing a context window in an AI model, with arrows indicating the flow from previous inputs to the current input and then to the predicted output.",
+    "hashtags": [
+      "#contextwindow",
+      "#aiexplore",
+      "#datascience",
+      "#transformers",
+      "#aiexplainer",
+      "#educational",
+      "#contextwindowai",
+      "#machinelearning",
+      "#modelperformance",
+      "#datacontext",
+      "#modelunderstanding",
+      "#aiexplainerguide",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18127082878696124",
+    "post_url": "https://www.instagram.com/reel/Ddcm3qBFUbv/",
+    "status": "posted"
   }
 ]
