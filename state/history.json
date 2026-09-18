@@ -9123,5 +9123,99 @@
     "post_id": "17888740908455230",
     "post_url": "https://www.instagram.com/reel/Ddas5rhDTJh/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260918T130259Z",
+    "timestamp": "2026-09-18T13:02:59.562609+00:00",
+    "brief": {
+      "subject": "system prompts",
+      "content_type": "concept_explainer",
+      "hook": "What are system prompts and how do they work in AI?",
+      "definition": "System prompts are instructions or settings that AI systems use to guide their responses or behavior.",
+      "explanation": "System prompts are like the AI's recipe for deciding how to respond. They tell the AI what to think, say, or do next.",
+      "steps": [
+        "Understand the purpose of the prompt",
+        "Choose appropriate keywords or phrases",
+        "Specify the AI's task or context",
+        "Set specific goals or desired outcomes",
+        "Test and refine the prompt for effectiveness"
+      ],
+      "example": "Use a system prompt like 'summarize the text' to make a chatbot provide a quick summary of a document.",
+      "key_takeaway": "System prompts help tailor AI responses to better suit the user’s needs.",
+      "common_mistake": "Using vague or ambiguous prompts that lead to unpredictable AI behavior.",
+      "practical_use": "Optimizing chatbots, improving automation processes, enhancing interactive applications.",
+      "visual_type": "educational_infographic",
+      "visual_title": "System Prompts in AI",
+      "visual_elements": [
+        "AI interface with prompts highlighted",
+        "Flowchart showing the prompt process",
+        "Example of a system prompt"
+      ],
+      "diagram_flow": [
+        "AI receives prompt",
+        "AI processes prompt",
+        "AI generates response"
+      ],
+      "image_text": [
+        "AI interface with prompts",
+        "Example of a system prompt",
+        "AI processes prompt",
+        "AI generates response"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "clean presentation lighting",
+      "mood": "clear and educational",
+      "composition": "comparison card",
+      "color_palette": "professional neutral technology palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "Educational infographic",
+        "Clear typography",
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the steps required to perform the workflow",
+      "framing": "vertical 4:5 comparison card"
+    },
+    "positive_prompt": "vertical 4:5 comparison card, educational_infographic, System Prompts in AI, system prompts, System prompts are instructions or settings that AI systems use to guide their responses or behavior., System prompts are like the AI's recipe for deciding how to respond. They tell the AI what to think, say, or do next., AI interface with prompts highlighted, Flowchart showing the prompt process, Example of a system prompt, AI receives prompt -> AI processes prompt -> AI generates response, AI interface with prompts | Example of a system prompt | AI processes prompt | AI generates response, clean educational AI infographic, comparison card, professional neutral technology palette, clear and educational, Educational infographic, Clear typography, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 1818141834,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "e316ab44047b640cfbf02588ecfdb58b76ca0a2c871ade85110a855c1c88d2ea",
+    "image_path": "out/20260918T130259Z.jpg",
+    "caption": "Curious how AI listens and responds? Let's dive into system prompts. These are the magic words that guide the AI. From summarizing docs to providing quick answers. #AIExplained #TechLovers #DataDriven #TechSavvy #FutureOfWork #TechForGood #AIInnovation #DigitalTransformation #TechSavvy #AIChatbot #TechCareer #AIInEducation #TechForGoodies #TechPioneers #TechForGoodies #TechFuture #TechCareerJourney #TechCareerPath #TechCareer #AIInnovationJourney #TechCareerPath #AIInEducationJourney\n\n#AIExplained #TechLovers #DataDriven #TechSavvy #FutureOfWork #TechForGood #AIInnovation #DigitalTransformation #AIChatbot #TechCareer #AIInEducation #TechForGoodies #TechPioneers #TechFuture #TechCareerJourney #TechCareerPath #AIInnovationJourney #AIInEducationJourney",
+    "alt_text": "Educational infographic showing a flowchart of how system prompts guide AI responses in a tech interface.",
+    "hashtags": [
+      "#AIExplained",
+      "#TechLovers",
+      "#DataDriven",
+      "#TechSavvy",
+      "#FutureOfWork",
+      "#TechForGood",
+      "#AIInnovation",
+      "#DigitalTransformation",
+      "#AIChatbot",
+      "#TechCareer",
+      "#AIInEducation",
+      "#TechForGoodies",
+      "#TechPioneers",
+      "#TechFuture",
+      "#TechCareerJourney",
+      "#TechCareerPath",
+      "#AIInnovationJourney",
+      "#AIInEducationJourney"
+    ],
+    "backend": "graph",
+    "post_id": "17966821712965657",
+    "post_url": "https://www.instagram.com/reel/DdbjEZVCMOU/",
+    "status": "posted"
   }
 ]
