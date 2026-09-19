@@ -9582,5 +9582,98 @@
     "post_id": "18130930918680337",
     "post_url": "https://www.instagram.com/reel/DdeGbXaDP65/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260919T184121Z",
+    "timestamp": "2026-09-19T18:41:21.991097+00:00",
+    "brief": {
+      "subject": "LLM benchmarks",
+      "content_type": "concept_explainer",
+      "hook": "What are the key components of LLM benchmarks?",
+      "definition": "LLM benchmarks are standardized tests used to evaluate the performance of large language models.",
+      "explanation": "Benchmarks measure a model's effectiveness in tasks like text generation, question-answering, and summarization.",
+      "steps": [
+        "Define the task or metric to evaluate",
+        "Collect data and prepare the dataset",
+        "Train a set of models using the same data",
+        "Run the models through the defined tasks",
+        "Evaluate and compare the results across models"
+      ],
+      "example": "A study might use a dataset of 100,000 question-answer pairs to benchmark models on their ability to answer questions accurately.",
+      "key_takeaway": "Benchmarks help ensure fairness and consistency in model evaluations.",
+      "common_mistake": "Misinterpreting benchmark results as absolute measures of model quality.",
+      "practical_use": "Used to compare and improve the performance of different LLMs.",
+      "visual_type": "educational_infographic",
+      "visual_title": "LLM Benchmark Architecture",
+      "visual_elements": [
+        "A box for the dataset",
+        "Boxes for the models being tested",
+        "A box for the task metrics",
+        "Arrows showing data flow from dataset to models to metrics"
+      ],
+      "diagram_flow": [
+        "Data collection",
+        "Model training",
+        "Task execution",
+        "Result evaluation"
+      ],
+      "image_text": [
+        "Data Collection",
+        "Data is organized and split into training, validation, and test sets.",
+        "Model Training",
+        "Models are trained using the dataset and task metrics as guides."
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "flat editorial lighting",
+      "mood": "clear and educational",
+      "composition": "technical architecture diagram",
+      "color_palette": "clean blue and violet educational palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "Educational infographic",
+        "Technical architecture diagram",
+        "Flat editorial lighting",
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the components and how they connect",
+      "framing": "vertical 4:5 comparison card"
+    },
+    "positive_prompt": "vertical 4:5 comparison card, educational_infographic, LLM Benchmark Architecture, LLM benchmarks, LLM benchmarks are standardized tests used to evaluate the performance of large language models., Benchmarks measure a model's effectiveness in tasks like text generation, question-answering, and summarization., A box for the dataset, Boxes for the models being tested, A box for the task metrics, Arrows showing data flow from dataset to models to metrics, Data collection -> Model training -> Task execution -> Result evaluation, Data Collection | Data is organized and split into training, validation, and test sets. | Model Training | Models are trained using the dataset and task metrics as guides., clean educational AI infographic, technical architecture diagram, clean blue and violet educational palette, clear and educational, Educational infographic, Technical architecture diagram, Flat editorial lighting, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 1496760554,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "0856078475c652a0de1fcb1ad9b6cd8182ec4fab0db9f0f489b1eac94717c521",
+    "image_path": "out/20260919T184121Z.jpg",
+    "caption": "Curious about LLM benchmarks? Let's dive into how we measure the effectiveness of these big language models. 🤖✨\n\n#LLMBenchmarks #AIExplainable #LanguageModels #DataScience #TechExplainer #MachineLearning #DataEvaluation #ArtificialIntelligence #InformationFirst #Typography #TechComm #TechSimplified #autogram #aitools",
+    "alt_text": "An educational infographic showing the components and flow of LLM benchmarking: a dataset, models being tested, and task metrics.",
+    "hashtags": [
+      "#LLMBenchmarks",
+      "#AIExplainable",
+      "#LanguageModels",
+      "#DataScience",
+      "#TechExplainer",
+      "#MachineLearning",
+      "#DataEvaluation",
+      "#ArtificialIntelligence",
+      "#InformationFirst",
+      "#Typography",
+      "#TechComm",
+      "#TechSimplified",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18107061146241006",
+    "post_url": "https://www.instagram.com/reel/DdevpoJAQoy/",
+    "status": "posted"
   }
 ]
