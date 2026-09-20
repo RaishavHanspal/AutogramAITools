@@ -10040,5 +10040,100 @@
     "post_id": "18031242107676170",
     "post_url": "https://www.instagram.com/reel/DdhWZ9cjCLO/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260920T223128Z",
+    "timestamp": "2026-09-20T22:31:28.027211+00:00",
+    "brief": {
+      "subject": "AI coding assistants",
+      "content_type": "tool_explainer",
+      "hook": "What if your code could write itself?",
+      "definition": "AI coding assistants are software tools that use AI to generate, modify, or review code based on user input.",
+      "explanation": "These tools leverage machine learning to understand and manipulate code, helping developers save time and effort by automating mundane tasks.",
+      "steps": [
+        "Step 1: Input a requirement or problem",
+        "Step 2: Use a coding assistant to generate code snippets",
+        "Step 3: Review and test the generated code",
+        "Step 4: Refine the code as needed"
+      ],
+      "example": "A developer uses a coding assistant to automatically generate a REST API endpoint for their project.",
+      "key_takeaway": "AI coding assistants can significantly speed up development and reduce errors.",
+      "common_mistake": "Over-relying on code generation can lead to poorly structured or unmaintainable code.",
+      "practical_use": "Automate repetitive tasks, prototype new features, or quickly generate code for common use cases.",
+      "visual_type": "educational_infographic",
+      "visual_title": "AI Coding Assistant Workflow",
+      "visual_elements": [
+        "AI Coding Assistant",
+        "Code Generation Output",
+        "Code Review Interface",
+        "Refinement Panel"
+      ],
+      "diagram_flow": [
+        "User Input",
+        "AI Analysis",
+        "Code Generation",
+        "Code Review",
+        "Refinement and Output"
+      ],
+      "image_text": [
+        "User Input",
+        "AI Analyzing Requirements",
+        "Code Generated",
+        "Code Review Step"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "flat editorial lighting",
+      "mood": "clear and educational",
+      "composition": "concept map",
+      "color_palette": "minimal high-contrast editorial palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "educational infographic",
+        "technical diagram",
+        "clear typography",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the transformation from input to output",
+      "framing": "vertical 4:5 comparison card"
+    },
+    "positive_prompt": "vertical 4:5 comparison card, educational_infographic, AI Coding Assistant Workflow, AI coding assistants, AI coding assistants are software tools that use AI to generate, modify, or review code based on user input., These tools leverage machine learning to understand and manipulate code, helping developers save time and effort by automating mundane tasks., AI Coding Assistant, Code Generation Output, Code Review Interface, Refinement Panel, User Input -> AI Analysis -> Code Generation -> Code Review -> Refinement and Output, User Input | AI Analyzing Requirements | Code Generated | Code Review Step, clean educational AI infographic, concept map, minimal high-contrast editorial palette, clear and educational, educational infographic, technical diagram, clear typography, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 3303504052,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "6e4c843d1a718a5fc26d3110439532de817de665697acb96c8ea8eaf4f589c39",
+    "image_path": "out/20260920T223128Z.jpg",
+    "caption": "What if your code could write itself? Let's dive into how AI coding assistants are revolutionizing development. 🤖✨ #coding #AI #DevOps #DeveloperTools #TechNerd #TechLife #CodingJourney #TechGrowth #AIInnovation #TechTrends #TechTalk #TechTips #TechCommunity #TechHacks #TechEvolution #TechInsider #TechTalks #TechCommunities #TechTalks #TechTalks #TechCommunities #TechTalks #TechCommunities #TechTalks\n\n#coding #AI #DevOps #DeveloperTools #TechNerd #TechLife #CodingJourney #TechGrowth #AIInnovation #TechTrends #TechTalk #TechTips #TechCommunity #TechHacks #TechEvolution #TechInsider #TechTalks #TechCommunities",
+    "alt_text": "An AI coding assistant on a computer screen, showing code generation and review interface.",
+    "hashtags": [
+      "#coding",
+      "#AI",
+      "#DevOps",
+      "#DeveloperTools",
+      "#TechNerd",
+      "#TechLife",
+      "#CodingJourney",
+      "#TechGrowth",
+      "#AIInnovation",
+      "#TechTrends",
+      "#TechTalk",
+      "#TechTips",
+      "#TechCommunity",
+      "#TechHacks",
+      "#TechEvolution",
+      "#TechInsider",
+      "#TechTalks",
+      "#TechCommunities"
+    ],
+    "backend": "graph",
+    "post_id": "18623675023034857",
+    "post_url": "https://www.instagram.com/reel/Ddht67NDWMe/",
+    "status": "posted"
   }
 ]
