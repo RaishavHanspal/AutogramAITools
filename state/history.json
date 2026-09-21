@@ -10229,5 +10229,94 @@
     "post_id": "18114081593060626",
     "post_url": "https://www.instagram.com/reel/DdickC_lVBU/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260921T151051Z",
+    "timestamp": "2026-09-21T15:10:51.967987+00:00",
+    "brief": {
+      "subject": "AI Agents",
+      "content_type": "how_it_works",
+      "hook": "What are AI Agents and how do they work in modern AI?",
+      "definition": "AI Agents are intelligent software systems designed to perform specific tasks on behalf of users, often in a conversational or automated manner.",
+      "explanation": "AI Agents operate by interpreting user inputs, processing information through AI models, and generating responses. They can be conversational, such as chatbots, or perform tasks like scheduling appointments.",
+      "steps": [
+        "Understand the task or conversation",
+        "Receive user input",
+        "Process the input using AI models",
+        "Generate an appropriate response",
+        "Display or send the response to the user"
+      ],
+      "example": "A virtual assistant that can schedule appointments and send reminders.",
+      "key_takeaway": "AI Agents can significantly enhance user experience and task efficiency.",
+      "common_mistake": "Overlooking the importance of proper training data and fine-tuning for specific tasks.",
+      "practical_use": "Virtual assistants, chatbots, and automated customer service systems.",
+      "visual_type": "technical_illustration",
+      "visual_title": "AI Agent Workflow",
+      "visual_elements": [
+        "AI Model Processing",
+        "User Input",
+        "Agent Response",
+        "Task Completion"
+      ],
+      "diagram_flow": [
+        "User Input -> AI Model -> Agent Response -> Task Completion"
+      ],
+      "image_text": [
+        "AI Agent Workflow",
+        "Model Processing",
+        "User Input",
+        "Agent Response"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "bright technical presentation",
+      "mood": "clear and educational",
+      "composition": "concept map",
+      "color_palette": "clean blue and violet educational palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "educational infographic",
+        "technical diagram",
+        "clear typography",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the components and how they connect",
+      "framing": "vertical 4:5 technical architecture diagram"
+    },
+    "positive_prompt": "vertical 4:5 technical architecture diagram, technical_illustration, AI Agent Workflow, AI Agents, AI Agents are intelligent software systems designed to perform specific tasks on behalf of users, often in a conversational or automated manner., AI Agents operate by interpreting user inputs, processing information through AI models, and generating responses. They can be conversational, such as chatbots, or perform tasks like scheduling appointments., AI Model Processing, User Input, Agent Response, Task Completion, User Input -> AI Model -> Agent Response -> Task Completion, AI Agent Workflow | Model Processing | User Input | Agent Response, clean educational AI infographic, concept map, clean blue and violet educational palette, clear and educational, educational infographic, technical diagram, clear typography, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 3957661858,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "bf8e789b1cb7741e188c00385ac1e1931789bd4c3071a5659c14d65e997b3a91",
+    "image_path": "out/20260921T151051Z.jpg",
+    "caption": "Curious about AI Agents? Let's dive in – they're like virtual helpers that understand and respond to your needs. 📘✨\n\nThese smart software systems are revolutionizing how we work and interact. From scheduling to customer service, they make our lives easier.  #AI #TechExplained #ModernInnovation\n\n#AI #TechExplained #ModernInnovation #VirtualAssistance #Chatbots #CustomerService #IntelligentSoftware #Automation #FutureTech #AIAgents #InnovationInEducation #TechForGood #AIInPractice #autogram #aitools",
+    "alt_text": "A clean educational AI infographic showing the workflow of AI Agents, including user input, AI model processing, and agent response.",
+    "hashtags": [
+      "#AI",
+      "#TechExplained",
+      "#ModernInnovation",
+      "#VirtualAssistance",
+      "#Chatbots",
+      "#CustomerService",
+      "#IntelligentSoftware",
+      "#Automation",
+      "#FutureTech",
+      "#AIAgents",
+      "#InnovationInEducation",
+      "#TechForGood",
+      "#AIInPractice",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18077252207383024",
+    "post_url": "https://www.instagram.com/reel/Ddjh4AAibJu/",
+    "status": "posted"
   }
 ]
