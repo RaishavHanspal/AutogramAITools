@@ -10684,5 +10684,95 @@
     "post_id": "17945424999071112",
     "post_url": "https://www.instagram.com/reel/DdmnB7lErKH/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260922T230048Z",
+    "timestamp": "2026-09-22T23:00:48.142304+00:00",
+    "brief": {
+      "subject": "text-to-speech",
+      "content_type": "how_it_works",
+      "hook": "What is Text-to-Speech and how does it work?",
+      "definition": "Text-to-Speech (TTS) is a technology that converts text into spoken words.",
+      "explanation": "TTS works by converting text into digital audio files that can be played through speakers or headphones. It uses algorithms to synthesize voice, and often requires training with a large dataset of text and corresponding speech audio.",
+      "steps": [
+        "Step 1: The input text is processed by the TTS system.",
+        "Step 2: The text is converted to a series of digital audio samples using an algorithm.",
+        "Step 3: The audio samples are played back through a speaker or headphones.",
+        "Step 4: The audio can be customized with various settings to match different voices and tones."
+      ],
+      "example": "You can use TTS to read out emails, compose a message, or summarize text on a website.",
+      "key_takeaway": "Text-to-Speech can be used to enhance accessibility and convenience.",
+      "common_mistake": "Thinking that TTS only works for synthetic voices, forgetting about text-to-speech that can use existing voice recordings.",
+      "practical_use": "Text-to-Speech can be integrated into applications like screen readers, virtual assistants, or for personal productivity.",
+      "visual_type": "process_diagram",
+      "visual_title": "Text-to-Speech Workflow",
+      "visual_elements": [
+        "Text input",
+        "TTS algorithm",
+        "Audio output",
+        "Speaker/Headphones"
+      ],
+      "diagram_flow": [
+        "Input Text",
+        "TTS Algorithm",
+        "Audio Output",
+        "Speaker/Headphones"
+      ],
+      "image_text": [
+        "Text input",
+        "TTS Algorithm",
+        "Audio Output",
+        "Speaker/Headphones"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "bright technical presentation",
+      "mood": "clear and educational",
+      "composition": "concept map",
+      "color_palette": "minimal high-contrast editorial palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "educational infographic",
+        "technical diagram",
+        "clear typography",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the flow of information through the AI system",
+      "framing": "vertical 4:5 step-by-step explainer"
+    },
+    "positive_prompt": "vertical 4:5 step-by-step explainer, process_diagram, Text-to-Speech Workflow, text-to-speech, Text-to-Speech (TTS) is a technology that converts text into spoken words., TTS works by converting text into digital audio files that can be played through speakers or headphones. It uses algorithms to synthesize voice, and often requires training with a large dataset of text and corresponding speech audio., Text input, TTS algorithm, Audio output, Speaker/Headphones, Input Text -> TTS Algorithm -> Audio Output -> Speaker/Headphones, Text input | TTS Algorithm | Audio Output | Speaker/Headphones, clean educational AI infographic, concept map, minimal high-contrast editorial palette, clear and educational, educational infographic, technical diagram, clear typography, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 3821827915,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "28fb1973da90b1c8ce3771a48c7a0486ab5972a80b41afdb1882cb696c0c481f",
+    "image_path": "out/20260922T230048Z.jpg",
+    "caption": "Hey friends, ready to dive into how text-to-speech works? It's like turning words into voice, almost magical! 💬✨\n\n#TextToSpeech #AI #Accessibility #VoiceOver #Tech #SpeechSynthesis #ScreenReader #VirtualAssistant #EmailReading #Productivity #Synthesize #TextAudioConversion #autogram #aitools",
+    "alt_text": "A clean infographic showing the text-to-speech workflow with input text, TTS algorithm, audio output, and speaker/headphones elements.",
+    "hashtags": [
+      "#TextToSpeech",
+      "#AI",
+      "#Accessibility",
+      "#VoiceOver",
+      "#Tech",
+      "#SpeechSynthesis",
+      "#ScreenReader",
+      "#VirtualAssistant",
+      "#EmailReading",
+      "#Productivity",
+      "#Synthesize",
+      "#TextAudioConversion",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18090915716188555",
+    "post_url": "https://www.instagram.com/reel/Ddm7wYNigWA/",
+    "status": "posted"
   }
 ]
