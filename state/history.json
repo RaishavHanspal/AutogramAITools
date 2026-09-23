@@ -10867,5 +10867,98 @@
     "post_id": "17935567329127597",
     "post_url": "https://www.instagram.com/reel/DdnlPReDCtB/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260923T134531Z",
+    "timestamp": "2026-09-23T13:45:31.761410+00:00",
+    "brief": {
+      "subject": "prompt injection",
+      "content_type": "security_explainer",
+      "hook": "What is prompt injection and why should you care?",
+      "definition": "Prompt injection is a security technique where attackers manipulate the input to an AI system to influence its behavior.",
+      "explanation": "Prompt injection occurs when an attacker inputs a crafted prompt to an AI system, which leads the system to generate outputs that are different from its intended outputs.",
+      "steps": [
+        "Identify the AI system's input prompt",
+        "Create a malicious or misleading prompt",
+        "Inject the prompt into the AI system",
+        "Observe the altered output"
+      ],
+      "example": "An attacker could prompt a language model to generate a fake news article about a company to damage its reputation.",
+      "key_takeaway": "Prompt injection can be used to manipulate AI outputs, making it critical to secure AI systems.",
+      "common_mistake": "Not validating input prompts before feeding them to AI systems can lead to prompt injection attacks.",
+      "practical_use": "Implementing input validation and prompt sanitization can help protect AI systems from prompt injection attacks.",
+      "visual_type": "educational_infographic",
+      "visual_title": "Prompt Injection Workflow",
+      "visual_elements": [
+        "AI System",
+        "Malicious Prompt",
+        "Validated Prompt",
+        "Altered Output"
+      ],
+      "diagram_flow": [
+        "Identify Prompt",
+        "Create Malicious Prompt",
+        "Inject Prompt",
+        "Observe Altered Output"
+      ],
+      "image_text": [
+        "Prompt Identification",
+        "Craft Malicious Prompt",
+        "Input Validation",
+        "Altered Output Identification"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "clean presentation lighting",
+      "mood": "clear and educational",
+      "composition": "process flow diagram",
+      "color_palette": "clean blue and violet educational palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the key concept using labels and arrows",
+      "framing": "vertical 4:5 annotated technical graphic"
+    },
+    "positive_prompt": "vertical 4:5 annotated technical graphic, educational_infographic, Prompt Injection Workflow, prompt injection, Prompt injection is a security technique where attackers manipulate the input to an AI system to influence its behavior., Prompt injection occurs when an attacker inputs a crafted prompt to an AI system, which leads the system to generate outputs that are different from its intended outputs., AI System, Malicious Prompt, Validated Prompt, Altered Output, Identify Prompt -> Create Malicious Prompt -> Inject Prompt -> Observe Altered Output, Prompt Identification | Craft Malicious Prompt | Input Validation | Altered Output Identification, clean educational AI infographic, process flow diagram, clean blue and violet educational palette, clear and educational, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 1239767706,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "0ae75a904c96dbb578c647a7faea5dc0df187bcd515b6361f1b445073db6da9d",
+    "image_path": "out/20260923T134531Z.jpg",
+    "caption": "Just witnessed a moment where the lines between input and output can be blurred. What does prompt injection mean for AI security? Let's dive into the feeling of identifying and manipulating AI's 'voice.' #securityexplainer #promptinjection #ai #privacy #cybersecurity #security #tech #informationsecurity #data #machinelearning #safety #education #techsociety #digitalsecurity #securityfirst #techcommunity #cybersecuritymatters #securityawareness #techsecurity #aisecurity #securitytech #techindepth #safetyfirst\n\n#securityexplainer #promptinjection #ai #privacy #cybersecurity #security #tech #informationsecurity #data #machinelearning #safety #education #techsociety #digitalsecurity #securityfirst #techcommunity #cybersecuritymatters #securityawareness",
+    "alt_text": "An educational infographic showing a process flow of identifying a prompt, creating a malicious or misleading prompt, and observing the altered output in an AI system.",
+    "hashtags": [
+      "#securityexplainer",
+      "#promptinjection",
+      "#ai",
+      "#privacy",
+      "#cybersecurity",
+      "#security",
+      "#tech",
+      "#informationsecurity",
+      "#data",
+      "#machinelearning",
+      "#safety",
+      "#education",
+      "#techsociety",
+      "#digitalsecurity",
+      "#securityfirst",
+      "#techcommunity",
+      "#cybersecuritymatters",
+      "#securityawareness"
+    ],
+    "backend": "graph",
+    "post_id": "17986054062073046",
+    "post_url": "https://www.instagram.com/reel/DdohszNisWN/",
+    "status": "posted"
   }
 ]
