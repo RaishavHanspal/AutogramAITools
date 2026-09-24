@@ -11144,5 +11144,101 @@
     "post_id": "18125629012867116",
     "post_url": "https://www.instagram.com/reel/DdphVtaCDT2/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260924T045918Z",
+    "timestamp": "2026-09-24T04:59:18.074892+00:00",
+    "brief": {
+      "subject": "prompt engineering",
+      "content_type": "how_to",
+      "hook": "Master prompt engineering to create effective AI responses.",
+      "definition": "Prompt engineering is the process of crafting input to get desired output from AI models.",
+      "explanation": "By adjusting prompts, you can control the AI's response, making it more relevant and accurate.",
+      "steps": [
+        "Analyze the AI model's capabilities and task requirements.",
+        "Formulate a clear and specific prompt that aligns with the task.",
+        "Tailor the prompt to the user's intent and context.",
+        "Iterate and refine the prompt based on feedback or results.",
+        "Use techniques like context windows and structured outputs.",
+        "Monitor and adjust to ensure the AI stays on track."
+      ],
+      "example": "To get a weather forecast from a weather model, a prompt might be: 'What is the weather forecast for New York City tomorrow?'.",
+      "key_takeaway": "Mastering prompt engineering is crucial for getting AI to perform as desired.",
+      "common_mistake": "Forgetting to tailor the prompt to the specific use case.",
+      "practical_use": "Prompt engineering is essential for tasks like customer support, content generation, and research.",
+      "visual_type": "educational_infographic",
+      "visual_title": "Prompt Engineering Workflow",
+      "visual_elements": [
+        "AI model",
+        "User prompt",
+        "AI response",
+        "Adjustment arrows"
+      ],
+      "diagram_flow": [
+        "User Input",
+        "AI Model Processing",
+        "AI Response",
+        "User Adjustment"
+      ],
+      "image_text": [
+        "Analyze Model",
+        "Formulate Prompt",
+        "Tailor Prompt",
+        "Monitor and Adjust"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "bright technical presentation",
+      "mood": "clear and educational",
+      "composition": "concept map",
+      "color_palette": "modern technology palette with one accent",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "educational infographic",
+        "technical diagram",
+        "clear typography",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the transformation from input to output",
+      "framing": "vertical 4:5 educational infographic"
+    },
+    "positive_prompt": "vertical 4:5 educational infographic, educational_infographic, Prompt Engineering Workflow, prompt engineering, Prompt engineering is the process of crafting input to get desired output from AI models., By adjusting prompts, you can control the AI's response, making it more relevant and accurate., AI model, User prompt, AI response, Adjustment arrows, User Input -> AI Model Processing -> AI Response -> User Adjustment, Analyze Model | Formulate Prompt | Tailor Prompt | Monitor and Adjust, clean educational AI infographic, concept map, modern technology palette with one accent, clear and educational, educational infographic, technical diagram, clear typography, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 2439217655,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "406a777cbc5396edc91e6eb89390875d6be1fe9fc374870394e41ec80c2784d5",
+    "image_path": "out/20260924T045918Z.jpg",
+    "caption": "Mastering prompt engineering can make AI work just as you'd like it to. Let’s dive in and see how you can control the AI’s output.\n\n#promptengineering #ai #machinelearning #airesponses #masteringai #artificialintelligence #prompttuning #aiexplanations #aiworkflow #aiadjustments #aiuserinput #aioptimization #promptengineering101 #aiexpert #aiexplained #prompttweaking #aioutput #aifeedback",
+    "alt_text": "An educational infographic showing a workflow from user input to AI response, with arrows for adjustments and labels for each step.",
+    "hashtags": [
+      "#promptengineering",
+      "#ai",
+      "#machinelearning",
+      "#airesponses",
+      "#masteringai",
+      "#artificialintelligence",
+      "#prompttuning",
+      "#aiexplanations",
+      "#aiworkflow",
+      "#aiadjustments",
+      "#aiuserinput",
+      "#aioptimization",
+      "#promptengineering101",
+      "#aiexpert",
+      "#aiexplained",
+      "#prompttweaking",
+      "#aioutput",
+      "#aifeedback"
+    ],
+    "backend": "graph",
+    "post_id": "18135062236649081",
+    "post_url": "https://www.instagram.com/reel/DdqKTcICojg/",
+    "status": "posted"
   }
 ]
