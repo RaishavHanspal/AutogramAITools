@@ -11240,5 +11240,94 @@
     "post_id": "18135062236649081",
     "post_url": "https://www.instagram.com/reel/DdqKTcICojg/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260924T133840Z",
+    "timestamp": "2026-09-24T13:38:40.452436+00:00",
+    "brief": {
+      "subject": "prompt chaining",
+      "content_type": "how_it_works",
+      "hook": "What is prompt chaining in AI and how does it work?",
+      "definition": "Prompt chaining is a technique where AI models continue to process a sequence of inputs, like a chain reaction, by feeding the output of one prompt into the next.",
+      "explanation": "Imagine you're writing a story. You start with a prompt like 'Once upon a time...'. The AI generates the next part. You then use this generated part as the new prompt for the next sentence. This continues, creating a story chain.",
+      "steps": [
+        "Start with an initial prompt.",
+        "Feed the AI’s response back into the prompt as input.",
+        "Iterate the process to generate a sequence of related outputs."
+      ],
+      "example": "You start with a prompt: 'In the morning, the sun rises.' The AI generates: 'The rays of the sun touch the sleepy town.' You use this output as the new prompt: 'The rays of the sun touch the sleepy town.' and the AI continues: 'People wake up and stretch their limbs.'",
+      "key_takeaway": "Prompt chaining allows AI to produce more contextually relevant outputs by building on previous results.",
+      "common_mistake": "Forgetting to include feedback from previous outputs in the new prompt.",
+      "practical_use": "In content generation, chatbots, and AI writing assistants.",
+      "visual_type": "educational_infographic",
+      "visual_title": "Prompt Chaining Process",
+      "visual_elements": [
+        "AI model",
+        "Input box",
+        "Output box",
+        "Chain arrows"
+      ],
+      "diagram_flow": [
+        "Initial Prompt",
+        "AI Response",
+        "New Prompt",
+        "AI Continues"
+      ],
+      "image_text": [
+        "Initial Prompt",
+        "AI Generates Response",
+        "New Prompt",
+        "AI Continues"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "flat editorial lighting",
+      "mood": "clear and educational",
+      "composition": "process flow diagram",
+      "color_palette": "professional neutral technology palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "educational infographic",
+        "technical diagram",
+        "clear typography",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the flow of information through the AI system",
+      "framing": "vertical 4:5 comparison card"
+    },
+    "positive_prompt": "vertical 4:5 comparison card, educational_infographic, Prompt Chaining Process, prompt chaining, Prompt chaining is a technique where AI models continue to process a sequence of inputs, like a chain reaction, by feeding the output of one prompt into the next., Imagine you're writing a story. You start with a prompt like 'Once upon a time...'. The AI generates the next part. You then use this generated part as the new prompt for the next sentence. This continues, creating a story chain., AI model, Input box, Output box, Chain arrows, Initial Prompt -> AI Response -> New Prompt -> AI Continues, Initial Prompt | AI Generates Response | New Prompt | AI Continues, clean educational AI infographic, process flow diagram, professional neutral technology palette, clear and educational, educational infographic, technical diagram, clear typography, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 3243569781,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "80a3e11b8326411c9203bcc86ec244c8c1ae0220e1b5ff9b3f77d0d686f422ce",
+    "image_path": "out/20260924T133840Z.jpg",
+    "caption": "Gonna dive into how prompt chaining works in AI. It's like feeding a story a new sentence to keep it flowing smoothly. Imagine starting with 'Once upon a time...' and the AI fills in the next part. Then you use that sentence to start the next round. It's like a story chain reaction! 📜✨\n\n#AI #chatbots #writing_assistant #prompts #machine_learning #storytelling_ai #future_tech #innovation #education #creativity #tech_nerds #exciting_tech #autogram #aitools",
+    "alt_text": "An AI model generating text based on a chain of inputs, like a story writer building a narrative sequence.",
+    "hashtags": [
+      "#AI",
+      "#chatbots",
+      "#writing_assistant",
+      "#prompts",
+      "#machine_learning",
+      "#storytelling_ai",
+      "#future_tech",
+      "#innovation",
+      "#education",
+      "#creativity",
+      "#tech_nerds",
+      "#exciting_tech",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18018793871943499",
+    "post_url": "https://www.instagram.com/reel/DdrFGeUldab/",
+    "status": "posted"
   }
 ]
