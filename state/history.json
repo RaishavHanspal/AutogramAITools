@@ -12349,5 +12349,95 @@
     "post_id": "17912952897530731",
     "post_url": "https://www.instagram.com/reel/Ddx6a7Jlciq/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260927T140419Z",
+    "timestamp": "2026-09-27T14:04:19.861120+00:00",
+    "brief": {
+      "subject": "tokenization in AI models",
+      "content_type": "concept_explainer",
+      "hook": "What are tokens and why are they important in AI models?",
+      "definition": "Tokenization is the process of dividing text into smaller units called tokens, which are used to represent the text for processing by AI models.",
+      "explanation": "Tokens are like building blocks that AI models use to understand and manipulate text. They help in breaking down text into manageable parts for tasks like language generation, translation, and sentiment analysis.",
+      "steps": [
+        "Tokenization divides text into smaller segments based on symbols, words, or subword units.",
+        "Different AI models use different types of tokens, such as single characters, words, subwords, or byte-pair encoding (BPE).",
+        "Tokens are fed into the AI model as input, which processes the text by analyzing each token individually or in groups.",
+        "After processing, tokens are combined to form the original text or new text, depending on the task."
+      ],
+      "example": "In a text classification model, tokens might include 'I', 'am', 'happy' for the sentence 'I am happy'. The model would process these tokens to classify the text as positive.",
+      "key_takeaway": "Tokens are crucial for AI models to understand and manipulate text effectively.",
+      "common_mistake": "Misunderstanding the types of tokens used by different models can lead to incorrect text processing.",
+      "practical_use": "Tokenization is used in various AI applications like text classification, summarization, and language modeling.",
+      "visual_type": "educational_infographic",
+      "visual_title": "Tokenization in AI Models",
+      "visual_elements": [
+        "AI model with input",
+        "Tokens represented as boxes",
+        "Input text divided into tokens",
+        "Tokens combined to form original text"
+      ],
+      "diagram_flow": [
+        "Text input",
+        "Tokenization process",
+        "Model processing",
+        "Output"
+      ],
+      "image_text": [
+        "Tokenization",
+        "Dividing text into tokens",
+        "Tokens represent text",
+        "Tokens processed by model"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "clean presentation lighting",
+      "mood": "clear and educational",
+      "composition": "step-by-step educational layout",
+      "color_palette": "clean blue and violet educational palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "Educational infographic",
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the key concept using labels and arrows",
+      "framing": "vertical 4:5 annotated technical graphic"
+    },
+    "positive_prompt": "vertical 4:5 annotated technical graphic, educational_infographic, Tokenization in AI Models, tokenization in AI models, Tokenization is the process of dividing text into smaller units called tokens, which are used to represent the text for processing by AI models., Tokens are like building blocks that AI models use to understand and manipulate text. They help in breaking down text into manageable parts for tasks like language generation, translation, and sentiment analysis., AI model with input, Tokens represented as boxes, Input text divided into tokens, Tokens combined to form original text, Text input -> Tokenization process -> Model processing -> Output, Tokenization | Dividing text into tokens | Tokens represent text | Tokens processed by model, clean educational AI infographic, step-by-step educational layout, clean blue and violet educational palette, clear and educational, Educational infographic, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 553798185,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "da0fb0f0e24392e99acf9b4c53398c6b3e95c7421afac11bd2afa33bbe56d76c",
+    "image_path": "out/20260927T140419Z.jpg",
+    "caption": "Isn't it amazing how text can be understood by AI? Let's dive into tokenization – the building blocks of text that AI uses to process language. 📚✨\n\n#tokenization #ai #text #language #AImodels #education #naturallanguageprocessing #machinelearning #textclassification #data #computervision #information #autogram #aitools",
+    "alt_text": "Educational infographic showing text being divided into tokens, with tokens represented as boxes and arrows showing the tokenization process.",
+    "hashtags": [
+      "#tokenization",
+      "#ai",
+      "#text",
+      "#language",
+      "#AImodels",
+      "#education",
+      "#naturallanguageprocessing",
+      "#machinelearning",
+      "#textclassification",
+      "#data",
+      "#computervision",
+      "#information",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18096731942384336",
+    "post_url": "https://www.instagram.com/reel/Ddy2DZ-H21Q/",
+    "status": "posted"
   }
 ]
