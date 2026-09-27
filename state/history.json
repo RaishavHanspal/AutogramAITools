@@ -12536,5 +12536,97 @@
     "post_id": "18435360733180337",
     "post_url": "https://www.instagram.com/reel/DdzcR83lbI9/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260927T230735Z",
+    "timestamp": "2026-09-27T23:07:35.182800+00:00",
+    "brief": {
+      "subject": "LLM tokens",
+      "content_type": "concept_explainer",
+      "hook": "How does LLM tokens actually work?",
+      "definition": "Tokens are the pieces of text that language models process when reading and generating language.",
+      "explanation": "A token can represent a whole word, part of a word, punctuation or another text fragment. Tokenization converts text into the units the model can process.",
+      "steps": [
+        "Text is provided to the model",
+        "A tokenizer splits the text into tokens",
+        "Tokens are represented as IDs",
+        "The model processes those IDs",
+        "The model predicts additional tokens"
+      ],
+      "example": "A long prompt can consume thousands of tokens even though it looks like only a few paragraphs to a person.",
+      "key_takeaway": "LLMs read and generate language through tokens, not whole sentences as indivisible units.",
+      "common_mistake": "Assuming one token always equals one English word.",
+      "practical_use": "Understanding tokens helps explain context limits, API pricing and why very long prompts can become expensive.",
+      "visual_type": "step_by_step_card",
+      "visual_title": "How LLM Tokens Work",
+      "visual_elements": [
+        "Text",
+        "Tokenizer",
+        "Token IDs",
+        "LLM",
+        "Predicted tokens"
+      ],
+      "diagram_flow": [
+        "Text",
+        "Tokenization",
+        "Token IDs",
+        "LLM",
+        "Next-token prediction"
+      ],
+      "image_text": [
+        "What Is a Token?",
+        "Text → Tokens → Model",
+        "Tokens can be word parts",
+        "The model predicts the next token",
+        "Tokens affect context & cost"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "clean presentation lighting",
+      "mood": "clear and educational",
+      "composition": "information-first educational composition",
+      "color_palette": "professional technology palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the AI concept and information flow",
+      "framing": "vertical 4:5 educational graphic"
+    },
+    "positive_prompt": "vertical 4:5 educational graphic, step_by_step_card, How LLM Tokens Work, LLM tokens, Tokens are the pieces of text that language models process when reading and generating language., A token can represent a whole word, part of a word, punctuation or another text fragment. Tokenization converts text into the units the model can process., Text, Tokenizer, Token IDs, LLM, Predicted tokens, Text -> Tokenization -> Token IDs -> LLM -> Next-token prediction, What Is a Token? | Text → Tokens → Model | Tokens can be word parts | The model predicts the next token | Tokens affect context & cost, clean educational AI infographic, information-first educational composition, professional technology palette, clear and educational, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 156885702,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "6d0d2c7c956b340c6b0ecfef8ea6828661b15037fa3f1c3a71c6ee7aba322fe6",
+    "image_path": "out/20260927T230735Z.jpg",
+    "caption": "Ever wondered how LLM tokens actually work behind the scenes? Let’s dive into this fascinating world of text processing. 🤝\n\nTokens are the building blocks, representing whole words, parts of words, or even punctuation. 📝 When we feed a prompt to a model, it breaks it down into these tokens.\n\nEach step—from text to IDs to the model’s prediction—helps us understand how language models operate.\n\nOne thing to note: a long prompt might only be a few paragraphs to us, but the model sees thousands of tokens.\n\nKnowing tokens can be really handy. It explains why very long prompts can get pricey and how context limits and API usage are managed.\n\nUnderstanding tokens is key to making the most of these powerful tools.\n\nLet’s break it down step by step: Text → Tokens → Model.\n\n#languageModels #aiExplainer #textUnderstanding #llmTokens #modelProcess #promptLength #contextLimits #apiPricing #textProcessing #languageModeling #AIExplainer101 #explainableAI #autogram #aitools",
+    "alt_text": "Step-by-step illustration showing text being broken down into tokens, represented as IDs, and then processed by a language model.",
+    "hashtags": [
+      "#languageModels",
+      "#aiExplainer",
+      "#textUnderstanding",
+      "#llmTokens",
+      "#modelProcess",
+      "#promptLength",
+      "#contextLimits",
+      "#apiPricing",
+      "#textProcessing",
+      "#languageModeling",
+      "#AIExplainer101",
+      "#explainableAI",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18069081083766891",
+    "post_url": "https://www.instagram.com/reel/Ddz1X8mjmNW/",
+    "status": "posted"
   }
 ]
