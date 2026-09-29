@@ -12727,5 +12727,96 @@
     "post_id": "17903347188356507",
     "post_url": "https://www.instagram.com/reel/Dd0g0UOD-RG/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260929T104537Z",
+    "timestamp": "2026-09-29T10:45:37.086359+00:00",
+    "brief": {
+      "subject": "Model Context Protocol (MCP)",
+      "content_type": "how_it_works",
+      "hook": "Understand how MCP helps AI systems manage model context.",
+      "definition": "MCP is a protocol for passing model-specific information between AI components.",
+      "explanation": "MCP ensures that different parts of an AI system can work together seamlessly by sharing context about the model they're using.",
+      "steps": [
+        "Identify which parts of your AI system need to share model context.",
+        "Determine the specific information to be shared (e.g., model version, parameters).",
+        "Define the format for the context data.",
+        "Implement the MCP protocol in your system architecture.",
+        "Test the setup to ensure all components can communicate effectively."
+      ],
+      "example": "In a chatbot system, the MCP could be used to pass information about the training data and model architecture to different parts of the system.",
+      "key_takeaway": "MCP is crucial for maintaining consistency and efficiency in AI systems.",
+      "common_mistake": "Forgetting to share context data can lead to errors or misinterpretations of the model.",
+      "practical_use": "MCP is useful in any multi-component AI system where the model context needs to be shared between different parts.",
+      "visual_type": "educational_infographic",
+      "visual_title": "Model Context Protocol in an AI System",
+      "visual_elements": [
+        "Model Context Protocol box",
+        "AI components diagram",
+        "Context data flow arrows"
+      ],
+      "diagram_flow": [
+        "Source Component",
+        "MCP",
+        "Destination Component"
+      ],
+      "image_text": [
+        "Model Context Protocol",
+        "Share model-specific information between components.",
+        "Ensure consistency and efficiency.",
+        "Key to successful AI system architecture."
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "bright technical presentation",
+      "mood": "clear and educational",
+      "composition": "concept map",
+      "color_palette": "professional neutral technology palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "Educational infographic",
+        "Technical diagram",
+        "Clear typography",
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the difference between two approaches",
+      "framing": "vertical 4:5 technical architecture diagram"
+    },
+    "positive_prompt": "vertical 4:5 technical architecture diagram, educational_infographic, Model Context Protocol in an AI System, Model Context Protocol (MCP), MCP is a protocol for passing model-specific information between AI components., MCP ensures that different parts of an AI system can work together seamlessly by sharing context about the model they're using., Model Context Protocol box, AI components diagram, Context data flow arrows, Source Component -> MCP -> Destination Component, Model Context Protocol | Share model-specific information between components. | Ensure consistency and efficiency. | Key to successful AI system architecture., clean educational AI infographic, concept map, professional neutral technology palette, clear and educational, Educational infographic, Technical diagram, Clear typography, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 2573766597,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "512049f9a3f2d1b5b70f7a6038ddbc7618678fac156cf788edac499f31c3730d",
+    "image_path": "out/20260929T104537Z.jpg",
+    "caption": "Wondering how to keep your AI system running smoothly? Introducing the Model Context Protocol (MCP). It's like passing along the secret recipe so all parts of the AI recipe can bake together perfectly. 🧑‍🍳\n\n#ModelContextProtocol #AIarchitecture #MachineLearning #DataManagement #TechTrends #TechAdvice #TechSimplified #TechForHumans #TechConversation #TechCommunity #TechTogether #TechEmpowerment #autogram #aitools",
+    "alt_text": "An educational infographic showing the Model Context Protocol (MCP) in an AI system, with AI components and context data flow arrows.",
+    "hashtags": [
+      "#ModelContextProtocol",
+      "#AIarchitecture",
+      "#MachineLearning",
+      "#DataManagement",
+      "#TechTrends",
+      "#TechAdvice",
+      "#TechSimplified",
+      "#TechForHumans",
+      "#TechConversation",
+      "#TechCommunity",
+      "#TechTogether",
+      "#TechEmpowerment",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18153387931513370",
+    "post_url": "https://www.instagram.com/reel/Dd3n1nbjim_/",
+    "status": "posted"
   }
 ]
