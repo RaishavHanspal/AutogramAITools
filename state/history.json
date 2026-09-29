@@ -12818,5 +12818,102 @@
     "post_id": "18153387931513370",
     "post_url": "https://www.instagram.com/reel/Dd3n1nbjim_/",
     "status": "posted"
+  },
+  {
+    "stamp": "20260929T180827Z",
+    "timestamp": "2026-09-29T18:08:27.166430+00:00",
+    "brief": {
+      "subject": "Claude plugins",
+      "content_type": "how_it_works",
+      "hook": "What are Claude plugins and how do they work?",
+      "definition": "Claude plugins are additional functionalities that developers can add to Claude, an AI assistant, to extend its capabilities.",
+      "explanation": "Claude plugins are like add-ons for Claude. They allow users to customize and enhance Claude's performance by adding new features and capabilities.",
+      "steps": [
+        "Identify a specific need or feature you want Claude to have.",
+        "Research available plugins and their functionalities.",
+        "Choose a plugin that matches your needs.",
+        "Install and configure the plugin.",
+        "Test the plugin to ensure it works as expected.",
+        "Use the enhanced Claude for your tasks."
+      ],
+      "example": "A developer wants Claude to generate code snippets. They find a plugin that allows Claude to do this and install it. Claude can now provide code snippets, saving time and effort.",
+      "key_takeaway": "Plugins can significantly boost Claude's capabilities and efficiency.",
+      "common_mistake": "Installing plugins without testing can lead to errors.",
+      "practical_use": "Adding plugins to Claude can help in various tasks such as code generation, research summaries, and more.",
+      "visual_type": "educational_infographic",
+      "visual_title": "Claude Plugins Workflow",
+      "visual_elements": [
+        "Claude",
+        "Plugin 1",
+        "Plugin 2",
+        "Plugin 3"
+      ],
+      "diagram_flow": [
+        "Identify need",
+        "Research plugins",
+        "Select plugin",
+        "Install plugin",
+        "Test plugin",
+        "Use Claude with plugin"
+      ],
+      "image_text": [
+        "Identify need",
+        "Research plugins",
+        "Select plugin",
+        "Install plugin"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "flat editorial lighting",
+      "mood": "clear and educational",
+      "composition": "comparison card",
+      "color_palette": "professional neutral technology palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the steps required to perform the workflow",
+      "framing": "vertical 4:5 technical architecture diagram"
+    },
+    "positive_prompt": "vertical 4:5 technical architecture diagram, educational_infographic, Claude Plugins Workflow, Claude plugins, Claude plugins are additional functionalities that developers can add to Claude, an AI assistant, to extend its capabilities., Claude plugins are like add-ons for Claude. They allow users to customize and enhance Claude's performance by adding new features and capabilities., Claude, Plugin 1, Plugin 2, Plugin 3, Identify need -> Research plugins -> Select plugin -> Install plugin -> Test plugin -> Use Claude with plugin, Identify need | Research plugins | Select plugin | Install plugin, clean educational AI infographic, comparison card, professional neutral technology palette, clear and educational, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 1979262469,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "5bd17f0464ea3f1b427922a8425842a7db8afbecd10578228f2f7472c4565238",
+    "image_path": "out/20260929T180827Z.jpg",
+    "caption": "Just like finding the perfect add-on to make your toolkit even better, Claude plugins can take your AI interactions to the next level. Ready to give Claude a boost? Let's dive in together.\n\n#ClaudeAssistant #AIAssistant #Innovation #ClaudePlugins #TechTips #TechEducation #AIForAll #TechTrends #TechTweaks #TechSavvy #TechGadgets #TechReview #TechReview2023 #TechInsider #TechMovers #TechTrends2023 #TechTrend #TechTalk",
+    "alt_text": "An educational infographic showing a step-by-step guide to installing and using Claude plugins for enhanced capabilities.",
+    "hashtags": [
+      "#ClaudeAssistant",
+      "#AIAssistant",
+      "#Innovation",
+      "#ClaudePlugins",
+      "#TechTips",
+      "#TechEducation",
+      "#AIForAll",
+      "#TechTrends",
+      "#TechTweaks",
+      "#TechSavvy",
+      "#TechGadgets",
+      "#TechReview",
+      "#TechReview2023",
+      "#TechInsider",
+      "#TechMovers",
+      "#TechTrends2023",
+      "#TechTrend",
+      "#TechTalk"
+    ],
+    "backend": "graph",
+    "post_id": "18070976123778495",
+    "post_url": "https://www.instagram.com/reel/Dd4c845kr3Y/",
+    "status": "posted"
   }
 ]
