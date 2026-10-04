@@ -14228,5 +14228,98 @@
     "post_id": "18130091455800730",
     "post_url": "https://www.instagram.com/reel/DeDSeadlmmt/",
     "status": "posted"
+  },
+  {
+    "stamp": "20261004T060105Z",
+    "timestamp": "2026-10-04T06:01:05.911338+00:00",
+    "brief": {
+      "subject": "In-context learning",
+      "content_type": "concept_explainer",
+      "hook": "How does In-context learning actually work?",
+      "definition": "In-context learning is when an LLM uses instructions or examples inside the current prompt to perform a task.",
+      "explanation": "The model does not need its weights changed. Instead, it uses the information present in the current context to infer the pattern or behavior expected by the prompt.",
+      "steps": [
+        "Give the model an instruction",
+        "Provide one or more examples",
+        "Provide a new input",
+        "The model infers the demonstrated pattern",
+        "The model generates the requested output"
+      ],
+      "example": "Give an LLM three examples of classifying customer messages and then ask it to classify a fourth message.",
+      "key_takeaway": "Examples in a prompt can temporarily teach a model the expected pattern without changing the model's weights.",
+      "common_mistake": "Calling every prompt-based behavior fine-tuning. In-context learning does not update model parameters.",
+      "practical_use": "Use examples in prompts when you need consistent formatting, classification or task behavior without training a model.",
+      "visual_type": "process_diagram",
+      "visual_title": "In-Context Learning",
+      "visual_elements": [
+        "Instruction",
+        "Examples",
+        "New input",
+        "LLM",
+        "Output"
+      ],
+      "diagram_flow": [
+        "Instructions",
+        "Examples",
+        "New input",
+        "LLM infers pattern",
+        "Output"
+      ],
+      "image_text": [
+        "In-Context Learning",
+        "Teach through the prompt",
+        "1. Instruction",
+        "2. Examples",
+        "3. New input",
+        "No weight update"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "clean presentation lighting",
+      "mood": "clear and educational",
+      "composition": "information-first educational composition",
+      "color_palette": "professional technology palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the AI concept and information flow",
+      "framing": "vertical 4:5 educational graphic"
+    },
+    "positive_prompt": "vertical 4:5 educational graphic, process_diagram, In-Context Learning, In-context learning, In-context learning is when an LLM uses instructions or examples inside the current prompt to perform a task., The model does not need its weights changed. Instead, it uses the information present in the current context to infer the pattern or behavior expected by the prompt., Instruction, Examples, New input, LLM, Output, Instructions -> Examples -> New input -> LLM infers pattern -> Output, In-Context Learning | Teach through the prompt | 1. Instruction | 2. Examples | 3. New input | No weight update, clean educational AI infographic, information-first educational composition, professional technology palette, clear and educational, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 2612913944,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "5fb1a5d92af9869dc646016e254f4b7fa781e83038a8f5f7c9797ffa0176eced",
+    "image_path": "out/20261004T060105Z.jpg",
+    "caption": "Ever wondered how In-context learning works? It’s like giving your AI a lesson in a real-life example, and watching it learn on its own. 📘✨ #InContextLearning #AI101 #MLExplainer\n\n#InContextLearning #AI101 #MLExplainer #AIeducation #InContextLearningExplained #LLM #InContextLearningTutor #AIConcept #InContextLearningExamples #InContextLearningSteps #InContextLearningVisual #InContextLearningProcess #autogram #aitools",
+    "alt_text": "A clear infographic demonstrating In-context learning with an AI model, instructions, examples, new input, and output.",
+    "hashtags": [
+      "#InContextLearning",
+      "#AI101",
+      "#MLExplainer",
+      "#AIeducation",
+      "#InContextLearningExplained",
+      "#LLM",
+      "#InContextLearningTutor",
+      "#AIConcept",
+      "#InContextLearningExamples",
+      "#InContextLearningSteps",
+      "#InContextLearningVisual",
+      "#InContextLearningProcess",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "17871334665639853",
+    "post_url": "https://www.instagram.com/reel/DeEBid2Drbx/",
+    "status": "posted"
   }
 ]
