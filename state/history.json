@@ -14697,5 +14697,100 @@
     "post_id": "18151656013539897",
     "post_url": "https://www.instagram.com/reel/DeGh0Hcl813/",
     "status": "posted"
+  },
+  {
+    "stamp": "20261005T171252Z",
+    "timestamp": "2026-10-05T17:12:52.844871+00:00",
+    "brief": {
+      "subject": "Model Routing in AI Systems",
+      "content_type": "concept_explainer",
+      "hook": "What is model routing and why do we need it?",
+      "definition": "Model routing is the process of directing incoming data to the most appropriate AI model for processing.",
+      "explanation": "Model routing allows different models to specialize in specific tasks, improving efficiency and performance.",
+      "steps": [
+        "Identify the different models available for processing the incoming data.",
+        "Determine which model is best suited for the specific task or problem.",
+        "Route the incoming data to the chosen model.",
+        "The routed data is processed by the selected model and the results are returned.",
+        "Monitor and potentially re-route based on performance or changing data conditions."
+      ],
+      "example": "In a chatbot system, different models may be used for different language processing tasks (e.g., language translation, sentiment analysis, grammar correction).",
+      "key_takeaway": "Model routing can optimize AI system performance by leveraging specialized models for different tasks.",
+      "common_mistake": "Overlooking the need for model routing can lead to less efficient use of AI resources.",
+      "practical_use": "Model routing is crucial for improving the efficiency and effectiveness of AI-driven systems, especially in applications with multiple models and diverse data.",
+      "visual_type": "educational_infographic",
+      "visual_title": "Model Routing Workflow",
+      "visual_elements": [
+        "Model 1",
+        "Model 2",
+        "Model 3",
+        "Data",
+        "Selected Model",
+        "Processed Data"
+      ],
+      "diagram_flow": [
+        "Identify Models",
+        "Select Model",
+        "Route Data",
+        "Process Data",
+        "Monitor and Re-route"
+      ],
+      "image_text": [
+        "Overview",
+        "Identify Models",
+        "Select Model",
+        "Process Data"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "clean presentation lighting",
+      "mood": "clear and educational",
+      "composition": "step-by-step educational layout",
+      "color_palette": "professional neutral technology palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "Educational infographic",
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the key concept using labels and arrows",
+      "framing": "vertical 4:5 process diagram"
+    },
+    "positive_prompt": "vertical 4:5 process diagram, educational_infographic, Model Routing Workflow, Model Routing in AI Systems, Model routing is the process of directing incoming data to the most appropriate AI model for processing., Model routing allows different models to specialize in specific tasks, improving efficiency and performance., Model 1, Model 2, Model 3, Data, Selected Model, Processed Data, Identify Models -> Select Model -> Route Data -> Process Data -> Monitor and Re-route, Overview | Identify Models | Select Model | Process Data, clean educational AI infographic, step-by-step educational layout, professional neutral technology palette, clear and educational, Educational infographic, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 716903210,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "5f839bc586bfe9409f5611f19500e5cd141f608a5934b50cb41ae149cada0165",
+    "image_path": "out/20261005T171252Z.jpg",
+    "caption": "Ever felt like you're juggling too many plates at once? Model routing can be the magic solution to keep your AI system running smoothly with all the right moves. Let's dive into how it all works.\n\n#AI #ModelRouting #Efficiency #DataScience #MachineLearning #Automation #TechSavvy #BusinessIntelligence #TechTrends #FutureTech #TechForGood #TechLife #TechTalks #autogram #aitools",
+    "alt_text": "An educational infographic visualizing the process of model routing in an AI system. Different AI models are identified, selected, and data is routed through them for efficient processing.",
+    "hashtags": [
+      "#AI",
+      "#ModelRouting",
+      "#Efficiency",
+      "#DataScience",
+      "#MachineLearning",
+      "#Automation",
+      "#TechSavvy",
+      "#BusinessIntelligence",
+      "#TechTrends",
+      "#FutureTech",
+      "#TechForGood",
+      "#TechLife",
+      "#TechTalks",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18130214455763505",
+    "post_url": "https://www.instagram.com/reel/DeHym7Hkzbn/",
+    "status": "posted"
   }
 ]
