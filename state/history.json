@@ -15164,5 +15164,98 @@
     "post_id": "18114155528041058",
     "post_url": "https://www.instagram.com/reel/DeLGgWJDtZH/",
     "status": "posted"
+  },
+  {
+    "stamp": "20261007T060716Z",
+    "timestamp": "2026-10-07T06:07:16.159664+00:00",
+    "brief": {
+      "subject": "why LLM answers can be inconsistent",
+      "content_type": "concept_explainer",
+      "hook": "Why do AI models sometimes give inconsistent answers?",
+      "definition": "Inconsistency in AI model answers refers to the variability in the output when the same input is presented multiple times to the same model.",
+      "explanation": "AI models, especially large Language Models (LLMs), can give different outputs for the same input due to randomness in their training process and the way they process information.",
+      "steps": [
+        "Understand the training process of the model",
+        "Recognize the role of randomness in training",
+        "Learn about the impact of input randomness on outputs",
+        "Understand the importance of context in LLMs"
+      ],
+      "example": "A user inputs the same instruction, but the AI model returns different responses multiple times.",
+      "key_takeaway": "Inconsistent answers are not due to the model itself, but rather due to inherent randomness in training and input randomness.",
+      "common_mistake": "Believing that AI models are always consistent and predictable.",
+      "practical_use": "Understanding inconsistency helps in improving the model’s reliability and in designing more robust AI applications.",
+      "visual_type": "concept_map",
+      "visual_title": "Understanding Inconsistent Answers in AI Models",
+      "visual_elements": [
+        "AI Model",
+        "Training Process",
+        "Input Randomness",
+        "Context Importance"
+      ],
+      "diagram_flow": [
+        "Training Process",
+        "Input",
+        "Model Output",
+        "Context",
+        "Inconsistent Output"
+      ],
+      "image_text": [
+        "AI Model",
+        "Training Process",
+        "Inconsistent Output Example",
+        "Understanding Inconsistent Answers"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "clean presentation lighting",
+      "mood": "clear and educational",
+      "composition": "information-first infographic",
+      "color_palette": "professional neutral technology palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "Educational infographic",
+        "Technical diagram",
+        "Clear typography",
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the difference between two approaches",
+      "framing": "vertical 4:5 concept map"
+    },
+    "positive_prompt": "vertical 4:5 concept map, concept_map, Understanding Inconsistent Answers in AI Models, why LLM answers can be inconsistent, Inconsistency in AI model answers refers to the variability in the output when the same input is presented multiple times to the same model., AI models, especially large Language Models (LLMs), can give different outputs for the same input due to randomness in their training process and the way they process information., AI Model, Training Process, Input Randomness, Context Importance, Training Process -> Input -> Model Output -> Context -> Inconsistent Output, AI Model | Training Process | Inconsistent Output Example | Understanding Inconsistent Answers, clean educational AI infographic, information-first infographic, professional neutral technology palette, clear and educational, Educational infographic, Technical diagram, Clear typography, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 1403244317,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "1c91279fdc1f3dce529ef10a137ebe91030eed17aaaf4d1783731c1b7d6289f1",
+    "image_path": "out/20261007T060716Z.jpg",
+    "caption": "Why do AI models sometimes give different answers for the same question? It’s all about the randomness in their training and how they process information. Dive into understanding the why and how. #AI #MachineLearning #LLM #Inconsistency #Education #TechTidbits\n\n#AI #MachineLearning #LLM #Inconsistency #Education #TechTidbits #TechExplained #ArtificialIntelligence #ComputerScience #DataScience #Science #EducationTech #autogram #aitools",
+    "alt_text": "A clean educational infographic explaining the concept of AI model inconsistency in training and input processing.",
+    "hashtags": [
+      "#AI",
+      "#MachineLearning",
+      "#LLM",
+      "#Inconsistency",
+      "#Education",
+      "#TechTidbits",
+      "#TechExplained",
+      "#ArtificialIntelligence",
+      "#ComputerScience",
+      "#DataScience",
+      "#Science",
+      "#EducationTech",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18129028063689470",
+    "post_url": "https://www.instagram.com/reel/DeLv-GxFICf/",
+    "status": "posted"
   }
 ]
