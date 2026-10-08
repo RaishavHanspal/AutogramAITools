@@ -15630,5 +15630,93 @@
     "post_id": "18115649324072573",
     "post_url": "https://www.instagram.com/reel/DePXBAhE_Fq/",
     "status": "posted"
+  },
+  {
+    "stamp": "20261008T212407Z",
+    "timestamp": "2026-10-08T21:24:07.182751+00:00",
+    "brief": {
+      "subject": "LLM Prompt Injection",
+      "content_type": "concept_explainer",
+      "hook": "What happens when you try to trick a large language model?",
+      "definition": "Prompt injection is when you attempt to manipulate an AI model by subtly altering the input it receives.",
+      "explanation": "Prompt injection happens when you subtly change the input to an AI model, often in an attempt to trick or manipulate its output.",
+      "steps": [
+        "Understand the input prompt to the AI model.",
+        "Make small changes to the input that can be subtle and not noticeable.",
+        "Observe the output to see if the changes were successful."
+      ],
+      "example": "You're using a language model to generate text, and you want to make the model believe it's talking to a specific person. You change the input prompt to make it seem like the model is responding to that person.",
+      "key_takeaway": "Prompt injection can be used for both beneficial and harmful purposes.",
+      "common_mistake": "People often underestimate the power of subtle input changes.",
+      "practical_use": "It can be used in testing to understand AI models better, or in malicious activities to deceive them.",
+      "visual_type": "educational_infographic",
+      "visual_title": "Prompt Injection in AI Models",
+      "visual_elements": [
+        "AI model",
+        "input prompt",
+        "subtle changes",
+        "output text"
+      ],
+      "diagram_flow": [
+        "Input prompt to model",
+        "Changes made to prompt",
+        "Model produces output"
+      ],
+      "image_text": [
+        "Prompt Input",
+        "Subtle Changes",
+        "Model Output",
+        "Impact of Changes"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "bright technical presentation",
+      "mood": "clear and educational",
+      "composition": "technical architecture diagram",
+      "color_palette": "modern technology palette with one accent",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the steps required to perform the workflow",
+      "framing": "vertical 4:5 technical architecture diagram"
+    },
+    "positive_prompt": "vertical 4:5 technical architecture diagram, educational_infographic, Prompt Injection in AI Models, LLM Prompt Injection, Prompt injection is when you attempt to manipulate an AI model by subtly altering the input it receives., Prompt injection happens when you subtly change the input to an AI model, often in an attempt to trick or manipulate its output., AI model, input prompt, subtle changes, output text, Input prompt to model -> Changes made to prompt -> Model produces output, Prompt Input | Subtle Changes | Model Output | Impact of Changes, clean educational AI infographic, technical architecture diagram, modern technology palette with one accent, clear and educational, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 2879415821,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "ca33e10376de89e4ef956c8dfbe64a1f86168934146e0bc5f174e39ce87ef5f0",
+    "image_path": "out/20261008T212407Z.jpg",
+    "caption": "Ever wonder what happens when you try to trick a large language model? Prompt injection is when you attempt to manipulate an AI model by subtly altering the input it receives. Let’s dive in and see the impact of those tiny tweaks to the input. #LLM #AI #PromptInjection #ArtificialIntelligence #MachineLearning #TechExplainer #TechInnovation #TechTalk #TechMatters #TechForAll #TechCommunity #TechGains #TechTrends #TechWise #TechFuture\n\n#LLM #AI #PromptInjection #ArtificialIntelligence #MachineLearning #TechExplainer #TechInnovation #TechTalk #TechCommunity #TechWise #TechFuture #TechMatters #TechForAll #autogram #aitools",
+    "alt_text": "Illustration of a technical architecture diagram showing a language model receiving an input prompt and producing output text. Subtle changes made to the prompt are visible in the diagram.",
+    "hashtags": [
+      "#LLM",
+      "#AI",
+      "#PromptInjection",
+      "#ArtificialIntelligence",
+      "#MachineLearning",
+      "#TechExplainer",
+      "#TechInnovation",
+      "#TechTalk",
+      "#TechCommunity",
+      "#TechWise",
+      "#TechFuture",
+      "#TechMatters",
+      "#TechForAll",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18125127355876505",
+    "post_url": "https://www.instagram.com/reel/DeP-HG6jRs-/",
+    "status": "posted"
   }
 ]
