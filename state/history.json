@@ -15535,5 +15535,100 @@
     "post_id": "18186662572373636",
     "post_url": "https://www.instagram.com/reel/DeOTOdbgeZf/",
     "status": "posted"
+  },
+  {
+    "stamp": "20261008T154324Z",
+    "timestamp": "2026-10-08T15:43:24.039927+00:00",
+    "brief": {
+      "subject": "retrieval augmented generation (RAG)",
+      "content_type": "how_it_works",
+      "hook": "What is RAG and how does it work to enhance AI systems?",
+      "definition": "RAG is a technique that uses external data to improve AI model performance by providing more context to the model during inference.",
+      "explanation": "RAG works by fetching additional information from an external source and integrating this information into the AI model's decision-making process.",
+      "steps": [
+        "Fetch relevant external data based on the input text.",
+        "Preprocess the fetched data to match the AI model's format.",
+        "Pass the preprocessed external data along with the input text to the AI model.",
+        "The AI model uses the combined input to generate a more accurate response.",
+        "Return the generated response to the user."
+      ],
+      "example": "An AI chatbot uses RAG to fetch Wikipedia articles when a user asks a complex question about a specific topic.",
+      "key_takeaway": "RAG enhances AI by providing more context, leading to more accurate and relevant responses.",
+      "common_mistake": "Overlooking the need for additional data sources, leading to less effective RAG.",
+      "practical_use": "RAG is useful for applications where context is critical, such as chatbots, customer support, and educational AI systems.",
+      "visual_type": "process_diagram",
+      "visual_title": "RAG Workflow",
+      "visual_elements": [
+        "AI Model",
+        "External Data Source",
+        "Input Text",
+        "Combined Input",
+        "Generated Response"
+      ],
+      "diagram_flow": [
+        "Input Text",
+        "External Data Source",
+        "Preprocessed External Data",
+        "Combined Input",
+        "AI Model",
+        "Generated Response"
+      ],
+      "image_text": [
+        "Fetch External Data",
+        "Preprocess External Data",
+        "Combine with Input",
+        "Generate Response"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "clean presentation lighting",
+      "mood": "clear and educational",
+      "composition": "concept map",
+      "color_palette": "minimal high-contrast editorial palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "clean technical infographic",
+        "technical diagram",
+        "clear typography",
+        "educational infographic",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the transformation from input to output",
+      "framing": "vertical 4:5 input-to-output workflow diagram"
+    },
+    "positive_prompt": "vertical 4:5 input-to-output workflow diagram, process_diagram, RAG Workflow, retrieval augmented generation (RAG), RAG is a technique that uses external data to improve AI model performance by providing more context to the model during inference., RAG works by fetching additional information from an external source and integrating this information into the AI model's decision-making process., AI Model, External Data Source, Input Text, Combined Input, Generated Response, Input Text -> External Data Source -> Preprocessed External Data -> Combined Input -> AI Model -> Generated Response, Fetch External Data | Preprocess External Data | Combine with Input | Generate Response, clean educational AI infographic, concept map, minimal high-contrast editorial palette, clear and educational, clean technical infographic, technical diagram, clear typography, educational infographic, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 166353535,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "8794f73d7b022e6115c01f2d9979b14602bdd430f7c48f78d7d7e707bd8d21ae",
+    "image_path": "out/20261008T154324Z.jpg",
+    "caption": "Feeling curious? Wondering how AI can better understand complex questions? Dive in with RAG. It's like giving your AI a sidekick who knows loads about the topic. 🔍💡\n\n#RAGtechnique #AIchatbot #DataIntelligence #MachineLearning #ExternalData #ContextAwareness #EducationalAI #CustomerSupport #InformationFirst #CleanInfographic #TechnicalInfographic #ReadableTypography #autogram #aitools",
+    "alt_text": "A clean educational AI infographic showing the RAG workflow with elements like AI Model, External Data Source, Input Text, Combined Input, and Generated Response.",
+    "hashtags": [
+      "#RAGtechnique",
+      "#AIchatbot",
+      "#DataIntelligence",
+      "#MachineLearning",
+      "#ExternalData",
+      "#ContextAwareness",
+      "#EducationalAI",
+      "#CustomerSupport",
+      "#InformationFirst",
+      "#CleanInfographic",
+      "#TechnicalInfographic",
+      "#ReadableTypography",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18115649324072573",
+    "post_url": "https://www.instagram.com/reel/DePXBAhE_Fq/",
+    "status": "posted"
   }
 ]
