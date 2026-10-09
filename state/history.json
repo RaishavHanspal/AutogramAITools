@@ -15908,5 +15908,95 @@
     "post_id": "18218817244357439",
     "post_url": "https://www.instagram.com/reel/DeR4K3CCWLk/",
     "status": "posted"
+  },
+  {
+    "stamp": "20261009T205945Z",
+    "timestamp": "2026-10-09T20:59:45.635674+00:00",
+    "brief": {
+      "subject": "AI hallucinations",
+      "content_type": "concept_explainer",
+      "hook": "How does AI hallucinations actually work?",
+      "definition": "An AI hallucination is an answer that sounds plausible but contains false, unsupported or fabricated information.",
+      "explanation": "Language models generate likely sequences of tokens based on their learned patterns and the current context. They do not automatically verify every claim against reality.",
+      "steps": [
+        "The model receives a prompt",
+        "It predicts likely token sequences",
+        "The output can sound confident",
+        "Some claims may still be false"
+      ],
+      "example": "An LLM invents a research paper, citation or API function that does not actually exist.",
+      "key_takeaway": "Confident wording is not proof that an AI answer is factual.",
+      "common_mistake": "Treating an AI response as verified simply because it sounds specific and confident.",
+      "practical_use": "Use verification, retrieval, citations or trusted source data when factual accuracy matters.",
+      "visual_type": "educational_infographic",
+      "visual_title": "Why AI Hallucinates",
+      "visual_elements": [
+        "Prompt",
+        "Token prediction",
+        "Plausible output",
+        "Possible false claim",
+        "Verification"
+      ],
+      "diagram_flow": [
+        "Prompt",
+        "Token prediction",
+        "Generated answer",
+        "Verify claims"
+      ],
+      "image_text": [
+        "AI Hallucinations",
+        "Plausible ≠ factual",
+        "LLMs predict text",
+        "Claims can still be wrong",
+        "Verify important information"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "clean presentation lighting",
+      "mood": "clear and educational",
+      "composition": "information-first educational composition",
+      "color_palette": "professional technology palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the AI concept and information flow",
+      "framing": "vertical 4:5 educational graphic"
+    },
+    "positive_prompt": "vertical 4:5 educational graphic, educational_infographic, Why AI Hallucinates, AI hallucinations, An AI hallucination is an answer that sounds plausible but contains false, unsupported or fabricated information., Language models generate likely sequences of tokens based on their learned patterns and the current context. They do not automatically verify every claim against reality., Prompt, Token prediction, Plausible output, Possible false claim, Verification, Prompt -> Token prediction -> Generated answer -> Verify claims, AI Hallucinations | Plausible ≠ factual | LLMs predict text | Claims can still be wrong | Verify important information, clean educational AI infographic, information-first educational composition, professional technology palette, clear and educational, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 2065986191,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "4fd93d5fea79be1b4c1017b881499eb84573408529534045da53f5059316d5b8",
+    "image_path": "out/20261009T205945Z.jpg",
+    "caption": "AI can sound really convincing, but it’s important to remember that confident answers don’t always mean they’re correct. How cool is it to learn how language models generate plausible yet potentially false information? #AI #EducationMatters\n\n#AI #AIandYou #EducationMatters #TechExplainer #LLMs #AIConspiracy #ArtificialIntelligence #TechExplained #TechLingo #AIExplain #TechJargon #TechSimplified #autogram #aitools",
+    "alt_text": "A clean educational AI infographic showing the concept of AI hallucinations, where language models generate plausible but potentially false answers.",
+    "hashtags": [
+      "#AI",
+      "#AIandYou",
+      "#EducationMatters",
+      "#TechExplainer",
+      "#LLMs",
+      "#AIConspiracy",
+      "#ArtificialIntelligence",
+      "#TechExplained",
+      "#TechLingo",
+      "#AIExplain",
+      "#TechJargon",
+      "#TechSimplified",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18151685557540034",
+    "post_url": "https://www.instagram.com/reel/DeSf2mPAIj8/",
+    "status": "posted"
   }
 ]
