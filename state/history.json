@@ -16183,5 +16183,94 @@
     "post_id": "18051013499604412",
     "post_url": "https://www.instagram.com/reel/DeUYnNLD-lO/",
     "status": "posted"
+  },
+  {
+    "stamp": "20261010T200810Z",
+    "timestamp": "2026-10-10T20:08:10.281532+00:00",
+    "brief": {
+      "subject": "Fine-tuning in AI",
+      "content_type": "concept_explainer",
+      "hook": "What makes fine-tuning different from regular model training?",
+      "definition": "Fine-tuning is the process of adjusting a pre-trained model's parameters to better suit a specific task or domain.",
+      "explanation": "Fine-tuning involves using a large pretrained model and fine-tuning its weights on a new dataset to make it more specialized for a particular task, like language understanding or image classification.",
+      "steps": [
+        "Select a pre-trained model suitable for the new task.",
+        "Collect a dataset specific to the new task.",
+        "Train the model using a small fraction of the pre-trained model's weights on the new dataset.",
+        "Adjust the model's parameters to optimize its performance on the new dataset."
+      ],
+      "example": "Fine-tuning a language model on a new dataset of recipes to improve its ability to understand and generate recipe-related text.",
+      "key_takeaway": "Fine-tuning can drastically improve model performance on specific tasks with minimal additional training.",
+      "common_mistake": "Overfitting the model to the new dataset, leading to poor performance on other related tasks.",
+      "practical_use": "Improving the accuracy of models for specific use cases, such as chatbots, customer support systems, or domain-specific AI applications.",
+      "visual_type": "educational_infographic",
+      "visual_title": "Fine-tuning Workflow",
+      "visual_elements": [
+        "Pre-trained model",
+        "Fine-tuned model",
+        "New dataset"
+      ],
+      "diagram_flow": [
+        "Pre-trained model",
+        "New dataset",
+        "Fine-tuned model"
+      ],
+      "image_text": [
+        "Select pre-trained model",
+        "New dataset",
+        "Fine-tuned model",
+        "Optimize parameters"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "bright technical presentation",
+      "mood": "clear and educational",
+      "composition": "concept map",
+      "color_palette": "minimal high-contrast editorial palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "Educational infographic",
+        "Clear typography",
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the components and how they connect",
+      "framing": "vertical 4:5 input-to-output workflow diagram"
+    },
+    "positive_prompt": "vertical 4:5 input-to-output workflow diagram, educational_infographic, Fine-tuning Workflow, Fine-tuning in AI, Fine-tuning is the process of adjusting a pre-trained model's parameters to better suit a specific task or domain., Fine-tuning involves using a large pretrained model and fine-tuning its weights on a new dataset to make it more specialized for a particular task, like language understanding or image classification., Pre-trained model, Fine-tuned model, New dataset, Pre-trained model -> New dataset -> Fine-tuned model, Select pre-trained model | New dataset | Fine-tuned model | Optimize parameters, clean educational AI infographic, concept map, minimal high-contrast editorial palette, clear and educational, Educational infographic, Clear typography, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 2581371143,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "da763df032e6c2273c54cdde0e690c6a374b1c8b8e5246be8f726cd56bba8c9f",
+    "image_path": "out/20261010T200810Z.jpg",
+    "caption": "Fine-tuning a model? It’s like hitting the sweet spot of a perfect storm of data and expertise. What makes it work so smoothly? Let’s dive into how we can make a model better suited for a specific job.\n\n#AI #FineTuning #MachineLearning #DeepLearning #PreTraining #Optimization #ModelAdjustment #DataScience #TechHobbyist #AIEnthusiast #TechCommunity #ModelImprovement #autogram #aitools",
+    "alt_text": "An educational infographic showing a workflow where a pre-trained model is fine-tuned using a new dataset to improve its performance on a specific task.",
+    "hashtags": [
+      "#AI",
+      "#FineTuning",
+      "#MachineLearning",
+      "#DeepLearning",
+      "#PreTraining",
+      "#Optimization",
+      "#ModelAdjustment",
+      "#DataScience",
+      "#TechHobbyist",
+      "#AIEnthusiast",
+      "#TechCommunity",
+      "#ModelImprovement",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18019596458927066",
+    "post_url": "https://www.instagram.com/reel/DeU_fKIDwbG/",
+    "status": "posted"
   }
 ]
