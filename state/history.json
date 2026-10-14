@@ -17428,5 +17428,95 @@
     "post_id": "18036092714894303",
     "post_url": "https://www.instagram.com/reel/Deeki-KlX82/",
     "status": "posted"
+  },
+  {
+    "stamp": "20261014T201528Z",
+    "timestamp": "2026-10-14T20:15:28.007598+00:00",
+    "brief": {
+      "subject": "Claude Code",
+      "content_type": "tool_explainer",
+      "hook": "Introducing Claude Code: A Powerful New AI Tool",
+      "definition": "Claude Code is a command-line interface for Claude, allowing users to interact with Claude from the command line.",
+      "explanation": "Claude Code provides a simple way to integrate Claude into scripts and automate interactions with the Claude API.",
+      "steps": [
+        "Install the Claude Code plugin",
+        "Run the Claude command in your terminal",
+        "Use Claude Code to interact with Claude's API",
+        "Access Claude Code's powerful command-line features"
+      ],
+      "example": "Run a command to generate a story based on a prompt",
+      "key_takeaway": "Claude Code simplifies interaction with Claude for scripting and automation.",
+      "common_mistake": "Misunderstanding the command syntax leading to errors.",
+      "practical_use": "Automate content generation, personalization, and more.",
+      "visual_type": "educational_infographic",
+      "visual_title": "Claude Code Workflow",
+      "visual_elements": [
+        "Claude Code Plugin Icon",
+        "Command Line Interface",
+        "AI Code Editor",
+        "API Interaction Diagram"
+      ],
+      "diagram_flow": [
+        "User Input",
+        "Claude Code Parses Command",
+        "Claude API Interaction",
+        "Generated Response"
+      ],
+      "image_text": [
+        "Claude Code Plugin",
+        "Install and Run",
+        "Command Line",
+        "Interact with Claude"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "bright technical presentation",
+      "mood": "clear and educational",
+      "composition": "comparison card",
+      "color_palette": "clean blue and violet educational palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "educational infographic",
+        "technical diagram",
+        "clear typography",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the components and how they connect",
+      "framing": "vertical 4:5 concept map"
+    },
+    "positive_prompt": "vertical 4:5 concept map, educational_infographic, Claude Code Workflow, Claude Code, Claude Code is a command-line interface for Claude, allowing users to interact with Claude from the command line., Claude Code provides a simple way to integrate Claude into scripts and automate interactions with the Claude API., Claude Code Plugin Icon, Command Line Interface, AI Code Editor, API Interaction Diagram, User Input -> Claude Code Parses Command -> Claude API Interaction -> Generated Response, Claude Code Plugin | Install and Run | Command Line | Interact with Claude, clean educational AI infographic, comparison card, clean blue and violet educational palette, clear and educational, educational infographic, technical diagram, clear typography, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 1747891094,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "4a023843576ab792b725238f3253957968f1049b24256cc91739dd97d7152329",
+    "image_path": "out/20261014T201528Z.jpg",
+    "caption": "Excited to dive into the new Claude Code. Feeling the energy of making Claude more accessible for those scripting and automating interactions. Can't wait to see what we can create with this powerful tool! 😃💡\n\n#ClaudeCode #Claude #AI #Automation #MachineLearning #InteractiveAI #Tech #Programming #ArtificialIntelligence #ClaudeAPI #AIforAll #ClaudePlugin #autogram #aitools",
+    "alt_text": "A clean technical infographic showing the workflow of interacting with Claude using the Claude Code plugin from the command line.",
+    "hashtags": [
+      "#ClaudeCode",
+      "#Claude",
+      "#AI",
+      "#Automation",
+      "#MachineLearning",
+      "#InteractiveAI",
+      "#Tech",
+      "#Programming",
+      "#ArtificialIntelligence",
+      "#ClaudeAPI",
+      "#AIforAll",
+      "#ClaudePlugin",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "17891122080454526",
+    "post_url": "https://www.instagram.com/reel/DefQcWJCAGp/",
+    "status": "posted"
   }
 ]
