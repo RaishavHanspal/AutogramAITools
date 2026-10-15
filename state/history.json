@@ -17615,5 +17615,93 @@
     "post_id": "18117334439001300",
     "post_url": "https://www.instagram.com/reel/Defna0sDRP9/",
     "status": "posted"
+  },
+  {
+    "stamp": "20261015T044913Z",
+    "timestamp": "2026-10-15T04:49:13.913682+00:00",
+    "brief": {
+      "subject": "open-source LLMs",
+      "content_type": "concept_explainer",
+      "hook": "What is an LLM and why should you care?",
+      "definition": "LLM stands for Language Model, a type of AI that can generate text based on input data.",
+      "explanation": "Language models are pre-trained models that understand and generate text. They are crucial for natural language processing and can be used in various applications like chatbots and content generation.",
+      "steps": [
+        "Step 1: Understand the basics of LLMs.",
+        "Step 2: Learn how LLMs are trained using large datasets.",
+        "Step 3: Explore the different types of LLMs like Transformer-based models."
+      ],
+      "example": "Use an open-source LLM like Cohere to generate product descriptions based on customer feedback.",
+      "key_takeaway": "Open-source LLMs democratize AI, allowing anyone to access advanced NLP capabilities.",
+      "common_mistake": "Misunderstanding the capabilities of LLMs versus their limitations.",
+      "practical_use": "Generate personalized customer support responses, create marketing content, or improve chatbot conversations.",
+      "visual_type": "educational_infographic",
+      "visual_title": "Open-Source LLM Workflow",
+      "visual_elements": [
+        "Open-source LLM",
+        "Training Dataset",
+        "Model Architecture",
+        "Real-world Application"
+      ],
+      "diagram_flow": [
+        "Data Collection",
+        "Model Training",
+        "Output Generation"
+      ],
+      "image_text": [
+        "Data Collection",
+        "LLM Training",
+        "Output Generation",
+        "Real-world Use"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "bright technical presentation",
+      "mood": "clear and educational",
+      "composition": "step-by-step educational layout",
+      "color_palette": "minimal high-contrast editorial palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "educational infographic",
+        "technical diagram",
+        "clear typography",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the transformation from input to output",
+      "framing": "vertical 4:5 comparison card"
+    },
+    "positive_prompt": "vertical 4:5 comparison card, educational_infographic, Open-Source LLM Workflow, open-source LLMs, LLM stands for Language Model, a type of AI that can generate text based on input data., Language models are pre-trained models that understand and generate text. They are crucial for natural language processing and can be used in various applications like chatbots and content generation., Open-source LLM, Training Dataset, Model Architecture, Real-world Application, Data Collection -> Model Training -> Output Generation, Data Collection | LLM Training | Output Generation | Real-world Use, clean educational AI infographic, step-by-step educational layout, minimal high-contrast editorial palette, clear and educational, educational infographic, technical diagram, clear typography, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 3692477646,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "5b5b2732e7ee6cb5d3d863b8f9db9277cfea66924902e455a10c13152e4de8d2",
+    "image_path": "out/20261015T044913Z.jpg",
+    "caption": "Hey there curious minds! 🌟 Today's LLMs are like magic spellcasters that talk. But how do they work and why should you care? I'll walk you through the basics, how they learn, and how you can use them for cool stuff like customer support. Let’s dive in and see how these models work their magic!\n\n#openSource #AIExplained #NaturalLanguageProcessing #Chatbots #ContentGeneration #DataScience #MachineLearning #Transformers #CustomerSupport #MarketingContent #OpenSourceAI #AIForEveryone #autogram #aitools",
+    "alt_text": "An educational infographic showing the process of using an open-source LLM to generate content, with steps labeled for data collection, model training, and output generation.",
+    "hashtags": [
+      "#openSource",
+      "#AIExplained",
+      "#NaturalLanguageProcessing",
+      "#Chatbots",
+      "#ContentGeneration",
+      "#DataScience",
+      "#MachineLearning",
+      "#Transformers",
+      "#CustomerSupport",
+      "#MarketingContent",
+      "#OpenSourceAI",
+      "#AIForEveryone",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18279526141306647",
+    "post_url": "https://www.instagram.com/reel/DegMbO4maaK/",
+    "status": "posted"
   }
 ]
