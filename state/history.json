@@ -17703,5 +17703,96 @@
     "post_id": "18279526141306647",
     "post_url": "https://www.instagram.com/reel/DegMbO4maaK/",
     "status": "posted"
+  },
+  {
+    "stamp": "20261015T133106Z",
+    "timestamp": "2026-10-15T13:31:06.971395+00:00",
+    "brief": {
+      "subject": "AI Agents",
+      "content_type": "concept_explainer",
+      "hook": "What are AI Agents and how do they work?",
+      "definition": "AI Agents are virtual entities designed to perform specific tasks or interact with users, mimicking human-like behavior.",
+      "explanation": "AI Agents are built using machine learning models that are trained to understand user inputs, perform tasks, and communicate in natural language.",
+      "steps": [
+        "Train a machine learning model on a dataset that includes user inputs and corresponding actions.",
+        "Fine-tune the model to improve its performance on specific tasks or interactions.",
+        "Deploy the model in an application where it can receive user input and provide responses."
+      ],
+      "example": "A chatbot that can help users find information on a website by understanding their questions and providing relevant answers.",
+      "key_takeaway": "AI Agents can significantly improve user experience by automating tasks and providing personalized interactions.",
+      "common_mistake": "Overlooking the importance of fine-tuning and context understanding in creating effective AI Agents.",
+      "practical_use": "In applications like customer service, health chatbots, or virtual assistants.",
+      "visual_type": "educational_infographic",
+      "visual_title": "AI Agents Workflow",
+      "visual_elements": [
+        "AI Model Training",
+        "Fine-Tuning Process",
+        "Agent Deployed in Application"
+      ],
+      "diagram_flow": [
+        "Model Training",
+        "Fine-Tuning",
+        "Agent Deployment"
+      ],
+      "image_text": [
+        "Model Training",
+        "Training the AI Model",
+        "Understanding User Inputs"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "clean presentation lighting",
+      "mood": "clear and educational",
+      "composition": "step-by-step educational layout",
+      "color_palette": "minimal high-contrast editorial palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "Educational infographic",
+        "Technical diagram",
+        "Clear typography",
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the components and how they connect",
+      "framing": "vertical 4:5 educational infographic"
+    },
+    "positive_prompt": "vertical 4:5 educational infographic, educational_infographic, AI Agents Workflow, AI Agents, AI Agents are virtual entities designed to perform specific tasks or interact with users, mimicking human-like behavior., AI Agents are built using machine learning models that are trained to understand user inputs, perform tasks, and communicate in natural language., AI Model Training, Fine-Tuning Process, Agent Deployed in Application, Model Training -> Fine-Tuning -> Agent Deployment, Model Training | Training the AI Model | Understanding User Inputs, clean educational AI infographic, step-by-step educational layout, minimal high-contrast editorial palette, clear and educational, Educational infographic, Technical diagram, Clear typography, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 4134317317,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "62a3bcd20ea1734d72c5167061a46078dada7b8ad5df390b6237b7a2a10cd2ad",
+    "image_path": "out/20261015T133106Z.jpg",
+    "caption": "Just when I needed a friendly AI to help guide me, I found this cool infographic that breaks down how AI Agents work. It feels like having a personal tech friend. 😊\n\n#AIAgents #MachineLearning #VirtualAssistants #CustomerService #HealthChatbots #InteractiveInfographics #TechExplainer #ClearTypography #EducationalInfographics #InteractiveInfographic #Tech #Technology #Innovation #TechSavvy #TechLove #autogram #aitools",
+    "alt_text": "A clean educational AI infographic with steps for AI Agent training, fine-tuning, and deployment.",
+    "hashtags": [
+      "#AIAgents",
+      "#MachineLearning",
+      "#VirtualAssistants",
+      "#CustomerService",
+      "#HealthChatbots",
+      "#InteractiveInfographics",
+      "#TechExplainer",
+      "#ClearTypography",
+      "#EducationalInfographics",
+      "#InteractiveInfographic",
+      "#Tech",
+      "#Technology",
+      "#Innovation",
+      "#TechSavvy",
+      "#TechLove",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18492900268105655",
+    "post_url": "https://www.instagram.com/reel/DehIA73kaja/",
+    "status": "posted"
   }
 ]
