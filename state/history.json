@@ -18179,5 +18179,95 @@
     "post_id": "18111591023130268",
     "post_url": "https://www.instagram.com/reel/DejtUljjfN6/",
     "status": "posted"
+  },
+  {
+    "stamp": "20261016T225521Z",
+    "timestamp": "2026-10-16T22:55:21.272319+00:00",
+    "brief": {
+      "subject": "prompt templates",
+      "content_type": "how_to",
+      "hook": "Mastering prompt templates can unlock new levels of creativity in AI models.",
+      "definition": "Prompt templates are predefined sentences or phrases used to guide and direct AI models toward the desired output.",
+      "explanation": "Prompt templates are pre-defined inputs that AI models can use to generate outputs. They help AI models understand what you want without having to write the entire sentence or phrase.",
+      "steps": [
+        "Understand the task and the AI model's limitations",
+        "Define the structure of your prompt template",
+        "Test and refine the template",
+        "Use the template to generate outputs",
+        "Monitor and adjust based on desired results"
+      ],
+      "example": "Write a short story based on a prompt template: 'Once upon a time, there was a brave knight who set out to save the princess. Along the way, he encountered a magical creature and had to use his sword to slay it.'",
+      "key_takeaway": "Prompt templates can help you get creative outputs from AI models without writing the entire sentence.",
+      "common_mistake": "Using a generic template for all tasks without customization.",
+      "practical_use": "Writing prompts for image generation, writing assistance, or any task that requires a specific output.",
+      "visual_type": "educational_infographic",
+      "visual_title": "Prompt Template Workflow",
+      "visual_elements": [
+        "AI model input",
+        "Prompt Template",
+        "Generated Output",
+        "AI model output"
+      ],
+      "diagram_flow": [
+        "Prompt Template",
+        "AI Model Input",
+        "Generated Output"
+      ],
+      "image_text": [
+        "AI Model Input",
+        "Prompt Template",
+        "Generated Output",
+        "AI Model Output"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "clean presentation lighting",
+      "mood": "clear and educational",
+      "composition": "process flow diagram",
+      "color_palette": "clean blue and violet educational palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "Educational infographic",
+        "Technical diagram",
+        "Clear typography",
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the steps required to perform the workflow",
+      "framing": "vertical 4:5 input-to-output workflow diagram"
+    },
+    "positive_prompt": "vertical 4:5 input-to-output workflow diagram, educational_infographic, Prompt Template Workflow, prompt templates, Prompt templates are predefined sentences or phrases used to guide and direct AI models toward the desired output., Prompt templates are pre-defined inputs that AI models can use to generate outputs. They help AI models understand what you want without having to write the entire sentence or phrase., AI model input, Prompt Template, Generated Output, AI model output, Prompt Template -> AI Model Input -> Generated Output, AI Model Input | Prompt Template | Generated Output | AI Model Output, clean educational AI infographic, process flow diagram, clean blue and violet educational palette, clear and educational, Educational infographic, Technical diagram, Clear typography, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 1670639982,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "4611312c166d049f9708d3c5507bd9bead8b13e4b61e6135b2d8cafea7fbb8d8",
+    "image_path": "out/20261016T225521Z.jpg",
+    "caption": "Got a task that needs a creative touch? Prompt templates can be your secret weapon. 📘✨\n\n#AI #PromptTemplate #Creativity #AIModels #Writing #Automation #TechTips #AIExpert #TechTrends #TechSavvy #autogram #aitools",
+    "alt_text": "An infographic showing a clean, clear process flow diagram of how AI uses a prompt template to generate an output.",
+    "hashtags": [
+      "#AI",
+      "#PromptTemplate",
+      "#Creativity",
+      "#AIModels",
+      "#Writing",
+      "#Automation",
+      "#TechTips",
+      "#AIExpert",
+      "#TechTrends",
+      "#TechSavvy",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "17909836245558676",
+    "post_url": "https://www.instagram.com/reel/Dekui4zAMLe/",
+    "status": "posted"
   }
 ]
