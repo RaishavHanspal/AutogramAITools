@@ -17983,5 +17983,100 @@
     "post_id": "17984004966093370",
     "post_url": "https://www.instagram.com/reel/DeiMLNHAHZ-/",
     "status": "posted"
+  },
+  {
+    "stamp": "20261016T043913Z",
+    "timestamp": "2026-10-16T04:39:13.429596+00:00",
+    "brief": {
+      "subject": "RAG",
+      "content_type": "how_it_works",
+      "hook": "How does RAG actually work?",
+      "definition": "Retrieval-Augmented Generation, or RAG, lets an AI retrieve relevant external information before generating an answer.",
+      "explanation": "Instead of relying only on information stored in the model's parameters, a RAG system searches a connected knowledge source, retrieves relevant content, and provides that content to the language model as context.",
+      "steps": [
+        "User asks a question",
+        "The question is converted into a searchable representation",
+        "Relevant documents or chunks are retrieved",
+        "Retrieved context is sent to the LLM",
+        "The LLM generates an answer using that context"
+      ],
+      "example": "A company chatbot retrieves the latest internal HR policy before answering a question about annual leave.",
+      "key_takeaway": "RAG gives an LLM relevant external knowledge at runtime; it does not retrain the model.",
+      "common_mistake": "Assuming RAG automatically makes answers accurate even when retrieval returns poor or irrelevant information.",
+      "practical_use": "Use RAG when an AI system needs to answer questions using documents, databases or knowledge that can change over time.",
+      "visual_type": "process_diagram",
+      "visual_title": "How RAG Works",
+      "visual_elements": [
+        "User query",
+        "Retriever",
+        "Relevant documents",
+        "Context",
+        "LLM",
+        "Grounded answer"
+      ],
+      "diagram_flow": [
+        "User question",
+        "Retrieve relevant information",
+        "Add retrieved context",
+        "Send context to LLM",
+        "Generate answer"
+      ],
+      "image_text": [
+        "How RAG Works",
+        "Retrieve knowledge before generating",
+        "1. Ask",
+        "2. Retrieve",
+        "3. Add context",
+        "4. Generate",
+        "RAG ≠ retraining"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "clean presentation lighting",
+      "mood": "clear and educational",
+      "composition": "information-first educational composition",
+      "color_palette": "professional technology palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the AI concept and information flow",
+      "framing": "vertical 4:5 educational graphic"
+    },
+    "positive_prompt": "vertical 4:5 educational graphic, process_diagram, How RAG Works, RAG, Retrieval-Augmented Generation, or RAG, lets an AI retrieve relevant external information before generating an answer., Instead of relying only on information stored in the model's parameters, a RAG system searches a connected knowledge source, retrieves relevant content, and provides that content to the language model as context., User query, Retriever, Relevant documents, Context, LLM, Grounded answer, User question -> Retrieve relevant information -> Add retrieved context -> Send context to LLM -> Generate answer, How RAG Works | Retrieve knowledge before generating | 1. Ask | 2. Retrieve | 3. Add context | 4. Generate | RAG ≠ retraining, clean educational AI infographic, information-first educational composition, professional technology palette, clear and educational, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 596651755,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "3f0be81fbbf548e463f0d7207b5d63ddf61a50d712575eabcf385d26e1610003",
+    "image_path": "out/20261016T043913Z.jpg",
+    "caption": "How’s everyone’s weekend going? 🌟 I’ve been thinking about RAG and how it’s like a supercharged knowledge buddy for AI chatbots.\n\n#RAG #AI #LearningOnTheGo #InformationRetrieval #Tech #TechSociety #FutureOfAI #DataScience #MachineLearning #TechTrends #TechGrowth #TechRevolution #autogram #aitools",
+    "alt_text": "A clean educational infographic showing the process of RAG, where a retriever fetches relevant information to be added to context for a language model to generate an answer.",
+    "hashtags": [
+      "#RAG",
+      "#AI",
+      "#LearningOnTheGo",
+      "#InformationRetrieval",
+      "#Tech",
+      "#TechSociety",
+      "#FutureOfAI",
+      "#DataScience",
+      "#MachineLearning",
+      "#TechTrends",
+      "#TechGrowth",
+      "#TechRevolution",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "17914116066538732",
+    "post_url": "https://www.instagram.com/reel/DeiwVfmAev_/",
+    "status": "posted"
   }
 ]
