@@ -20130,5 +20130,98 @@
     "post_id": "18234987769324678",
     "post_url": "https://www.instagram.com/reel/DexoGXlCmov/",
     "status": "posted"
+  },
+  {
+    "stamp": "20261022T045712Z",
+    "timestamp": "2026-10-22T04:57:12.608253+00:00",
+    "brief": {
+      "subject": "prompt injection",
+      "content_type": "security_explainer",
+      "hook": "What is prompt injection, and why should you care?",
+      "definition": "Prompt injection is a technique where attackers manipulate the input to AI models, such as chatbots, to trick them into giving incorrect or harmful responses.",
+      "explanation": "Prompt injection works by tricking an AI model with carefully crafted inputs to produce unintended or malicious outputs. This can happen in chatbots, customer support systems, or any AI-driven system that relies on user inputs.",
+      "steps": [
+        "Understand the attack vector",
+        "Identify vulnerable systems",
+        "Craft malicious prompts",
+        "Inject prompts strategically",
+        "Observe and analyze responses",
+        "Report and mitigate the issue"
+      ],
+      "example": "An attacker sends a series of carefully crafted messages to a chatbot, tricking it into providing sensitive information or performing dangerous actions.",
+      "key_takeaway": "Prompt injection is a serious security risk, especially for AI systems that handle critical information.",
+      "common_mistake": "Thinking that AI systems are completely secure and do not require input validation.",
+      "practical_use": "All AI-driven systems should have robust input validation mechanisms to prevent prompt injection attacks.",
+      "visual_type": "educational_infographic",
+      "visual_title": "AI Security: Prompt Injection",
+      "visual_elements": [
+        "AI system with red X overlay",
+        "Input field with warning icon",
+        "Attack vector diagram",
+        "Example of manipulated response"
+      ],
+      "diagram_flow": [
+        "User input",
+        "AI model processing",
+        "Malicious prompt",
+        "Incorrect response"
+      ],
+      "image_text": [
+        "Prompt injection attack vector",
+        "Important: Input validation is crucial",
+        "Example of a vulnerable system",
+        "Secure response: No error or harmful action"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "bright technical presentation",
+      "mood": "clear and educational",
+      "composition": "input-to-output system diagram",
+      "color_palette": "minimal high-contrast editorial palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "educational infographic",
+        "technical diagram",
+        "clear typography",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the components and how they connect",
+      "framing": "vertical 4:5 process diagram"
+    },
+    "positive_prompt": "vertical 4:5 process diagram, educational_infographic, AI Security: Prompt Injection, prompt injection, Prompt injection is a technique where attackers manipulate the input to AI models, such as chatbots, to trick them into giving incorrect or harmful responses., Prompt injection works by tricking an AI model with carefully crafted inputs to produce unintended or malicious outputs. This can happen in chatbots, customer support systems, or any AI-driven system that relies on user inputs., AI system with red X overlay, Input field with warning icon, Attack vector diagram, Example of manipulated response, User input -> AI model processing -> Malicious prompt -> Incorrect response, Prompt injection attack vector | Important: Input validation is crucial | Example of a vulnerable system | Secure response: No error or harmful action, clean educational AI infographic, input-to-output system diagram, minimal high-contrast editorial palette, clear and educational, educational infographic, technical diagram, clear typography, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 1120756026,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "20e54923be6ef3068a21ac2ceeef42f52eb12a31e30410267b732964e894f301",
+    "image_path": "out/20261022T045712Z.jpg",
+    "caption": "What is prompt injection, and why should you care? This moment is a real one. Imagine a chatbot that's supposed to help but instead gives out sensitive info. That's prompt injection in action. Let's dive into how it works and what you can do to keep your AI systems safe.\n\n#promptinjection #aisecurity #securityfirst #chatbotsecurity #maliciousprompt #inputvalidation #aiattack #secureai #cybersecurity #defensivesecurity #keepsafe #techsecurity #protectyourai #autogram #aitools",
+    "alt_text": "Illustration of a chatbot system with a red X over it, showing a malicious prompt input and an incorrect response in the output. Input validation warning icon and example of a vulnerable system are also included.",
+    "hashtags": [
+      "#promptinjection",
+      "#aisecurity",
+      "#securityfirst",
+      "#chatbotsecurity",
+      "#maliciousprompt",
+      "#inputvalidation",
+      "#aiattack",
+      "#secureai",
+      "#cybersecurity",
+      "#defensivesecurity",
+      "#keepsafe",
+      "#techsecurity",
+      "#protectyourai",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18114249805861076",
+    "post_url": "https://www.instagram.com/reel/DeyN5GilM0F/",
+    "status": "posted"
   }
 ]
