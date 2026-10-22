@@ -20223,5 +20223,100 @@
     "post_id": "18114249805861076",
     "post_url": "https://www.instagram.com/reel/DeyN5GilM0F/",
     "status": "posted"
+  },
+  {
+    "stamp": "20261022T135227Z",
+    "timestamp": "2026-10-22T13:52:27.034494+00:00",
+    "brief": {
+      "subject": "Open-Domain Question Answering (ODQA) with Claude",
+      "content_type": "how_it_works",
+      "hook": "Get Claude to answer any question with just a text prompt.",
+      "definition": "Open-Domain Question Answering (ODQA) is a type of AI system that can respond to any question, without being explicitly programmed for a specific domain.",
+      "explanation": "ODQA systems use large language models (LLMs) to understand and generate natural language responses to a wide range of questions.",
+      "steps": [
+        "Use a Claude plugin to integrate the Claude API with your application.",
+        "Prompt Claude with the question you want to answer.",
+        "Receive the Claude response as a natural language answer."
+      ],
+      "example": "Prompt Claude with 'What is the capital of France?' and get a response like 'The capital of France is Paris.'",
+      "key_takeaway": "Claude can answer any question with just a prompt, making it versatile for various applications.",
+      "common_mistake": "Expecting Claude to answer questions on specific domains it's not trained for.",
+      "practical_use": "Integrate Claude for knowledge-based applications like customer support, research assistants, or educational tools.",
+      "visual_type": "educational_infographic",
+      "visual_title": "Claude ODQA Workflow",
+      "visual_elements": [
+        "Claude API logo",
+        "Question prompt field",
+        "Claude's response field",
+        "Integration flow diagram"
+      ],
+      "diagram_flow": [
+        "Prompt Input",
+        "Claude API Integration",
+        "Claude's Processing",
+        "Natural Language Response"
+      ],
+      "image_text": [
+        "Claude API Logo",
+        "Prompt Input Field",
+        "Claude's Response",
+        "Integration Diagram"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "bright technical presentation",
+      "mood": "clear and educational",
+      "composition": "information-first infographic",
+      "color_palette": "professional neutral technology palette",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "Educational infographic",
+        "Modern technical dashboard",
+        "Clear typography",
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the transformation from input to output",
+      "framing": "vertical 4:5 process diagram"
+    },
+    "positive_prompt": "vertical 4:5 process diagram, educational_infographic, Claude ODQA Workflow, Open-Domain Question Answering (ODQA) with Claude, Open-Domain Question Answering (ODQA) is a type of AI system that can respond to any question, without being explicitly programmed for a specific domain., ODQA systems use large language models (LLMs) to understand and generate natural language responses to a wide range of questions., Claude API logo, Question prompt field, Claude's response field, Integration flow diagram, Prompt Input -> Claude API Integration -> Claude's Processing -> Natural Language Response, Claude API Logo | Prompt Input Field | Claude's Response | Integration Diagram, clean educational AI infographic, information-first infographic, professional neutral technology palette, clear and educational, Educational infographic, Modern technical dashboard, Clear typography, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 1279358348,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "3d1ae204b831b302450ae1d7986ddb0ca5df1a131356ad3c1c855062ad9872eb",
+    "image_path": "out/20261022T135227Z.jpg",
+    "caption": "This moment right here. Clear and educational and real.\n\nIn clean educational AI infographic, under bright technical presentation. Just us, just this. information-first infographic.\n\n#Open #Domain #Question #Answering #ODQA #with #Claude #clear #and #educational #infographic #Modern #technical #dashboard #typography #diagram #readable #information",
+    "alt_text": "Open-Domain Question Answering (ODQA) with Claude, clean educational AI infographic, bright technical presentation.",
+    "hashtags": [
+      "#Open",
+      "#Domain",
+      "#Question",
+      "#Answering",
+      "#ODQA",
+      "#with",
+      "#Claude",
+      "#clear",
+      "#and",
+      "#educational",
+      "#infographic",
+      "#Modern",
+      "#technical",
+      "#dashboard",
+      "#typography",
+      "#diagram",
+      "#readable",
+      "#information"
+    ],
+    "backend": "graph",
+    "post_id": "18098753708420000",
+    "post_url": "https://www.instagram.com/reel/DezNT4dCKGS/",
+    "status": "posted"
   }
 ]
