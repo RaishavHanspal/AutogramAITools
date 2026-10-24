@@ -20970,5 +20970,97 @@
     "post_id": "17983891424902203",
     "post_url": "https://www.instagram.com/reel/De46LDXiawa/",
     "status": "posted"
+  },
+  {
+    "stamp": "20261024T223458Z",
+    "timestamp": "2026-10-24T22:34:58.726541+00:00",
+    "brief": {
+      "subject": "LLM Benchmarks",
+      "content_type": "concept_explainer",
+      "hook": "What are benchmarks and why do LLMs need them?",
+      "definition": "Benchmarks are standardized tests used to evaluate the performance of artificial intelligence models.",
+      "explanation": "Benchmarks help us understand how well an LLM can perform specific tasks and compare different models.",
+      "steps": [
+        "Define the task or domain",
+        "Collect a dataset of examples for the task",
+        "Train multiple models on the dataset",
+        "Evaluate each model's performance on the task",
+        "Compare and rank the models based on their performance"
+      ],
+      "example": "Evaluating a language model on a math problem dataset",
+      "key_takeaway": "Benchmarks are essential for fair and accurate model comparison.",
+      "common_mistake": "Assuming a model performs well just because it was trained on a large dataset.",
+      "practical_use": "Comparing different LLMs for specific applications, like question answering or code generation.",
+      "visual_type": "educational_infographic",
+      "visual_title": "LLM Benchmark Architecture",
+      "visual_elements": [
+        "Dataset Collection",
+        "Model Training",
+        "Performance Evaluation",
+        "Model Comparison"
+      ],
+      "diagram_flow": [
+        "Model A",
+        "Model B",
+        "Model C"
+      ],
+      "image_text": [
+        "Define Task",
+        "Collect Dataset",
+        "Train Models",
+        "Evaluate Models",
+        "Compare Models"
+      ],
+      "setting": "clean educational AI infographic",
+      "lighting": "bright technical presentation",
+      "mood": "clear and educational",
+      "composition": "comparison card",
+      "color_palette": "modern technology palette with one accent",
+      "time_of_day": "not applicable",
+      "style_modifiers": [
+        "Educational infographic",
+        "Clear typography",
+        "educational infographic",
+        "technical diagram",
+        "clear readable typography",
+        "information-first composition",
+        "useful labels",
+        "sharp graphic elements",
+        "no generic people",
+        "no lifestyle photography"
+      ],
+      "location_name": "",
+      "interaction": "show the transformation from input to output",
+      "framing": "vertical 4:5 educational infographic"
+    },
+    "positive_prompt": "vertical 4:5 educational infographic, educational_infographic, LLM Benchmark Architecture, LLM Benchmarks, Benchmarks are standardized tests used to evaluate the performance of artificial intelligence models., Benchmarks help us understand how well an LLM can perform specific tasks and compare different models., Dataset Collection, Model Training, Performance Evaluation, Model Comparison, Model A -> Model B -> Model C, Define Task | Collect Dataset | Train Models | Evaluate Models | Compare Models, clean educational AI infographic, comparison card, modern technology palette with one accent, clear and educational, Educational infographic, Clear typography, educational infographic, technical diagram, clear readable typography, information-first composition, useful labels, sharp graphic elements, no generic people, no lifestyle photography, clean educational AI infographic, technical illustration, information-first composition, clear visual hierarchy, concise readable typography, readable labels, clear arrows showing relationships and information flow, professional technology publication aesthetic, crisp technical detail, sharp graphic elements, useful educational content\n",
+    "negative_prompt": "photorealistic person, portrait, attractive person, generic developer, generic programmer, office worker, businessman, businesswoman, person using laptop, person using computer, person at desk, lifestyle photography, generic workstation, candid photograph, couple, romance, romantic, kissing, hugging, wedding, dating, honeymoon, fashion photography, DSLR photograph, realistic skin, cinematic portrait, generic AI robot, meaningless decoration, gibberish text, misspelled text, unreadable text, excessive text, tiny text, watermark, signature, logo, lowres, blurry, distorted, cluttered layout, bad typography, deformed, disfigured, mutated, extra limbs, extra fingers, nsfw\n",
+    "seed": 352878452,
+    "image_model": "Lykon/dreamshaper-8",
+    "device": "cpu",
+    "image_sha256": "5ab60f02927790672469036a6eb0b761d105098c48c11e7d265cc426c6ce3fef",
+    "image_path": "out/20261024T223458Z.jpg",
+    "caption": "Ever felt like you're flying high in the sky, yet stuck in a rut? Let's dive into how benchmarks help us lift our AI models to new heights. #LLMBenchmarks #AIExplainer #TechSimplified\n\n#LLM #AI #Benchmarks #MachineLearning #ArtificialIntelligence #DataScience #Tech #Education #Explainer #ExplainingAI #TechCommunity #TechTalks #autogram #aitools",
+    "alt_text": "An educational infographic about LLM benchmarks, explaining the process of evaluating artificial intelligence models.",
+    "hashtags": [
+      "#LLM",
+      "#AI",
+      "#Benchmarks",
+      "#MachineLearning",
+      "#ArtificialIntelligence",
+      "#DataScience",
+      "#Tech",
+      "#Education",
+      "#Explainer",
+      "#ExplainingAI",
+      "#TechCommunity",
+      "#TechTalks",
+      "#autogram",
+      "#aitools"
+    ],
+    "backend": "graph",
+    "post_id": "18105552410570464",
+    "post_url": "https://www.instagram.com/reel/De5RVQmCBw0/",
+    "status": "posted"
   }
 ]
