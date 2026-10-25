@@ -5,9 +5,6 @@ name: autogram
 # DROPS the `schedule` event under load (observed gaps of 51-213 min on an
 # hourly cron), so treat these as approximate, never as exact minutes.
 on:
-  schedule:
-    - cron: "17 */4 * * *"    # **.07 every other hour
-
   workflow_dispatch:
     inputs:
       slot:
